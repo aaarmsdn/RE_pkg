@@ -1,5 +1,5 @@
 import { beforeEach, describe, expect, it, vi } from "vitest";
-import { candidateSchema, createProject } from "./api";
+import { candidateSchema, createProject, previewBallmap } from "./api";
 
 const { client } = vi.hoisted(() => ({ client: vi.fn() }));
 vi.mock("ky", () => ({
@@ -100,5 +100,26 @@ describe("real photo project workflow", () => {
 	it("sends the diagonal profile for woven geometry", async () => {
 		await createProject("diagonal", true, "die_weave32", "diagonal");
 		expect(client).toHaveBeenCalledWith("projects", { method: "POST", json: { name: "diagonal", demo: true, sample: "die_weave32", damage_profile: "diagonal" } });
+	});
+});
+
+describe("ballmap file preview", () => {
+	it("uploads the file without a project mutation and preserves array orientation", async () => {
+		client.mockReturnValue({ json: async () => ({ grid: [["DQ0", "VSS"], ["NC", ""]], rows: 2, cols: 2 }) });
+		const file = new File(["npy bytes"], "balls.npy");
+		const controller = new AbortController();
+		const result = await previewBallmap(file, controller.signal);
+		expect(result.grid).toEqual([["DQ0", "VSS"], ["NC", ""]]);
+		expect(client).toHaveBeenCalledOnce();
+		expect(client.mock.calls[0]?.[0]).toBe("ballmaps/preview");
+		expect(client.mock.calls[0]?.[1].body.get("file")).toBe(file);
+		expect(client.mock.calls[0]?.[1].signal).toBe(controller.signal);
+	});
+
+	it("rejects oversized and wrong-format files before network work", async () => {
+		const signal = new AbortController().signal;
+		await expect(previewBallmap(new File(["wrong"], "balls.csv"), signal)).rejects.toThrow(".npy");
+		await expect(previewBallmap(new File([new Uint8Array(4 * 1024 * 1024 + 1)], "balls.npy"), signal)).rejects.toThrow("4 MiB");
+		expect(client).not.toHaveBeenCalled();
 	});
 });

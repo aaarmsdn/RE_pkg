@@ -4,6 +4,8 @@ from typing import Annotated, Literal
 
 from pydantic import BaseModel, ConfigDict, Field, model_validator
 
+from pkg_re.ballmaps import validate_grid
+
 
 class Input(BaseModel):
     model_config = ConfigDict(extra="forbid", allow_inf_nan=False)
@@ -12,6 +14,24 @@ class Input(BaseModel):
 class Point(Input):
     x: float
     y: float
+
+
+class Ballmap(Input):
+    csv: str | None = Field(default=None, max_length=500000)
+    grid: list[list[Annotated[str, Field(strict=True, max_length=160)]]] | None = None
+    origin: Point
+    pitch_px: float = Field(gt=0, le=30000)
+    pitch_mm: float = Field(gt=0, le=100)
+    radius_px: float = Field(gt=0, le=500)
+    restore_missing: bool = False
+
+    @model_validator(mode="after")
+    def exactly_one_map(self):
+        if (self.csv is None) == (self.grid is None):
+            raise ValueError("Provide exactly one of grid or csv")
+        if self.grid is not None:
+            self.grid = validate_grid(self.grid)
+        return self
 
 
 class Calibration(Input):
@@ -106,6 +126,7 @@ class Layer(Input):
     warnings: list[str] = Field(default_factory=list)
     source_sha256: str = ""
     review_summary: ReviewSummary | None = None
+    ballmap: Ballmap | None = None
 
     @model_validator(mode="after")
     def bounded_pixels(self):
@@ -173,12 +194,3 @@ class MarkersInput(Input):
 class Detect(Input):
     ocr: bool = True
     green_markers: bool = True
-
-
-class Ballmap(Input):
-    csv: str = Field(max_length=500000)
-    origin: Point
-    pitch_px: float = Field(gt=0, le=30000)
-    pitch_mm: float = Field(gt=0, le=100)
-    radius_px: float = Field(gt=0, le=500)
-    restore_missing: bool = False

@@ -6,6 +6,7 @@ from typing import Annotated, assert_never
 from fastapi import APIRouter, File, Form, HTTPException, UploadFile
 
 from pkg_re.annotations import apply_ballmap, detect_annotations
+from pkg_re.ballmaps import MAX_NPY_BYTES, decode_npy
 from pkg_re.batch_review import auto_review, decide_batch, validate_selection
 from pkg_re.bga_sample import create_bga_sample
 from pkg_re.die_sample import create_die_sample
@@ -33,6 +34,14 @@ from pkg_re.weave_sample import create_weave_sample
 
 def mutations(store: Store, reference_root: Path) -> APIRouter:
     router = APIRouter(prefix="/api")
+
+    @router.post("/ballmaps/preview")
+    def preview_ballmap(file: Annotated[UploadFile, File()]):
+        try:
+            grid = decode_npy(file.file.read(MAX_NPY_BYTES + 1))
+        except ValueError as exc:
+            raise HTTPException(422, str(exc)) from exc
+        return {"grid": grid, "rows": len(grid), "cols": len(grid[0])}
 
     @router.post("/projects")
     def create(data: CreateProject):

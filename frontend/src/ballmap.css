@@ -1,0 +1,32 @@
+.ballmap-panel { min-width: 0; }
+.ballmap-panel .help, .ballmap-error, .ballmap-preview-heading { overflow-wrap: anywhere; }
+.ballmap-preview-heading, .ballmap-dialog-heading { display: flex; align-items: center; justify-content: space-between; gap: var(--s3); }
+.ballmap-preview-heading { margin-top: var(--s4); font-size: 11px; }
+.ballmap-preview-heading button { flex-shrink: 0; font-size: 11px; }
+.ballmap-summary { font-size: 12px; font-variant-numeric: tabular-nums; }
+.ballmap-grid-scroll { overflow: auto; max-height: 320px; background: var(--canvas); border: 1px solid var(--border); border-radius: 6px; }
+.ballmap-grid-scroll:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+.ballmap-grid { width: max-content; min-width: 100%; border-collapse: separate; border-spacing: var(--s1); font-size: 11px; }
+.ballmap-grid caption { caption-side: top; text-align: left; padding: var(--s3); color: var(--muted); }
+.ballmap-grid th { position: sticky; background: var(--canvas); color: var(--muted); z-index: 1; text-align: center; padding: var(--s1); border: 0; font-weight: 500; }
+.ballmap-grid thead th { top: 0; }
+.ballmap-grid tbody th { left: 0; }
+.ballmap-grid td { padding: 0; border: 0; text-align: center; }
+.ballmap-cell { display: inline-flex; justify-content: center; align-items: center; min-height: 40px; width: 60px; padding: var(--s1); border-radius: 6px; background: var(--control); color: var(--ball-color); font-family: ui-monospace, monospace; overflow-wrap: anywhere; white-space: normal; }
+.ballmap-cell.net { box-shadow: inset 0 -3px var(--ball-color); }
+.ballmap-cell.empty { background: transparent; }
+.ballmap-cell.unknown { color: var(--warn); }
+.ballmap-cell.nc { background: var(--panel); text-decoration: underline dotted; text-underline-offset: 4px; }
+.ballmap-net-list ul { padding: 0; margin: var(--s3) 0; list-style: none; max-height: 180px; overflow: auto; }
+.ballmap-net-list li { display: flex; align-items: baseline; justify-content: space-between; gap: var(--s3); padding: var(--s1) 0; font-size: 12px; overflow-wrap: anywhere; }
+.ballmap-net-list i { display: inline-block; width: var(--s3); height: var(--s3); border-radius: 50%; margin-right: var(--s2); }
+.ballmap-placement { margin: var(--s4) 0; }
+.ballmap-restore { display: flex; align-items: baseline; gap: var(--s2); font-size: 12px; }
+.ballmap-error { color: var(--danger); font-size: 12px; }
+.ballmap-scale { color: var(--accent); font-size: 12px; font-variant-numeric: tabular-nums; }
+.ballmap-dialog { width: min(960px, calc(100vw - 32px)); max-height: calc(100dvh - 32px); padding: var(--s6); color: var(--text); background: var(--panel); border: 1px solid var(--border); border-radius: 6px; }
+.ballmap-dialog::backdrop { background: #000a; }
+.ballmap-dialog-heading h2 { margin: 0; overflow-wrap: anywhere; }
+.ballmap-dialog .ballmap-grid-scroll { max-height: 55dvh; }
+.ballmap-dialog .ballmap-net-list ul { columns: 3; }
+@media (max-width: 700px) { .ballmap-dialog { padding: var(--s4); } .ballmap-dialog .ballmap-net-list ul { columns: 2; } }

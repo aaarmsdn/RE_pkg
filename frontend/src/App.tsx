@@ -90,6 +90,7 @@ export function App() {
 							onReference={reference}
 							onLayer={changeLayer}
 						/>
+						{layer && <Ballmap key={layer.id} layer={layer} mutate={mutate} />}
 					</aside>
 					<main>
 						{layer && project ? (
@@ -126,14 +127,13 @@ export function App() {
 											void mutate("stroke", { kind: tool, points, radius });
 									}}
 								/>
-								<details className="under-canvas"><summary>고급 입력 · Scale / 정렬 / Ball map</summary>
+								<details className="under-canvas"><summary>고급 입력 · Scale / 정렬</summary>
 									<div>
 										<Calibration
 											key={`${layer.id}-${layer.revision}-calibration`}
 											layer={layer}
 											mutate={mutate}
 										/>
-										<Ballmap key={`${layer.id}-ballmap`} mutate={mutate} />
 									</div>
 								</details>
 								{[...project.warnings, ...layer.warnings].length > 0 && (

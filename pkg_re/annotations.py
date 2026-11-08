@@ -158,7 +158,13 @@ def apply_ballmap(state: State, lid: str, data: Ballmap) -> None:
         )
     except ValidationError as exc:
         raise HTTPException(422, "Ball pitch ratio is outside the supported calibration range") from exc
-    rows = list(csv.DictReader(io.StringIO(data.csv)))
+    if data.grid is not None:
+        rows = [
+            {"row": r, "col": c, "net": name, "populated": int(bool(name))}
+            for r, row in enumerate(data.grid) for c, name in enumerate(row)
+        ]
+    else:
+        rows = list(csv.DictReader(io.StringIO(data.csv)))
     if not rows or len(rows) > 5000 or not {"row", "col", "net", "populated"}.issubset(rows[0]):
         raise HTTPException(422, "CSV requires row,col,net,populated and 1..5000 rows")
     markers = []
@@ -183,7 +189,7 @@ def apply_ballmap(state: State, lid: str, data: Ballmap) -> None:
                 kind="ball",
                 x=x,
                 y=y,
-                net=row["net"].strip(),
+                net="" if row["net"].strip() in {"?", "NC"} else row["net"].strip(),
                 radius=data.radius_px,
                 source="grid",
                 confirmed=True,
@@ -197,6 +203,7 @@ def apply_ballmap(state: State, lid: str, data: Ballmap) -> None:
             grid_added |= disk & ~pixels.observed & ~pixels.protected & ~pixels.erased
     layer.markers = [m for m in layer.markers if m.source != "grid"] + markers
     layer.calibration = calibration
+    layer.ballmap = data.model_copy(deep=True)
     pixels.grid_added = grid_added
     if data.restore_missing:
         layer.warnings.append(

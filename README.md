@@ -102,4 +102,4 @@ pnpm run build
 
 [2026-11-08 시험·실브라우저 검증 기록](docs/validation-2026-11-08.md).
 
-[사선·Severe 복원 및 2차원 문자열 NPY ballmap 설계](docs/superpowers/specs/2026-11-08-diagonal-severe-npy-design.md) · [NPY 예제](docs/examples/ballmap/README.md). NPY importer와 후속 복원 엔진은 구현 전입니다.
+[사선·Severe 복원 및 2차원 문자열 NPY ballmap 설계](docs/superpowers/specs/2026-11-08-diagonal-severe-npy-design.md) · [NPY 입력 방법과 예제](docs/examples/ballmap/README.md). 사진을 연 뒤 왼쪽 Ballmap 패널에서 2차원 Unicode `.npy`를 올려 NET 배치를 확인하고 ball pitch(mm)를 입력할 수 있습니다. 적용한 grid·pitch는 프로젝트와 ZIP에 저장됩니다. 사선·Severe 후속 복원 엔진은 별도 작업입니다.

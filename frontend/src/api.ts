@@ -2,6 +2,23 @@ import ky, { HTTPError } from "ky";
 import { z } from "zod";
 const point = z.object({ x: z.number(), y: z.number() });
 const box = z.tuple([z.number(), z.number(), z.number(), z.number()]);
+const ballmapGridSchema = z.array(z.array(z.string().max(160)).min(1).max(5000)).min(1).max(5000)
+	.refine((grid) => grid.every((row) => row.length === grid[0]?.length) && grid.length * (grid[0]?.length ?? 0) <= 5000, "Ballmap must be rectangular with at most 5000 cells");
+export const ballmapSchema = z.object({
+	grid: ballmapGridSchema.nullable().default(null),
+	csv: z.string().max(500000).nullable().default(null),
+	origin: point,
+	pitch_px: z.number().positive().max(30000),
+	pitch_mm: z.number().positive().max(100),
+	radius_px: z.number().positive().max(500),
+	restore_missing: z.boolean().default(false),
+}).refine((input) => (input.grid !== null) !== (input.csv !== null), "Choose one ballmap source");
+export const ballmapPreviewSchema = z.object({
+	grid: ballmapGridSchema,
+	rows: z.number().int().positive(),
+	cols: z.number().int().positive(),
+}).refine((value) => value.rows === value.grid.length && value.cols === value.grid[0]?.length, "Ballmap dimensions do not match");
+export type BallmapInput = z.infer<typeof ballmapSchema>;
 export const calibrationSchema = z.object({
 	mm_per_pixel: z.number().nullable(),
 	rotation_deg: z.number(),
@@ -84,6 +101,7 @@ export const layerSchema = z.object({
 	),
 	revision: z.number(),
 	calibration: calibrationSchema,
+	ballmap: ballmapSchema.nullable().default(null),
 	markers: z.array(markerSchema),
 	candidates: z.array(candidateSchema),
 	review_summary: z.object({
@@ -140,6 +158,13 @@ export type Mutate = (
 	method?: "POST" | "PUT",
 ) => Promise<void>;
 const client = ky.create({ prefixUrl: "/api", timeout: 120000, retry: 0 });
+export async function previewBallmap(file: File, signal: AbortSignal) {
+	if (!/\.npy$/i.test(file.name)) throw new TypeError("2차원 문자열 배열을 저장한 .npy 파일을 선택하세요.");
+	if (file.size > 4 * 1024 * 1024) throw new RangeError("Ballmap 파일은 4 MiB 이하여야 합니다.");
+	const form = new FormData();
+	form.set("file", file);
+	return ballmapPreviewSchema.parse(await client("ballmaps/preview", { method: "POST", body: form, signal }).json());
+}
 export async function requestProject(
 	path: string,
 	body?: unknown,
@@ -172,6 +197,7 @@ export function createProject(
 	});
 }
 const reviewMutationLabels: Readonly<Record<string, string>> = {
+	ballmap: "Ballmap 적용",
 	"candidates/batch": "후보 일괄 처리",
 	"candidates/auto": "NET 자동 처리",
 	"candidates/evaluate": "NET 근거 갱신",
