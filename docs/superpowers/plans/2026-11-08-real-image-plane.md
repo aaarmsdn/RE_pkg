@@ -14,8 +14,12 @@
 - [x] Recovery worker: engine segmentation/repairs/continuity, operations.py and NET review only as needed; own models.py/type additions and correspondingbackendtests. Diagnose real-photo failure and add explicit segmentation mode + optional rotation-aware scratch proposals. Keep old defaults compatible. Communicate frontend/API fields before editing. Test realpatches, protected gaps, differentNET veto, unknown/occlusion and native1px traces.
 - [x] UI worker: frontend only, all input/analysis/workspace layout and APItypes/tests. Real image upload can start a blankproject directly, inputfirst emptyview, examples collapsed, progress/uncertainty concise, controls readable ondesktop/mobile. Coordinate new analysis fields with recoveryworker; no mocked-useState presentation tests. Root owns realbrowserQA.
 - [x] Root: benchmark/profileintegration and realimageevaluation; create strategy/report, run fullverification, capture realupload/analyze/seed/exportbrowser evidence, preserve existingdata. Reviewchangedcode and obtain one independentfinalreview.
-- [ ] Root: inspect publicremote, create clean initialcommit(s) containing appsource/directtests/docs/reproduciblemetrics only, pushwithoutforce, verifyremoteSHA andclean trackedstatus.
+- [x] Root: inspect publicremote, create clean initialcommit(s) containing appsource/directtests/docs/reproduciblemetrics only, pushwithoutforce, verifyremoteSHA andclean trackedstatus.
 
 ## Verification
 
 Meaningful failing tests precede algorithm/geometry changes. Existing integration tests must remain. Run pytest, ruff, frontendcheck/test/build, nativePNGbenchmark, APIrealimage smoke test, actualbrowser upload/review. Record failing damage cases without oracle-based fixes. Finalreviewfocus: planeoverlap/islands, hiddentruthinput, profilecompatibility, uploadwithoutproject, brightdielectricfalsepositives, diagonal gapmerging, publication of private/generated files.
+
+## Delivery
+
+Initial source commit `25f2ccc024f2870c43669bf533ce0fb119d926f3` pushed without force to `origin/main`; remote SHA verified equal and tracked working tree clean. Validation is recorded in [2026-11-08 results](../../validation-2026-11-08.md). Complete severe/diagonal reconstruction remains unresolved and is explicitly outside the passing claims.
