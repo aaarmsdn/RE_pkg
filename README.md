@@ -6,6 +6,55 @@ Package/PCB 연마 사진에서 copper를 추출하고, ball·pad·via 표식으
 
 ## 실행
 
+### Windows에서 ZIP으로 실행
+
+GitHub의 **Code → Download ZIP**으로 받은 소스 ZIP 기준입니다. 더블클릭하는 `.exe` 배포판은 아직 없습니다. 최초 설치에는 인터넷이 필요하며, Windows 실기 실행은 아직 검증하지 않았습니다.
+
+1. ZIP을 **모두 압축 해제**합니다. 아래 예시는 다운로드 폴더의 `RE_pkg-main`을 사용합니다. `pyproject.toml`과 `frontend` 폴더가 있는 위치여야 합니다.
+2. [Node.js 공식 다운로드](https://nodejs.org/en/download)에서 **24 LTS → Windows Installer (.msi)**를 설치합니다. 이미 호환되는 Node.js가 있으면 생략합니다.
+3. PowerShell에서 uv를 설치합니다. ([uv 공식 Windows 설치 안내](https://docs.astral.sh/uv/getting-started/installation/#winget))
+
+```powershell
+winget install -e --id astral-sh.uv
+```
+
+설치 후 **PowerShell 창을 닫았다가 새로 열고**, 다음 명령을 순서대로 실행합니다. 각 명령에서 오류가 나면 다음 단계로 넘어가지 말고 해당 오류부터 해결합니다. 다른 위치에 압축을 풀었다면 `cd` 경로를 바꿉니다.
+
+```powershell
+npm.cmd install -g pnpm@11.25.0
+
+cd "$env:USERPROFILE\Downloads\RE_pkg-main"
+
+uv sync --locked --python 3.11
+
+cd frontend
+pnpm.cmd install --frozen-lockfile
+pnpm.cmd run build
+cd ..
+
+uv run uvicorn pkg_re.app:app --host 127.0.0.1 --port 8137
+```
+
+`uv sync`가 Python 3.11과 Python 의존성을 준비합니다. `pnpm`은 npm으로 설치하며, PowerShell에서는 `.cmd` 명령을 사용하므로 실행 정책을 변경할 필요가 없습니다. ([pnpm 설치 안내](https://pnpm.io/installation#using-npm))
+
+서버가 실행되면 Chrome 또는 Edge에서 **[http://localhost:8137](http://localhost:8137/)**을 엽니다. 실행 중에는 PowerShell 창을 열어둡니다. 종료는 `Ctrl+C`입니다.
+
+**다음부터 실행할 때:** 설치와 빌드는 반복하지 않고 아래 명령만 실행합니다.
+
+```powershell
+cd "$env:USERPROFILE\Downloads\RE_pkg-main"
+uv run uvicorn pkg_re.app:app --host 127.0.0.1 --port 8137
+```
+
+- **작업 저장:** 프로젝트 폴더 안의 `.pkg-re`에 저장됩니다. 앱을 업데이트하거나 폴더를 옮길 때 이 폴더도 보존하거나 앱에서 프로젝트 ZIP을 내보냅니다.
+- **OCR:** 글씨 인식에만 Tesseract 별도 설치와 PATH 등록이 필요합니다. Ballmap `.npy` 입력에는 필요하지 않습니다.
+- **`uv` 또는 `npm.cmd`를 찾지 못함:** 설치 후 PowerShell을 새로 열었는지 확인합니다. `winget`이 없으면 [uv 공식 설치 안내](https://docs.astral.sh/uv/getting-started/installation/)의 Windows 설치 방법을 사용합니다.
+- **접속되지 않음:** 서버 터미널의 오류를 확인합니다. `pnpm.cmd run build`가 완료되었고 프로젝트 최상위 폴더에서 서버를 실행했는지 확인합니다.
+- **8137 포트가 사용 중:** 마지막 명령의 `--port 8137`을 `--port 8138`로 바꾸고 [http://localhost:8138](http://localhost:8138/)로 접속합니다.
+- **앱의 ‘ZIP 다운로드’로 받은 파일:** 실행 프로그램이 아닌 분석 프로젝트입니다. 앱 실행 후 **새 빈 프로젝트 · ZIP 가져오기 → 프로젝트 ZIP 다시 열기**에서 불러옵니다.
+
+### Git clone으로 실행
+
 Python 3.11+, uv, Node 20.19+ 또는 22.12+, pnpm이 필요합니다. OCR을 사용하려면 `tesseract`도 PATH에 설치합니다.
 
 ```sh
