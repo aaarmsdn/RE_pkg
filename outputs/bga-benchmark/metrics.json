@@ -1,0 +1,6620 @@
+[
+  {
+    "stage": "png_only",
+    "layer": "L1",
+    "precision": 1.0,
+    "recall_pristine": 1.0,
+    "iou_pristine": 1.0,
+    "observed_px": 2481646,
+    "inferred_px": 0,
+    "conflict_px": 0,
+    "unassigned_px": 2481646,
+    "assigned_nets": [],
+    "pending_candidates": 100,
+    "candidate_fill_px": 10704,
+    "candidate_true_missing_px": 0,
+    "terminals": [
+      {
+        "terminal": "ball-1-1",
+        "expected": "DQ8",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "ball-1-2",
+        "expected": "DQ9",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "ball-1-3",
+        "expected": "DQ10",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "ball-1-4",
+        "expected": "DQ11",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "ball-1-5",
+        "expected": "DQ12",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "ball-1-6",
+        "expected": "DQ13",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "ball-1-7",
+        "expected": "DQ14",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "ball-1-8",
+        "expected": "DQ15",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "ball-2-1",
+        "expected": "VSS",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "ball-2-2",
+        "expected": "VSS",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "ball-2-3",
+        "expected": "VSS",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "ball-2-4",
+        "expected": "VSS",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "ball-2-5",
+        "expected": "VSS",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "ball-2-6",
+        "expected": "VSS",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "ball-2-7",
+        "expected": "VSS",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "ball-2-8",
+        "expected": "VSS",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "ball-3-1",
+        "expected": "VDDQ",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "ball-3-2",
+        "expected": "VDDQ",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "ball-3-3",
+        "expected": "VDDQ",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "ball-3-4",
+        "expected": "VDDQ",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "ball-3-5",
+        "expected": "VDD",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "ball-3-6",
+        "expected": "VDD",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "ball-3-7",
+        "expected": "VDD",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "ball-3-8",
+        "expected": "VDD",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "ball-4-1",
+        "expected": "DQ0",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "ball-4-2",
+        "expected": "DQ1",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "ball-4-3",
+        "expected": "DQ2",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "ball-4-4",
+        "expected": "DQ3",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "ball-4-5",
+        "expected": "DQ4",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "ball-4-6",
+        "expected": "DQ5",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "ball-4-7",
+        "expected": "DQ6",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "ball-4-8",
+        "expected": "DQ7",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      }
+    ],
+    "per_net": [
+      {
+        "net": "VSS",
+        "truth_px": 1200191,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "VDDQ",
+        "truth_px": 619857,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "VDD",
+        "truth_px": 622958,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ0",
+        "truth_px": 2415,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ1",
+        "truth_px": 2415,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ2",
+        "truth_px": 2415,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ3",
+        "truth_px": 2415,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ4",
+        "truth_px": 2415,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ5",
+        "truth_px": 2415,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ6",
+        "truth_px": 2415,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ7",
+        "truth_px": 2415,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ8",
+        "truth_px": 2415,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ9",
+        "truth_px": 2415,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ10",
+        "truth_px": 2415,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ11",
+        "truth_px": 2415,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ12",
+        "truth_px": 2415,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ13",
+        "truth_px": 2415,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ14",
+        "truth_px": 2415,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ15",
+        "truth_px": 2415,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      }
+    ],
+    "profile": "clean"
+  },
+  {
+    "stage": "png_only",
+    "layer": "L2",
+    "precision": 1.0,
+    "recall_pristine": 1.0,
+    "iou_pristine": 1.0,
+    "observed_px": 2314134,
+    "inferred_px": 0,
+    "conflict_px": 0,
+    "unassigned_px": 2314134,
+    "assigned_nets": [],
+    "pending_candidates": 100,
+    "candidate_fill_px": 6644,
+    "candidate_true_missing_px": 0,
+    "terminals": [
+      {
+        "terminal": "pad-1-01",
+        "expected": "VDD",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-1-02",
+        "expected": "DQ8",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-1-03",
+        "expected": "VSS",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-1-04",
+        "expected": "DQ9",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-1-05",
+        "expected": "VDDQ",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-1-06",
+        "expected": "DQ10",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-1-07",
+        "expected": "VSS",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-1-08",
+        "expected": "VDD",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-1-09",
+        "expected": "DQ11",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-1-10",
+        "expected": "VDDQ",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-1-11",
+        "expected": "DQ12",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-1-12",
+        "expected": "VSS",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-1-13",
+        "expected": "DQ13",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-1-14",
+        "expected": "VDDQ",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-1-15",
+        "expected": "DQ14",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-1-16",
+        "expected": "VSS",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-1-17",
+        "expected": "DQ15",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-1-18",
+        "expected": "VDD",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-01",
+        "expected": "VDD",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-02",
+        "expected": "DQ0",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-03",
+        "expected": "VSS",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-04",
+        "expected": "DQ1",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-05",
+        "expected": "VDDQ",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-06",
+        "expected": "DQ2",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-07",
+        "expected": "VSS",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-08",
+        "expected": "DQ3",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-09",
+        "expected": "VDDQ",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-10",
+        "expected": "VDD",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-11",
+        "expected": "DQ4",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-12",
+        "expected": "VSS",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-13",
+        "expected": "DQ5",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-14",
+        "expected": "VDDQ",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-15",
+        "expected": "DQ6",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-16",
+        "expected": "VSS",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-17",
+        "expected": "DQ7",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-18",
+        "expected": "VDD",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      }
+    ],
+    "per_net": [
+      {
+        "net": "VSS",
+        "truth_px": 1110415,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "VDDQ",
+        "truth_px": 553050,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "VDD",
+        "truth_px": 575325,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ0",
+        "truth_px": 4709,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ1",
+        "truth_px": 4709,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ2",
+        "truth_px": 4709,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ3",
+        "truth_px": 4709,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ4",
+        "truth_px": 4709,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ5",
+        "truth_px": 4709,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ6",
+        "truth_px": 4709,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ7",
+        "truth_px": 4709,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ8",
+        "truth_px": 4709,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ9",
+        "truth_px": 4709,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ10",
+        "truth_px": 4709,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ11",
+        "truth_px": 4709,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ12",
+        "truth_px": 4709,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ13",
+        "truth_px": 4709,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ14",
+        "truth_px": 4709,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ15",
+        "truth_px": 4709,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      }
+    ],
+    "profile": "clean"
+  },
+  {
+    "stage": "supplied_ballmap_and_vias",
+    "layer": "L1",
+    "precision": 1.0,
+    "recall_pristine": 1.0,
+    "iou_pristine": 1.0,
+    "observed_px": 2481646,
+    "inferred_px": 0,
+    "conflict_px": 0,
+    "unassigned_px": 0,
+    "assigned_nets": [
+      "DQ0",
+      "DQ1",
+      "DQ10",
+      "DQ11",
+      "DQ12",
+      "DQ13",
+      "DQ14",
+      "DQ15",
+      "DQ2",
+      "DQ3",
+      "DQ4",
+      "DQ5",
+      "DQ6",
+      "DQ7",
+      "DQ8",
+      "DQ9",
+      "VDD",
+      "VDDQ",
+      "VSS"
+    ],
+    "pending_candidates": 100,
+    "candidate_fill_px": 10704,
+    "candidate_true_missing_px": 0,
+    "terminals": [
+      {
+        "terminal": "ball-1-1",
+        "expected": "DQ8",
+        "assigned": "DQ8",
+        "correct": true
+      },
+      {
+        "terminal": "ball-1-2",
+        "expected": "DQ9",
+        "assigned": "DQ9",
+        "correct": true
+      },
+      {
+        "terminal": "ball-1-3",
+        "expected": "DQ10",
+        "assigned": "DQ10",
+        "correct": true
+      },
+      {
+        "terminal": "ball-1-4",
+        "expected": "DQ11",
+        "assigned": "DQ11",
+        "correct": true
+      },
+      {
+        "terminal": "ball-1-5",
+        "expected": "DQ12",
+        "assigned": "DQ12",
+        "correct": true
+      },
+      {
+        "terminal": "ball-1-6",
+        "expected": "DQ13",
+        "assigned": "DQ13",
+        "correct": true
+      },
+      {
+        "terminal": "ball-1-7",
+        "expected": "DQ14",
+        "assigned": "DQ14",
+        "correct": true
+      },
+      {
+        "terminal": "ball-1-8",
+        "expected": "DQ15",
+        "assigned": "DQ15",
+        "correct": true
+      },
+      {
+        "terminal": "ball-2-1",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "ball-2-2",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "ball-2-3",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "ball-2-4",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "ball-2-5",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "ball-2-6",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "ball-2-7",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "ball-2-8",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "ball-3-1",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "ball-3-2",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "ball-3-3",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "ball-3-4",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "ball-3-5",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "ball-3-6",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "ball-3-7",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "ball-3-8",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "ball-4-1",
+        "expected": "DQ0",
+        "assigned": "DQ0",
+        "correct": true
+      },
+      {
+        "terminal": "ball-4-2",
+        "expected": "DQ1",
+        "assigned": "DQ1",
+        "correct": true
+      },
+      {
+        "terminal": "ball-4-3",
+        "expected": "DQ2",
+        "assigned": "DQ2",
+        "correct": true
+      },
+      {
+        "terminal": "ball-4-4",
+        "expected": "DQ3",
+        "assigned": "DQ3",
+        "correct": true
+      },
+      {
+        "terminal": "ball-4-5",
+        "expected": "DQ4",
+        "assigned": "DQ4",
+        "correct": true
+      },
+      {
+        "terminal": "ball-4-6",
+        "expected": "DQ5",
+        "assigned": "DQ5",
+        "correct": true
+      },
+      {
+        "terminal": "ball-4-7",
+        "expected": "DQ6",
+        "assigned": "DQ6",
+        "correct": true
+      },
+      {
+        "terminal": "ball-4-8",
+        "expected": "DQ7",
+        "assigned": "DQ7",
+        "correct": true
+      }
+    ],
+    "per_net": [
+      {
+        "net": "VSS",
+        "truth_px": 1200191,
+        "assigned_px": 1200191,
+        "correct_px": 1200191,
+        "net_recall": 1.0
+      },
+      {
+        "net": "VDDQ",
+        "truth_px": 619857,
+        "assigned_px": 619857,
+        "correct_px": 619857,
+        "net_recall": 1.0
+      },
+      {
+        "net": "VDD",
+        "truth_px": 622958,
+        "assigned_px": 622958,
+        "correct_px": 622958,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ0",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ1",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ2",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ3",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ4",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ5",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ6",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ7",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ8",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ9",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ10",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ11",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ12",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ13",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ14",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ15",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0
+      }
+    ],
+    "profile": "clean"
+  },
+  {
+    "stage": "supplied_ballmap_and_vias",
+    "layer": "L2",
+    "precision": 1.0,
+    "recall_pristine": 1.0,
+    "iou_pristine": 1.0,
+    "observed_px": 2314134,
+    "inferred_px": 0,
+    "conflict_px": 0,
+    "unassigned_px": 0,
+    "assigned_nets": [
+      "DQ0",
+      "DQ1",
+      "DQ10",
+      "DQ11",
+      "DQ12",
+      "DQ13",
+      "DQ14",
+      "DQ15",
+      "DQ2",
+      "DQ3",
+      "DQ4",
+      "DQ5",
+      "DQ6",
+      "DQ7",
+      "DQ8",
+      "DQ9",
+      "VDD",
+      "VDDQ",
+      "VSS"
+    ],
+    "pending_candidates": 100,
+    "candidate_fill_px": 6644,
+    "candidate_true_missing_px": 0,
+    "terminals": [
+      {
+        "terminal": "pad-1-01",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-02",
+        "expected": "DQ8",
+        "assigned": "DQ8",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-03",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-04",
+        "expected": "DQ9",
+        "assigned": "DQ9",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-05",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-06",
+        "expected": "DQ10",
+        "assigned": "DQ10",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-07",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-08",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-09",
+        "expected": "DQ11",
+        "assigned": "DQ11",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-10",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-11",
+        "expected": "DQ12",
+        "assigned": "DQ12",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-12",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-13",
+        "expected": "DQ13",
+        "assigned": "DQ13",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-14",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-15",
+        "expected": "DQ14",
+        "assigned": "DQ14",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-16",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-17",
+        "expected": "DQ15",
+        "assigned": "DQ15",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-18",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-01",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-02",
+        "expected": "DQ0",
+        "assigned": "DQ0",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-03",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-04",
+        "expected": "DQ1",
+        "assigned": "DQ1",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-05",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-06",
+        "expected": "DQ2",
+        "assigned": "DQ2",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-07",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-08",
+        "expected": "DQ3",
+        "assigned": "DQ3",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-09",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-10",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-11",
+        "expected": "DQ4",
+        "assigned": "DQ4",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-12",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-13",
+        "expected": "DQ5",
+        "assigned": "DQ5",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-14",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-15",
+        "expected": "DQ6",
+        "assigned": "DQ6",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-16",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-17",
+        "expected": "DQ7",
+        "assigned": "DQ7",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-18",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      }
+    ],
+    "per_net": [
+      {
+        "net": "VSS",
+        "truth_px": 1110415,
+        "assigned_px": 1110415,
+        "correct_px": 1110415,
+        "net_recall": 1.0
+      },
+      {
+        "net": "VDDQ",
+        "truth_px": 553050,
+        "assigned_px": 553050,
+        "correct_px": 553050,
+        "net_recall": 1.0
+      },
+      {
+        "net": "VDD",
+        "truth_px": 575325,
+        "assigned_px": 575325,
+        "correct_px": 575325,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ0",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ1",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ2",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ3",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ4",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ5",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ6",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ7",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ8",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ9",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ10",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ11",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ12",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ13",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ14",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ15",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0
+      }
+    ],
+    "profile": "clean"
+  },
+  {
+    "stage": "explicit_land_restore",
+    "layer": "L1",
+    "precision": 1.0,
+    "recall_pristine": 1.0,
+    "iou_pristine": 1.0,
+    "observed_px": 2481646,
+    "inferred_px": 0,
+    "conflict_px": 0,
+    "unassigned_px": 0,
+    "assigned_nets": [
+      "DQ0",
+      "DQ1",
+      "DQ10",
+      "DQ11",
+      "DQ12",
+      "DQ13",
+      "DQ14",
+      "DQ15",
+      "DQ2",
+      "DQ3",
+      "DQ4",
+      "DQ5",
+      "DQ6",
+      "DQ7",
+      "DQ8",
+      "DQ9",
+      "VDD",
+      "VDDQ",
+      "VSS"
+    ],
+    "pending_candidates": 100,
+    "candidate_fill_px": 10704,
+    "candidate_true_missing_px": 0,
+    "terminals": [
+      {
+        "terminal": "ball-1-1",
+        "expected": "DQ8",
+        "assigned": "DQ8",
+        "correct": true
+      },
+      {
+        "terminal": "ball-1-2",
+        "expected": "DQ9",
+        "assigned": "DQ9",
+        "correct": true
+      },
+      {
+        "terminal": "ball-1-3",
+        "expected": "DQ10",
+        "assigned": "DQ10",
+        "correct": true
+      },
+      {
+        "terminal": "ball-1-4",
+        "expected": "DQ11",
+        "assigned": "DQ11",
+        "correct": true
+      },
+      {
+        "terminal": "ball-1-5",
+        "expected": "DQ12",
+        "assigned": "DQ12",
+        "correct": true
+      },
+      {
+        "terminal": "ball-1-6",
+        "expected": "DQ13",
+        "assigned": "DQ13",
+        "correct": true
+      },
+      {
+        "terminal": "ball-1-7",
+        "expected": "DQ14",
+        "assigned": "DQ14",
+        "correct": true
+      },
+      {
+        "terminal": "ball-1-8",
+        "expected": "DQ15",
+        "assigned": "DQ15",
+        "correct": true
+      },
+      {
+        "terminal": "ball-2-1",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "ball-2-2",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "ball-2-3",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "ball-2-4",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "ball-2-5",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "ball-2-6",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "ball-2-7",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "ball-2-8",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "ball-3-1",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "ball-3-2",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "ball-3-3",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "ball-3-4",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "ball-3-5",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "ball-3-6",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "ball-3-7",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "ball-3-8",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "ball-4-1",
+        "expected": "DQ0",
+        "assigned": "DQ0",
+        "correct": true
+      },
+      {
+        "terminal": "ball-4-2",
+        "expected": "DQ1",
+        "assigned": "DQ1",
+        "correct": true
+      },
+      {
+        "terminal": "ball-4-3",
+        "expected": "DQ2",
+        "assigned": "DQ2",
+        "correct": true
+      },
+      {
+        "terminal": "ball-4-4",
+        "expected": "DQ3",
+        "assigned": "DQ3",
+        "correct": true
+      },
+      {
+        "terminal": "ball-4-5",
+        "expected": "DQ4",
+        "assigned": "DQ4",
+        "correct": true
+      },
+      {
+        "terminal": "ball-4-6",
+        "expected": "DQ5",
+        "assigned": "DQ5",
+        "correct": true
+      },
+      {
+        "terminal": "ball-4-7",
+        "expected": "DQ6",
+        "assigned": "DQ6",
+        "correct": true
+      },
+      {
+        "terminal": "ball-4-8",
+        "expected": "DQ7",
+        "assigned": "DQ7",
+        "correct": true
+      }
+    ],
+    "per_net": [
+      {
+        "net": "VSS",
+        "truth_px": 1200191,
+        "assigned_px": 1200191,
+        "correct_px": 1200191,
+        "net_recall": 1.0
+      },
+      {
+        "net": "VDDQ",
+        "truth_px": 619857,
+        "assigned_px": 619857,
+        "correct_px": 619857,
+        "net_recall": 1.0
+      },
+      {
+        "net": "VDD",
+        "truth_px": 622958,
+        "assigned_px": 622958,
+        "correct_px": 622958,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ0",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ1",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ2",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ3",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ4",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ5",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ6",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ7",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ8",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ9",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ10",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ11",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ12",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ13",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ14",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ15",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0
+      }
+    ],
+    "profile": "clean"
+  },
+  {
+    "stage": "explicit_land_restore",
+    "layer": "L2",
+    "precision": 1.0,
+    "recall_pristine": 1.0,
+    "iou_pristine": 1.0,
+    "observed_px": 2314134,
+    "inferred_px": 0,
+    "conflict_px": 0,
+    "unassigned_px": 0,
+    "assigned_nets": [
+      "DQ0",
+      "DQ1",
+      "DQ10",
+      "DQ11",
+      "DQ12",
+      "DQ13",
+      "DQ14",
+      "DQ15",
+      "DQ2",
+      "DQ3",
+      "DQ4",
+      "DQ5",
+      "DQ6",
+      "DQ7",
+      "DQ8",
+      "DQ9",
+      "VDD",
+      "VDDQ",
+      "VSS"
+    ],
+    "pending_candidates": 100,
+    "candidate_fill_px": 6644,
+    "candidate_true_missing_px": 0,
+    "terminals": [
+      {
+        "terminal": "pad-1-01",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-02",
+        "expected": "DQ8",
+        "assigned": "DQ8",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-03",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-04",
+        "expected": "DQ9",
+        "assigned": "DQ9",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-05",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-06",
+        "expected": "DQ10",
+        "assigned": "DQ10",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-07",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-08",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-09",
+        "expected": "DQ11",
+        "assigned": "DQ11",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-10",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-11",
+        "expected": "DQ12",
+        "assigned": "DQ12",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-12",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-13",
+        "expected": "DQ13",
+        "assigned": "DQ13",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-14",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-15",
+        "expected": "DQ14",
+        "assigned": "DQ14",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-16",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-17",
+        "expected": "DQ15",
+        "assigned": "DQ15",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-18",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-01",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-02",
+        "expected": "DQ0",
+        "assigned": "DQ0",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-03",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-04",
+        "expected": "DQ1",
+        "assigned": "DQ1",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-05",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-06",
+        "expected": "DQ2",
+        "assigned": "DQ2",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-07",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-08",
+        "expected": "DQ3",
+        "assigned": "DQ3",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-09",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-10",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-11",
+        "expected": "DQ4",
+        "assigned": "DQ4",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-12",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-13",
+        "expected": "DQ5",
+        "assigned": "DQ5",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-14",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-15",
+        "expected": "DQ6",
+        "assigned": "DQ6",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-16",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-17",
+        "expected": "DQ7",
+        "assigned": "DQ7",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-18",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      }
+    ],
+    "per_net": [
+      {
+        "net": "VSS",
+        "truth_px": 1110415,
+        "assigned_px": 1110415,
+        "correct_px": 1110415,
+        "net_recall": 1.0
+      },
+      {
+        "net": "VDDQ",
+        "truth_px": 553050,
+        "assigned_px": 553050,
+        "correct_px": 553050,
+        "net_recall": 1.0
+      },
+      {
+        "net": "VDD",
+        "truth_px": 575325,
+        "assigned_px": 575325,
+        "correct_px": 575325,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ0",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ1",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ2",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ3",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ4",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ5",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ6",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ7",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ8",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ9",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ10",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ11",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ12",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ13",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ14",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ15",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0
+      }
+    ],
+    "profile": "clean"
+  },
+  {
+    "stage": "png_only",
+    "layer": "L1",
+    "precision": 0.9998060844243778,
+    "recall_pristine": 0.9972510180742943,
+    "iou_pristine": 0.9970581670712929,
+    "observed_px": 2475304,
+    "inferred_px": 0,
+    "conflict_px": 0,
+    "unassigned_px": 2475304,
+    "assigned_nets": [],
+    "pending_candidates": 100,
+    "candidate_fill_px": 10818,
+    "candidate_true_missing_px": 194,
+    "terminals": [
+      {
+        "terminal": "ball-1-1",
+        "expected": "DQ8",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "ball-1-2",
+        "expected": "DQ9",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "ball-1-3",
+        "expected": "DQ10",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "ball-1-4",
+        "expected": "DQ11",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "ball-1-5",
+        "expected": "DQ12",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "ball-1-6",
+        "expected": "DQ13",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "ball-1-7",
+        "expected": "DQ14",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "ball-1-8",
+        "expected": "DQ15",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "ball-2-1",
+        "expected": "VSS",
+        "assigned": null,
+        "correct": false
+      },
+      {
+        "terminal": "ball-2-2",
+        "expected": "VSS",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "ball-2-3",
+        "expected": "VSS",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "ball-2-4",
+        "expected": "VSS",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "ball-2-5",
+        "expected": "VSS",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "ball-2-6",
+        "expected": "VSS",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "ball-2-7",
+        "expected": "VSS",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "ball-2-8",
+        "expected": "VSS",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "ball-3-1",
+        "expected": "VDDQ",
+        "assigned": null,
+        "correct": false
+      },
+      {
+        "terminal": "ball-3-2",
+        "expected": "VDDQ",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "ball-3-3",
+        "expected": "VDDQ",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "ball-3-4",
+        "expected": "VDDQ",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "ball-3-5",
+        "expected": "VDD",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "ball-3-6",
+        "expected": "VDD",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "ball-3-7",
+        "expected": "VDD",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "ball-3-8",
+        "expected": "VDD",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "ball-4-1",
+        "expected": "DQ0",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "ball-4-2",
+        "expected": "DQ1",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "ball-4-3",
+        "expected": "DQ2",
+        "assigned": null,
+        "correct": false
+      },
+      {
+        "terminal": "ball-4-4",
+        "expected": "DQ3",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "ball-4-5",
+        "expected": "DQ4",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "ball-4-6",
+        "expected": "DQ5",
+        "assigned": null,
+        "correct": false
+      },
+      {
+        "terminal": "ball-4-7",
+        "expected": "DQ6",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "ball-4-8",
+        "expected": "DQ7",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      }
+    ],
+    "per_net": [
+      {
+        "net": "VSS",
+        "truth_px": 1200191,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "VDDQ",
+        "truth_px": 619857,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "VDD",
+        "truth_px": 622958,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ0",
+        "truth_px": 2415,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ1",
+        "truth_px": 2415,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ2",
+        "truth_px": 2415,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ3",
+        "truth_px": 2415,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ4",
+        "truth_px": 2415,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ5",
+        "truth_px": 2415,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ6",
+        "truth_px": 2415,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ7",
+        "truth_px": 2415,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ8",
+        "truth_px": 2415,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ9",
+        "truth_px": 2415,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ10",
+        "truth_px": 2415,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ11",
+        "truth_px": 2415,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ12",
+        "truth_px": 2415,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ13",
+        "truth_px": 2415,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ14",
+        "truth_px": 2415,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ15",
+        "truth_px": 2415,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      }
+    ],
+    "profile": "damaged"
+  },
+  {
+    "stage": "png_only",
+    "layer": "L2",
+    "precision": 0.9998793795700119,
+    "recall_pristine": 0.999407121627356,
+    "iou_pristine": 0.9992866441728421,
+    "observed_px": 2313041,
+    "inferred_px": 0,
+    "conflict_px": 0,
+    "unassigned_px": 2313041,
+    "assigned_nets": [],
+    "pending_candidates": 100,
+    "candidate_fill_px": 6716,
+    "candidate_true_missing_px": 144,
+    "terminals": [
+      {
+        "terminal": "pad-1-01",
+        "expected": "VDD",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-1-02",
+        "expected": "DQ8",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-1-03",
+        "expected": "VSS",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-1-04",
+        "expected": "DQ9",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-1-05",
+        "expected": "VDDQ",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-1-06",
+        "expected": "DQ10",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-1-07",
+        "expected": "VSS",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-1-08",
+        "expected": "VDD",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-1-09",
+        "expected": "DQ11",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-1-10",
+        "expected": "VDDQ",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-1-11",
+        "expected": "DQ12",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-1-12",
+        "expected": "VSS",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-1-13",
+        "expected": "DQ13",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-1-14",
+        "expected": "VDDQ",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-1-15",
+        "expected": "DQ14",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-1-16",
+        "expected": "VSS",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-1-17",
+        "expected": "DQ15",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-1-18",
+        "expected": "VDD",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-01",
+        "expected": "VDD",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-02",
+        "expected": "DQ0",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-03",
+        "expected": "VSS",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-04",
+        "expected": "DQ1",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-05",
+        "expected": "VDDQ",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-06",
+        "expected": "DQ2",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-07",
+        "expected": "VSS",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-08",
+        "expected": "DQ3",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-09",
+        "expected": "VDDQ",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-10",
+        "expected": "VDD",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-11",
+        "expected": "DQ4",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-12",
+        "expected": "VSS",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-13",
+        "expected": "DQ5",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-14",
+        "expected": "VDDQ",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-15",
+        "expected": "DQ6",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-16",
+        "expected": "VSS",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-17",
+        "expected": "DQ7",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-18",
+        "expected": "VDD",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      }
+    ],
+    "per_net": [
+      {
+        "net": "VSS",
+        "truth_px": 1110415,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "VDDQ",
+        "truth_px": 553050,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "VDD",
+        "truth_px": 575325,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ0",
+        "truth_px": 4709,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ1",
+        "truth_px": 4709,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ2",
+        "truth_px": 4709,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ3",
+        "truth_px": 4709,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ4",
+        "truth_px": 4709,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ5",
+        "truth_px": 4709,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ6",
+        "truth_px": 4709,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ7",
+        "truth_px": 4709,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ8",
+        "truth_px": 4709,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ9",
+        "truth_px": 4709,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ10",
+        "truth_px": 4709,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ11",
+        "truth_px": 4709,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ12",
+        "truth_px": 4709,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ13",
+        "truth_px": 4709,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ14",
+        "truth_px": 4709,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ15",
+        "truth_px": 4709,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      }
+    ],
+    "profile": "damaged"
+  },
+  {
+    "stage": "supplied_ballmap_and_vias",
+    "layer": "L1",
+    "precision": 0.9998060844243778,
+    "recall_pristine": 0.9972510180742943,
+    "iou_pristine": 0.9970581670712929,
+    "observed_px": 2475304,
+    "inferred_px": 0,
+    "conflict_px": 0,
+    "unassigned_px": 3079,
+    "assigned_nets": [
+      "DQ0",
+      "DQ1",
+      "DQ10",
+      "DQ11",
+      "DQ12",
+      "DQ13",
+      "DQ14",
+      "DQ15",
+      "DQ3",
+      "DQ4",
+      "DQ6",
+      "DQ7",
+      "DQ8",
+      "DQ9",
+      "VDD",
+      "VDDQ",
+      "VSS"
+    ],
+    "pending_candidates": 100,
+    "candidate_fill_px": 10818,
+    "candidate_true_missing_px": 194,
+    "terminals": [
+      {
+        "terminal": "ball-1-1",
+        "expected": "DQ8",
+        "assigned": "DQ8",
+        "correct": true
+      },
+      {
+        "terminal": "ball-1-2",
+        "expected": "DQ9",
+        "assigned": "DQ9",
+        "correct": true
+      },
+      {
+        "terminal": "ball-1-3",
+        "expected": "DQ10",
+        "assigned": "DQ10",
+        "correct": true
+      },
+      {
+        "terminal": "ball-1-4",
+        "expected": "DQ11",
+        "assigned": "DQ11",
+        "correct": true
+      },
+      {
+        "terminal": "ball-1-5",
+        "expected": "DQ12",
+        "assigned": "DQ12",
+        "correct": true
+      },
+      {
+        "terminal": "ball-1-6",
+        "expected": "DQ13",
+        "assigned": "DQ13",
+        "correct": true
+      },
+      {
+        "terminal": "ball-1-7",
+        "expected": "DQ14",
+        "assigned": "DQ14",
+        "correct": true
+      },
+      {
+        "terminal": "ball-1-8",
+        "expected": "DQ15",
+        "assigned": "DQ15",
+        "correct": true
+      },
+      {
+        "terminal": "ball-2-1",
+        "expected": "VSS",
+        "assigned": null,
+        "correct": false
+      },
+      {
+        "terminal": "ball-2-2",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "ball-2-3",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "ball-2-4",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "ball-2-5",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "ball-2-6",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "ball-2-7",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "ball-2-8",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "ball-3-1",
+        "expected": "VDDQ",
+        "assigned": null,
+        "correct": false
+      },
+      {
+        "terminal": "ball-3-2",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "ball-3-3",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "ball-3-4",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "ball-3-5",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "ball-3-6",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "ball-3-7",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "ball-3-8",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "ball-4-1",
+        "expected": "DQ0",
+        "assigned": "DQ0",
+        "correct": true
+      },
+      {
+        "terminal": "ball-4-2",
+        "expected": "DQ1",
+        "assigned": "DQ1",
+        "correct": true
+      },
+      {
+        "terminal": "ball-4-3",
+        "expected": "DQ2",
+        "assigned": null,
+        "correct": false
+      },
+      {
+        "terminal": "ball-4-4",
+        "expected": "DQ3",
+        "assigned": "DQ3",
+        "correct": true
+      },
+      {
+        "terminal": "ball-4-5",
+        "expected": "DQ4",
+        "assigned": "DQ4",
+        "correct": true
+      },
+      {
+        "terminal": "ball-4-6",
+        "expected": "DQ5",
+        "assigned": null,
+        "correct": false
+      },
+      {
+        "terminal": "ball-4-7",
+        "expected": "DQ6",
+        "assigned": "DQ6",
+        "correct": true
+      },
+      {
+        "terminal": "ball-4-8",
+        "expected": "DQ7",
+        "assigned": "DQ7",
+        "correct": true
+      }
+    ],
+    "per_net": [
+      {
+        "net": "VSS",
+        "truth_px": 1200191,
+        "assigned_px": 1198101,
+        "correct_px": 1197950,
+        "net_recall": 0.9981327971964462
+      },
+      {
+        "net": "VDDQ",
+        "truth_px": 619857,
+        "assigned_px": 617570,
+        "correct_px": 617570,
+        "net_recall": 0.9963104393432679
+      },
+      {
+        "net": "VDD",
+        "truth_px": 622958,
+        "assigned_px": 622608,
+        "correct_px": 622510,
+        "net_recall": 0.9992808503944086
+      },
+      {
+        "net": "DQ0",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ1",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ2",
+        "truth_px": 2415,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ3",
+        "truth_px": 2415,
+        "assigned_px": 2423,
+        "correct_px": 2415,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ4",
+        "truth_px": 2415,
+        "assigned_px": 2456,
+        "correct_px": 2415,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ5",
+        "truth_px": 2415,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ6",
+        "truth_px": 2415,
+        "assigned_px": 2365,
+        "correct_px": 2365,
+        "net_recall": 0.979296066252588
+      },
+      {
+        "net": "DQ7",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ8",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ9",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ10",
+        "truth_px": 2415,
+        "assigned_px": 2425,
+        "correct_px": 2415,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ11",
+        "truth_px": 2415,
+        "assigned_px": 2435,
+        "correct_px": 2415,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ12",
+        "truth_px": 2415,
+        "assigned_px": 2465,
+        "correct_px": 2415,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ13",
+        "truth_px": 2415,
+        "assigned_px": 2472,
+        "correct_px": 2415,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ14",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ15",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0
+      }
+    ],
+    "profile": "damaged"
+  },
+  {
+    "stage": "supplied_ballmap_and_vias",
+    "layer": "L2",
+    "precision": 0.9998793795700119,
+    "recall_pristine": 0.999407121627356,
+    "iou_pristine": 0.9992866441728421,
+    "observed_px": 2313041,
+    "inferred_px": 0,
+    "conflict_px": 0,
+    "unassigned_px": 11798,
+    "assigned_nets": [
+      "DQ0",
+      "DQ1",
+      "DQ10",
+      "DQ11",
+      "DQ12",
+      "DQ13",
+      "DQ14",
+      "DQ15",
+      "DQ3",
+      "DQ4",
+      "DQ6",
+      "DQ7",
+      "DQ8",
+      "DQ9",
+      "VDD",
+      "VDDQ",
+      "VSS"
+    ],
+    "pending_candidates": 100,
+    "candidate_fill_px": 6716,
+    "candidate_true_missing_px": 144,
+    "terminals": [
+      {
+        "terminal": "pad-1-01",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-02",
+        "expected": "DQ8",
+        "assigned": "DQ8",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-03",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-04",
+        "expected": "DQ9",
+        "assigned": "DQ9",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-05",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-06",
+        "expected": "DQ10",
+        "assigned": "DQ10",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-07",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-08",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-09",
+        "expected": "DQ11",
+        "assigned": "DQ11",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-10",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-11",
+        "expected": "DQ12",
+        "assigned": "DQ12",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-12",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-13",
+        "expected": "DQ13",
+        "assigned": "DQ13",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-14",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-15",
+        "expected": "DQ14",
+        "assigned": "DQ14",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-16",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-17",
+        "expected": "DQ15",
+        "assigned": "DQ15",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-18",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-01",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-02",
+        "expected": "DQ0",
+        "assigned": "DQ0",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-03",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-04",
+        "expected": "DQ1",
+        "assigned": "DQ1",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-05",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-06",
+        "expected": "DQ2",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-07",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-08",
+        "expected": "DQ3",
+        "assigned": "DQ3",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-09",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-10",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-11",
+        "expected": "DQ4",
+        "assigned": "DQ4",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-12",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-13",
+        "expected": "DQ5",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-14",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-15",
+        "expected": "DQ6",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-16",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-17",
+        "expected": "DQ7",
+        "assigned": "DQ7",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-18",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      }
+    ],
+    "per_net": [
+      {
+        "net": "VSS",
+        "truth_px": 1110415,
+        "assigned_px": 1110039,
+        "correct_px": 1109953,
+        "net_recall": 0.9995839393379953
+      },
+      {
+        "net": "VDDQ",
+        "truth_px": 553050,
+        "assigned_px": 552653,
+        "correct_px": 552602,
+        "net_recall": 0.9991899466594341
+      },
+      {
+        "net": "VDD",
+        "truth_px": 575325,
+        "assigned_px": 574884,
+        "correct_px": 574877,
+        "net_recall": 0.9992213096945205
+      },
+      {
+        "net": "DQ0",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ1",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ2",
+        "truth_px": 4709,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ3",
+        "truth_px": 4709,
+        "assigned_px": 4720,
+        "correct_px": 4709,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ4",
+        "truth_px": 4709,
+        "assigned_px": 4736,
+        "correct_px": 4709,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ5",
+        "truth_px": 4709,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ6",
+        "truth_px": 4709,
+        "assigned_px": 2347,
+        "correct_px": 2347,
+        "net_recall": 0.49840730516033127
+      },
+      {
+        "net": "DQ7",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ8",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ9",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ10",
+        "truth_px": 4709,
+        "assigned_px": 4710,
+        "correct_px": 4709,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ11",
+        "truth_px": 4709,
+        "assigned_px": 4717,
+        "correct_px": 4709,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ12",
+        "truth_px": 4709,
+        "assigned_px": 4735,
+        "correct_px": 4709,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ13",
+        "truth_px": 4709,
+        "assigned_px": 4739,
+        "correct_px": 4709,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ14",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ15",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0
+      }
+    ],
+    "profile": "damaged"
+  },
+  {
+    "stage": "explicit_land_restore",
+    "layer": "L1",
+    "precision": 0.999806512623842,
+    "recall_pristine": 0.9994584239653843,
+    "iou_pristine": 0.9992651460884742,
+    "observed_px": 2475304,
+    "inferred_px": 5478,
+    "conflict_px": 0,
+    "unassigned_px": 0,
+    "assigned_nets": [
+      "DQ0",
+      "DQ1",
+      "DQ10",
+      "DQ11",
+      "DQ12",
+      "DQ13",
+      "DQ14",
+      "DQ15",
+      "DQ2",
+      "DQ3",
+      "DQ4",
+      "DQ5",
+      "DQ6",
+      "DQ7",
+      "DQ8",
+      "DQ9",
+      "VDD",
+      "VDDQ",
+      "VSS"
+    ],
+    "pending_candidates": 100,
+    "candidate_fill_px": 10768,
+    "candidate_true_missing_px": 144,
+    "terminals": [
+      {
+        "terminal": "ball-1-1",
+        "expected": "DQ8",
+        "assigned": "DQ8",
+        "correct": true
+      },
+      {
+        "terminal": "ball-1-2",
+        "expected": "DQ9",
+        "assigned": "DQ9",
+        "correct": true
+      },
+      {
+        "terminal": "ball-1-3",
+        "expected": "DQ10",
+        "assigned": "DQ10",
+        "correct": true
+      },
+      {
+        "terminal": "ball-1-4",
+        "expected": "DQ11",
+        "assigned": "DQ11",
+        "correct": true
+      },
+      {
+        "terminal": "ball-1-5",
+        "expected": "DQ12",
+        "assigned": "DQ12",
+        "correct": true
+      },
+      {
+        "terminal": "ball-1-6",
+        "expected": "DQ13",
+        "assigned": "DQ13",
+        "correct": true
+      },
+      {
+        "terminal": "ball-1-7",
+        "expected": "DQ14",
+        "assigned": "DQ14",
+        "correct": true
+      },
+      {
+        "terminal": "ball-1-8",
+        "expected": "DQ15",
+        "assigned": "DQ15",
+        "correct": true
+      },
+      {
+        "terminal": "ball-2-1",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "ball-2-2",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "ball-2-3",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "ball-2-4",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "ball-2-5",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "ball-2-6",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "ball-2-7",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "ball-2-8",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "ball-3-1",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "ball-3-2",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "ball-3-3",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "ball-3-4",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "ball-3-5",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "ball-3-6",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "ball-3-7",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "ball-3-8",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "ball-4-1",
+        "expected": "DQ0",
+        "assigned": "DQ0",
+        "correct": true
+      },
+      {
+        "terminal": "ball-4-2",
+        "expected": "DQ1",
+        "assigned": "DQ1",
+        "correct": true
+      },
+      {
+        "terminal": "ball-4-3",
+        "expected": "DQ2",
+        "assigned": "DQ2",
+        "correct": true
+      },
+      {
+        "terminal": "ball-4-4",
+        "expected": "DQ3",
+        "assigned": "DQ3",
+        "correct": true
+      },
+      {
+        "terminal": "ball-4-5",
+        "expected": "DQ4",
+        "assigned": "DQ4",
+        "correct": true
+      },
+      {
+        "terminal": "ball-4-6",
+        "expected": "DQ5",
+        "assigned": "DQ5",
+        "correct": true
+      },
+      {
+        "terminal": "ball-4-7",
+        "expected": "DQ6",
+        "assigned": "DQ6",
+        "correct": true
+      },
+      {
+        "terminal": "ball-4-8",
+        "expected": "DQ7",
+        "assigned": "DQ7",
+        "correct": true
+      }
+    ],
+    "per_net": [
+      {
+        "net": "VSS",
+        "truth_px": 1200191,
+        "assigned_px": 1199894,
+        "correct_px": 1199743,
+        "net_recall": 0.9996267260794324
+      },
+      {
+        "net": "VDDQ",
+        "truth_px": 619857,
+        "assigned_px": 619409,
+        "correct_px": 619409,
+        "net_recall": 0.9992772526566611
+      },
+      {
+        "net": "VDD",
+        "truth_px": 622958,
+        "assigned_px": 622608,
+        "correct_px": 622510,
+        "net_recall": 0.9992808503944086
+      },
+      {
+        "net": "DQ0",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ1",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ2",
+        "truth_px": 2415,
+        "assigned_px": 2420,
+        "correct_px": 2415,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ3",
+        "truth_px": 2415,
+        "assigned_px": 2423,
+        "correct_px": 2415,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ4",
+        "truth_px": 2415,
+        "assigned_px": 2456,
+        "correct_px": 2415,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ5",
+        "truth_px": 2415,
+        "assigned_px": 2455,
+        "correct_px": 2415,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ6",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ7",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ8",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ9",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ10",
+        "truth_px": 2415,
+        "assigned_px": 2425,
+        "correct_px": 2415,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ11",
+        "truth_px": 2415,
+        "assigned_px": 2435,
+        "correct_px": 2415,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ12",
+        "truth_px": 2415,
+        "assigned_px": 2465,
+        "correct_px": 2415,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ13",
+        "truth_px": 2415,
+        "assigned_px": 2472,
+        "correct_px": 2415,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ14",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ15",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0
+      }
+    ],
+    "profile": "damaged"
+  },
+  {
+    "stage": "explicit_land_restore",
+    "layer": "L2",
+    "precision": 0.9998793795700119,
+    "recall_pristine": 0.999407121627356,
+    "iou_pristine": 0.9992866441728421,
+    "observed_px": 2313041,
+    "inferred_px": 0,
+    "conflict_px": 0,
+    "unassigned_px": 2348,
+    "assigned_nets": [
+      "DQ0",
+      "DQ1",
+      "DQ10",
+      "DQ11",
+      "DQ12",
+      "DQ13",
+      "DQ14",
+      "DQ15",
+      "DQ2",
+      "DQ3",
+      "DQ4",
+      "DQ5",
+      "DQ6",
+      "DQ7",
+      "DQ8",
+      "DQ9",
+      "VDD",
+      "VDDQ",
+      "VSS"
+    ],
+    "pending_candidates": 100,
+    "candidate_fill_px": 6716,
+    "candidate_true_missing_px": 144,
+    "terminals": [
+      {
+        "terminal": "pad-1-01",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-02",
+        "expected": "DQ8",
+        "assigned": "DQ8",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-03",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-04",
+        "expected": "DQ9",
+        "assigned": "DQ9",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-05",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-06",
+        "expected": "DQ10",
+        "assigned": "DQ10",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-07",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-08",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-09",
+        "expected": "DQ11",
+        "assigned": "DQ11",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-10",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-11",
+        "expected": "DQ12",
+        "assigned": "DQ12",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-12",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-13",
+        "expected": "DQ13",
+        "assigned": "DQ13",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-14",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-15",
+        "expected": "DQ14",
+        "assigned": "DQ14",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-16",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-17",
+        "expected": "DQ15",
+        "assigned": "DQ15",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-18",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-01",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-02",
+        "expected": "DQ0",
+        "assigned": "DQ0",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-03",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-04",
+        "expected": "DQ1",
+        "assigned": "DQ1",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-05",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-06",
+        "expected": "DQ2",
+        "assigned": "DQ2",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-07",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-08",
+        "expected": "DQ3",
+        "assigned": "DQ3",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-09",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-10",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-11",
+        "expected": "DQ4",
+        "assigned": "DQ4",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-12",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-13",
+        "expected": "DQ5",
+        "assigned": "DQ5",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-14",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-15",
+        "expected": "DQ6",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-16",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-17",
+        "expected": "DQ7",
+        "assigned": "DQ7",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-18",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      }
+    ],
+    "per_net": [
+      {
+        "net": "VSS",
+        "truth_px": 1110415,
+        "assigned_px": 1110039,
+        "correct_px": 1109953,
+        "net_recall": 0.9995839393379953
+      },
+      {
+        "net": "VDDQ",
+        "truth_px": 553050,
+        "assigned_px": 552653,
+        "correct_px": 552602,
+        "net_recall": 0.9991899466594341
+      },
+      {
+        "net": "VDD",
+        "truth_px": 575325,
+        "assigned_px": 574884,
+        "correct_px": 574877,
+        "net_recall": 0.9992213096945205
+      },
+      {
+        "net": "DQ0",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ1",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ2",
+        "truth_px": 4709,
+        "assigned_px": 4712,
+        "correct_px": 4709,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ3",
+        "truth_px": 4709,
+        "assigned_px": 4720,
+        "correct_px": 4709,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ4",
+        "truth_px": 4709,
+        "assigned_px": 4736,
+        "correct_px": 4709,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ5",
+        "truth_px": 4709,
+        "assigned_px": 4738,
+        "correct_px": 4709,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ6",
+        "truth_px": 4709,
+        "assigned_px": 2347,
+        "correct_px": 2347,
+        "net_recall": 0.49840730516033127
+      },
+      {
+        "net": "DQ7",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ8",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ9",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ10",
+        "truth_px": 4709,
+        "assigned_px": 4710,
+        "correct_px": 4709,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ11",
+        "truth_px": 4709,
+        "assigned_px": 4717,
+        "correct_px": 4709,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ12",
+        "truth_px": 4709,
+        "assigned_px": 4735,
+        "correct_px": 4709,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ13",
+        "truth_px": 4709,
+        "assigned_px": 4739,
+        "correct_px": 4709,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ14",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0
+      },
+      {
+        "net": "DQ15",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0
+      }
+    ],
+    "profile": "damaged"
+  },
+  {
+    "stage": "png_only",
+    "layer": "L1",
+    "precision": 0.9937764420855548,
+    "recall_pristine": 0.9966933237053149,
+    "iou_pristine": 0.9905107290912469,
+    "observed_px": 2488930,
+    "inferred_px": 0,
+    "conflict_px": 0,
+    "unassigned_px": 2488930,
+    "assigned_nets": [],
+    "pending_candidates": 100,
+    "candidate_fill_px": 6796,
+    "candidate_true_missing_px": 624,
+    "terminals": [
+      {
+        "terminal": "ball-1-1",
+        "expected": "DQ8",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "ball-1-2",
+        "expected": "DQ9",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "ball-1-3",
+        "expected": "DQ10",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "ball-1-4",
+        "expected": "DQ11",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "ball-1-5",
+        "expected": "DQ12",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "ball-1-6",
+        "expected": "DQ13",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "ball-1-7",
+        "expected": "DQ14",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "ball-1-8",
+        "expected": "DQ15",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "ball-2-1",
+        "expected": "VSS",
+        "assigned": null,
+        "correct": false
+      },
+      {
+        "terminal": "ball-2-2",
+        "expected": "VSS",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "ball-2-3",
+        "expected": "VSS",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "ball-2-4",
+        "expected": "VSS",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "ball-2-5",
+        "expected": "VSS",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "ball-2-6",
+        "expected": "VSS",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "ball-2-7",
+        "expected": "VSS",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "ball-2-8",
+        "expected": "VSS",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "ball-3-1",
+        "expected": "VDDQ",
+        "assigned": null,
+        "correct": false
+      },
+      {
+        "terminal": "ball-3-2",
+        "expected": "VDDQ",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "ball-3-3",
+        "expected": "VDDQ",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "ball-3-4",
+        "expected": "VDDQ",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "ball-3-5",
+        "expected": "VDD",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "ball-3-6",
+        "expected": "VDD",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "ball-3-7",
+        "expected": "VDD",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "ball-3-8",
+        "expected": "VDD",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "ball-4-1",
+        "expected": "DQ0",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "ball-4-2",
+        "expected": "DQ1",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "ball-4-3",
+        "expected": "DQ2",
+        "assigned": null,
+        "correct": false
+      },
+      {
+        "terminal": "ball-4-4",
+        "expected": "DQ3",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "ball-4-5",
+        "expected": "DQ4",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "ball-4-6",
+        "expected": "DQ5",
+        "assigned": null,
+        "correct": false
+      },
+      {
+        "terminal": "ball-4-7",
+        "expected": "DQ6",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "ball-4-8",
+        "expected": "DQ7",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      }
+    ],
+    "per_net": [
+      {
+        "net": "VSS",
+        "truth_px": 1200191,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "VDDQ",
+        "truth_px": 619857,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "VDD",
+        "truth_px": 622958,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ0",
+        "truth_px": 2415,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ1",
+        "truth_px": 2415,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ2",
+        "truth_px": 2415,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ3",
+        "truth_px": 2415,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ4",
+        "truth_px": 2415,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ5",
+        "truth_px": 2415,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ6",
+        "truth_px": 2415,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ7",
+        "truth_px": 2415,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ8",
+        "truth_px": 2415,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ9",
+        "truth_px": 2415,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ10",
+        "truth_px": 2415,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ11",
+        "truth_px": 2415,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ12",
+        "truth_px": 2415,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ13",
+        "truth_px": 2415,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ14",
+        "truth_px": 2415,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ15",
+        "truth_px": 2415,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      }
+    ],
+    "profile": "severe"
+  },
+  {
+    "stage": "png_only",
+    "layer": "L2",
+    "precision": 0.983206148442127,
+    "recall_pristine": 0.9986076865038931,
+    "iou_pristine": 0.9818601754074386,
+    "observed_px": 2350384,
+    "inferred_px": 0,
+    "conflict_px": 0,
+    "unassigned_px": 2350384,
+    "assigned_nets": [],
+    "pending_candidates": 100,
+    "candidate_fill_px": 1614,
+    "candidate_true_missing_px": 824,
+    "terminals": [
+      {
+        "terminal": "pad-1-01",
+        "expected": "VDD",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-1-02",
+        "expected": "DQ8",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-1-03",
+        "expected": "VSS",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-1-04",
+        "expected": "DQ9",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-1-05",
+        "expected": "VDDQ",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-1-06",
+        "expected": "DQ10",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-1-07",
+        "expected": "VSS",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-1-08",
+        "expected": "VDD",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-1-09",
+        "expected": "DQ11",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-1-10",
+        "expected": "VDDQ",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-1-11",
+        "expected": "DQ12",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-1-12",
+        "expected": "VSS",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-1-13",
+        "expected": "DQ13",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-1-14",
+        "expected": "VDDQ",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-1-15",
+        "expected": "DQ14",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-1-16",
+        "expected": "VSS",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-1-17",
+        "expected": "DQ15",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-1-18",
+        "expected": "VDD",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-01",
+        "expected": "VDD",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-02",
+        "expected": "DQ0",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-03",
+        "expected": "VSS",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-04",
+        "expected": "DQ1",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-05",
+        "expected": "VDDQ",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-06",
+        "expected": "DQ2",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-07",
+        "expected": "VSS",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-08",
+        "expected": "DQ3",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-09",
+        "expected": "VDDQ",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-10",
+        "expected": "VDD",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-11",
+        "expected": "DQ4",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-12",
+        "expected": "VSS",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-13",
+        "expected": "DQ5",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-14",
+        "expected": "VDDQ",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-15",
+        "expected": "DQ6",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-16",
+        "expected": "VSS",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-17",
+        "expected": "DQ7",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-18",
+        "expected": "VDD",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      }
+    ],
+    "per_net": [
+      {
+        "net": "VSS",
+        "truth_px": 1110415,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "VDDQ",
+        "truth_px": 553050,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "VDD",
+        "truth_px": 575325,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ0",
+        "truth_px": 4709,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ1",
+        "truth_px": 4709,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ2",
+        "truth_px": 4709,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ3",
+        "truth_px": 4709,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ4",
+        "truth_px": 4709,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ5",
+        "truth_px": 4709,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ6",
+        "truth_px": 4709,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ7",
+        "truth_px": 4709,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ8",
+        "truth_px": 4709,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ9",
+        "truth_px": 4709,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ10",
+        "truth_px": 4709,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ11",
+        "truth_px": 4709,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ12",
+        "truth_px": 4709,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ13",
+        "truth_px": 4709,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ14",
+        "truth_px": 4709,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ15",
+        "truth_px": 4709,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      }
+    ],
+    "profile": "severe"
+  },
+  {
+    "stage": "supplied_ballmap_and_vias",
+    "layer": "L1",
+    "precision": 0.9937764420855548,
+    "recall_pristine": 0.9966933237053149,
+    "iou_pristine": 0.9905107290912469,
+    "observed_px": 2488930,
+    "inferred_px": 0,
+    "conflict_px": 2468561,
+    "unassigned_px": 914,
+    "assigned_nets": [
+      "DQ0",
+      "DQ1",
+      "DQ14",
+      "DQ15",
+      "DQ6",
+      "DQ7",
+      "DQ8",
+      "DQ9"
+    ],
+    "pending_candidates": 100,
+    "candidate_fill_px": 6796,
+    "candidate_true_missing_px": 624,
+    "terminals": [
+      {
+        "terminal": "ball-1-1",
+        "expected": "DQ8",
+        "assigned": "DQ8",
+        "correct": true
+      },
+      {
+        "terminal": "ball-1-2",
+        "expected": "DQ9",
+        "assigned": "DQ9",
+        "correct": true
+      },
+      {
+        "terminal": "ball-1-3",
+        "expected": "DQ10",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ3 | DQ4 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "ball-1-4",
+        "expected": "DQ11",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ3 | DQ4 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "ball-1-5",
+        "expected": "DQ12",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ3 | DQ4 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "ball-1-6",
+        "expected": "DQ13",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ3 | DQ4 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "ball-1-7",
+        "expected": "DQ14",
+        "assigned": "DQ14",
+        "correct": true
+      },
+      {
+        "terminal": "ball-1-8",
+        "expected": "DQ15",
+        "assigned": "DQ15",
+        "correct": true
+      },
+      {
+        "terminal": "ball-2-1",
+        "expected": "VSS",
+        "assigned": null,
+        "correct": false
+      },
+      {
+        "terminal": "ball-2-2",
+        "expected": "VSS",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ3 | DQ4 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "ball-2-3",
+        "expected": "VSS",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ3 | DQ4 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "ball-2-4",
+        "expected": "VSS",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ3 | DQ4 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "ball-2-5",
+        "expected": "VSS",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ3 | DQ4 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "ball-2-6",
+        "expected": "VSS",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ3 | DQ4 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "ball-2-7",
+        "expected": "VSS",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ3 | DQ4 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "ball-2-8",
+        "expected": "VSS",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ3 | DQ4 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "ball-3-1",
+        "expected": "VDDQ",
+        "assigned": null,
+        "correct": false
+      },
+      {
+        "terminal": "ball-3-2",
+        "expected": "VDDQ",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ3 | DQ4 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "ball-3-3",
+        "expected": "VDDQ",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ3 | DQ4 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "ball-3-4",
+        "expected": "VDDQ",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ3 | DQ4 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "ball-3-5",
+        "expected": "VDD",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ3 | DQ4 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "ball-3-6",
+        "expected": "VDD",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ3 | DQ4 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "ball-3-7",
+        "expected": "VDD",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ3 | DQ4 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "ball-3-8",
+        "expected": "VDD",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ3 | DQ4 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "ball-4-1",
+        "expected": "DQ0",
+        "assigned": "DQ0",
+        "correct": true
+      },
+      {
+        "terminal": "ball-4-2",
+        "expected": "DQ1",
+        "assigned": "DQ1",
+        "correct": true
+      },
+      {
+        "terminal": "ball-4-3",
+        "expected": "DQ2",
+        "assigned": null,
+        "correct": false
+      },
+      {
+        "terminal": "ball-4-4",
+        "expected": "DQ3",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ3 | DQ4 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "ball-4-5",
+        "expected": "DQ4",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ3 | DQ4 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "ball-4-6",
+        "expected": "DQ5",
+        "assigned": null,
+        "correct": false
+      },
+      {
+        "terminal": "ball-4-7",
+        "expected": "DQ6",
+        "assigned": "DQ6",
+        "correct": true
+      },
+      {
+        "terminal": "ball-4-8",
+        "expected": "DQ7",
+        "assigned": "DQ7",
+        "correct": true
+      }
+    ],
+    "per_net": [
+      {
+        "net": "VSS",
+        "truth_px": 1200191,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "VDDQ",
+        "truth_px": 619857,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "VDD",
+        "truth_px": 622958,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ0",
+        "truth_px": 2415,
+        "assigned_px": 2453,
+        "correct_px": 2409,
+        "net_recall": 0.9975155279503105
+      },
+      {
+        "net": "DQ1",
+        "truth_px": 2415,
+        "assigned_px": 2424,
+        "correct_px": 2401,
+        "net_recall": 0.9942028985507246
+      },
+      {
+        "net": "DQ2",
+        "truth_px": 2415,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ3",
+        "truth_px": 2415,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ4",
+        "truth_px": 2415,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ5",
+        "truth_px": 2415,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ6",
+        "truth_px": 2415,
+        "assigned_px": 2399,
+        "correct_px": 2366,
+        "net_recall": 0.9797101449275363
+      },
+      {
+        "net": "DQ7",
+        "truth_px": 2415,
+        "assigned_px": 2407,
+        "correct_px": 2388,
+        "net_recall": 0.9888198757763975
+      },
+      {
+        "net": "DQ8",
+        "truth_px": 2415,
+        "assigned_px": 2475,
+        "correct_px": 2410,
+        "net_recall": 0.9979296066252588
+      },
+      {
+        "net": "DQ9",
+        "truth_px": 2415,
+        "assigned_px": 2429,
+        "correct_px": 2405,
+        "net_recall": 0.9958592132505176
+      },
+      {
+        "net": "DQ10",
+        "truth_px": 2415,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ11",
+        "truth_px": 2415,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ12",
+        "truth_px": 2415,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ13",
+        "truth_px": 2415,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ14",
+        "truth_px": 2415,
+        "assigned_px": 2454,
+        "correct_px": 2409,
+        "net_recall": 0.9975155279503105
+      },
+      {
+        "net": "DQ15",
+        "truth_px": 2415,
+        "assigned_px": 2414,
+        "correct_px": 2395,
+        "net_recall": 0.9917184265010351
+      }
+    ],
+    "profile": "severe"
+  },
+  {
+    "stage": "supplied_ballmap_and_vias",
+    "layer": "L2",
+    "precision": 0.983206148442127,
+    "recall_pristine": 0.9986076865038931,
+    "iou_pristine": 0.9818601754074386,
+    "observed_px": 2350384,
+    "inferred_px": 0,
+    "conflict_px": 2312665,
+    "unassigned_px": 2353,
+    "assigned_nets": [
+      "DQ0",
+      "DQ1",
+      "DQ14",
+      "DQ15",
+      "DQ6",
+      "DQ7",
+      "DQ8",
+      "DQ9"
+    ],
+    "pending_candidates": 100,
+    "candidate_fill_px": 1614,
+    "candidate_true_missing_px": 824,
+    "terminals": [
+      {
+        "terminal": "pad-1-01",
+        "expected": "VDD",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ3 | DQ4 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "pad-1-02",
+        "expected": "DQ8",
+        "assigned": "DQ8",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-03",
+        "expected": "VSS",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ3 | DQ4 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "pad-1-04",
+        "expected": "DQ9",
+        "assigned": "DQ9",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-05",
+        "expected": "VDDQ",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ3 | DQ4 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "pad-1-06",
+        "expected": "DQ10",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ3 | DQ4 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "pad-1-07",
+        "expected": "VSS",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ3 | DQ4 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "pad-1-08",
+        "expected": "VDD",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ3 | DQ4 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "pad-1-09",
+        "expected": "DQ11",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ3 | DQ4 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "pad-1-10",
+        "expected": "VDDQ",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ3 | DQ4 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "pad-1-11",
+        "expected": "DQ12",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ3 | DQ4 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "pad-1-12",
+        "expected": "VSS",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ3 | DQ4 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "pad-1-13",
+        "expected": "DQ13",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ3 | DQ4 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "pad-1-14",
+        "expected": "VDDQ",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ3 | DQ4 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "pad-1-15",
+        "expected": "DQ14",
+        "assigned": "DQ14",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-16",
+        "expected": "VSS",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ3 | DQ4 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "pad-1-17",
+        "expected": "DQ15",
+        "assigned": "DQ15",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-18",
+        "expected": "VDD",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ3 | DQ4 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-01",
+        "expected": "VDD",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ3 | DQ4 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-02",
+        "expected": "DQ0",
+        "assigned": "DQ0",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-03",
+        "expected": "VSS",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ3 | DQ4 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-04",
+        "expected": "DQ1",
+        "assigned": "DQ1",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-05",
+        "expected": "VDDQ",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ3 | DQ4 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-06",
+        "expected": "DQ2",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ3 | DQ4 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-07",
+        "expected": "VSS",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ3 | DQ4 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-08",
+        "expected": "DQ3",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ3 | DQ4 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-09",
+        "expected": "VDDQ",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ3 | DQ4 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-10",
+        "expected": "VDD",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ3 | DQ4 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-11",
+        "expected": "DQ4",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ3 | DQ4 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-12",
+        "expected": "VSS",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ3 | DQ4 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-13",
+        "expected": "DQ5",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ3 | DQ4 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-14",
+        "expected": "VDDQ",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ3 | DQ4 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-15",
+        "expected": "DQ6",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-16",
+        "expected": "VSS",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ3 | DQ4 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-17",
+        "expected": "DQ7",
+        "assigned": "DQ7",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-18",
+        "expected": "VDD",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ3 | DQ4 | VDD | VDDQ | VSS",
+        "correct": false
+      }
+    ],
+    "per_net": [
+      {
+        "net": "VSS",
+        "truth_px": 1110415,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "VDDQ",
+        "truth_px": 553050,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "VDD",
+        "truth_px": 575325,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ0",
+        "truth_px": 4709,
+        "assigned_px": 4752,
+        "correct_px": 4694,
+        "net_recall": 0.9968146103206625
+      },
+      {
+        "net": "DQ1",
+        "truth_px": 4709,
+        "assigned_px": 4706,
+        "correct_px": 4688,
+        "net_recall": 0.9955404544489276
+      },
+      {
+        "net": "DQ2",
+        "truth_px": 4709,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ3",
+        "truth_px": 4709,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ4",
+        "truth_px": 4709,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ5",
+        "truth_px": 4709,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ6",
+        "truth_px": 4709,
+        "assigned_px": 2370,
+        "correct_px": 2338,
+        "net_recall": 0.49649607135272883
+      },
+      {
+        "net": "DQ7",
+        "truth_px": 4709,
+        "assigned_px": 4687,
+        "correct_px": 4679,
+        "net_recall": 0.9936292206413251
+      },
+      {
+        "net": "DQ8",
+        "truth_px": 4709,
+        "assigned_px": 4742,
+        "correct_px": 4700,
+        "net_recall": 0.9980887661923975
+      },
+      {
+        "net": "DQ9",
+        "truth_px": 4709,
+        "assigned_px": 4697,
+        "correct_px": 4686,
+        "net_recall": 0.9951157358250159
+      },
+      {
+        "net": "DQ10",
+        "truth_px": 4709,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ11",
+        "truth_px": 4709,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ12",
+        "truth_px": 4709,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ13",
+        "truth_px": 4709,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ14",
+        "truth_px": 4709,
+        "assigned_px": 4720,
+        "correct_px": 4697,
+        "net_recall": 0.9974516882565301
+      },
+      {
+        "net": "DQ15",
+        "truth_px": 4709,
+        "assigned_px": 4692,
+        "correct_px": 4683,
+        "net_recall": 0.9944786578891485
+      }
+    ],
+    "profile": "severe"
+  },
+  {
+    "stage": "explicit_land_restore",
+    "layer": "L1",
+    "precision": 0.9937901595075104,
+    "recall_pristine": 0.9989087887635868,
+    "iou_pristine": 0.9927124513843059,
+    "observed_px": 2488930,
+    "inferred_px": 5498,
+    "conflict_px": 2474888,
+    "unassigned_px": 5,
+    "assigned_nets": [
+      "DQ0",
+      "DQ1",
+      "DQ14",
+      "DQ15",
+      "DQ6",
+      "DQ7",
+      "DQ8",
+      "DQ9"
+    ],
+    "pending_candidates": 100,
+    "candidate_fill_px": 6769,
+    "candidate_true_missing_px": 597,
+    "terminals": [
+      {
+        "terminal": "ball-1-1",
+        "expected": "DQ8",
+        "assigned": "DQ8",
+        "correct": true
+      },
+      {
+        "terminal": "ball-1-2",
+        "expected": "DQ9",
+        "assigned": "DQ9",
+        "correct": true
+      },
+      {
+        "terminal": "ball-1-3",
+        "expected": "DQ10",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ2 | DQ3 | DQ4 | DQ5 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "ball-1-4",
+        "expected": "DQ11",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ2 | DQ3 | DQ4 | DQ5 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "ball-1-5",
+        "expected": "DQ12",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ2 | DQ3 | DQ4 | DQ5 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "ball-1-6",
+        "expected": "DQ13",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ2 | DQ3 | DQ4 | DQ5 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "ball-1-7",
+        "expected": "DQ14",
+        "assigned": "DQ14",
+        "correct": true
+      },
+      {
+        "terminal": "ball-1-8",
+        "expected": "DQ15",
+        "assigned": "DQ15",
+        "correct": true
+      },
+      {
+        "terminal": "ball-2-1",
+        "expected": "VSS",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ2 | DQ3 | DQ4 | DQ5 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "ball-2-2",
+        "expected": "VSS",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ2 | DQ3 | DQ4 | DQ5 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "ball-2-3",
+        "expected": "VSS",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ2 | DQ3 | DQ4 | DQ5 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "ball-2-4",
+        "expected": "VSS",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ2 | DQ3 | DQ4 | DQ5 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "ball-2-5",
+        "expected": "VSS",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ2 | DQ3 | DQ4 | DQ5 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "ball-2-6",
+        "expected": "VSS",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ2 | DQ3 | DQ4 | DQ5 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "ball-2-7",
+        "expected": "VSS",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ2 | DQ3 | DQ4 | DQ5 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "ball-2-8",
+        "expected": "VSS",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ2 | DQ3 | DQ4 | DQ5 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "ball-3-1",
+        "expected": "VDDQ",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ2 | DQ3 | DQ4 | DQ5 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "ball-3-2",
+        "expected": "VDDQ",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ2 | DQ3 | DQ4 | DQ5 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "ball-3-3",
+        "expected": "VDDQ",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ2 | DQ3 | DQ4 | DQ5 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "ball-3-4",
+        "expected": "VDDQ",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ2 | DQ3 | DQ4 | DQ5 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "ball-3-5",
+        "expected": "VDD",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ2 | DQ3 | DQ4 | DQ5 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "ball-3-6",
+        "expected": "VDD",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ2 | DQ3 | DQ4 | DQ5 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "ball-3-7",
+        "expected": "VDD",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ2 | DQ3 | DQ4 | DQ5 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "ball-3-8",
+        "expected": "VDD",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ2 | DQ3 | DQ4 | DQ5 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "ball-4-1",
+        "expected": "DQ0",
+        "assigned": "DQ0",
+        "correct": true
+      },
+      {
+        "terminal": "ball-4-2",
+        "expected": "DQ1",
+        "assigned": "DQ1",
+        "correct": true
+      },
+      {
+        "terminal": "ball-4-3",
+        "expected": "DQ2",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ2 | DQ3 | DQ4 | DQ5 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "ball-4-4",
+        "expected": "DQ3",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ2 | DQ3 | DQ4 | DQ5 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "ball-4-5",
+        "expected": "DQ4",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ2 | DQ3 | DQ4 | DQ5 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "ball-4-6",
+        "expected": "DQ5",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ2 | DQ3 | DQ4 | DQ5 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "ball-4-7",
+        "expected": "DQ6",
+        "assigned": "DQ6",
+        "correct": true
+      },
+      {
+        "terminal": "ball-4-8",
+        "expected": "DQ7",
+        "assigned": "DQ7",
+        "correct": true
+      }
+    ],
+    "per_net": [
+      {
+        "net": "VSS",
+        "truth_px": 1200191,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "VDDQ",
+        "truth_px": 619857,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "VDD",
+        "truth_px": 622958,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ0",
+        "truth_px": 2415,
+        "assigned_px": 2454,
+        "correct_px": 2410,
+        "net_recall": 0.9979296066252588
+      },
+      {
+        "net": "DQ1",
+        "truth_px": 2415,
+        "assigned_px": 2432,
+        "correct_px": 2409,
+        "net_recall": 0.9975155279503105
+      },
+      {
+        "net": "DQ2",
+        "truth_px": 2415,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ3",
+        "truth_px": 2415,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ4",
+        "truth_px": 2415,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ5",
+        "truth_px": 2415,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ6",
+        "truth_px": 2415,
+        "assigned_px": 2442,
+        "correct_px": 2409,
+        "net_recall": 0.9975155279503105
+      },
+      {
+        "net": "DQ7",
+        "truth_px": 2415,
+        "assigned_px": 2420,
+        "correct_px": 2401,
+        "net_recall": 0.9942028985507246
+      },
+      {
+        "net": "DQ8",
+        "truth_px": 2415,
+        "assigned_px": 2477,
+        "correct_px": 2412,
+        "net_recall": 0.9987577639751553
+      },
+      {
+        "net": "DQ9",
+        "truth_px": 2415,
+        "assigned_px": 2433,
+        "correct_px": 2409,
+        "net_recall": 0.9975155279503105
+      },
+      {
+        "net": "DQ10",
+        "truth_px": 2415,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ11",
+        "truth_px": 2415,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ12",
+        "truth_px": 2415,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ13",
+        "truth_px": 2415,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ14",
+        "truth_px": 2415,
+        "assigned_px": 2457,
+        "correct_px": 2412,
+        "net_recall": 0.9987577639751553
+      },
+      {
+        "net": "DQ15",
+        "truth_px": 2415,
+        "assigned_px": 2420,
+        "correct_px": 2401,
+        "net_recall": 0.9942028985507246
+      }
+    ],
+    "profile": "severe"
+  },
+  {
+    "stage": "explicit_land_restore",
+    "layer": "L2",
+    "precision": 0.983206148442127,
+    "recall_pristine": 0.9986076865038931,
+    "iou_pristine": 0.9818601754074386,
+    "observed_px": 2350384,
+    "inferred_px": 0,
+    "conflict_px": 2312665,
+    "unassigned_px": 2353,
+    "assigned_nets": [
+      "DQ0",
+      "DQ1",
+      "DQ14",
+      "DQ15",
+      "DQ6",
+      "DQ7",
+      "DQ8",
+      "DQ9"
+    ],
+    "pending_candidates": 100,
+    "candidate_fill_px": 1614,
+    "candidate_true_missing_px": 824,
+    "terminals": [
+      {
+        "terminal": "pad-1-01",
+        "expected": "VDD",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ2 | DQ3 | DQ4 | DQ5 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "pad-1-02",
+        "expected": "DQ8",
+        "assigned": "DQ8",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-03",
+        "expected": "VSS",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ2 | DQ3 | DQ4 | DQ5 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "pad-1-04",
+        "expected": "DQ9",
+        "assigned": "DQ9",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-05",
+        "expected": "VDDQ",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ2 | DQ3 | DQ4 | DQ5 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "pad-1-06",
+        "expected": "DQ10",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ2 | DQ3 | DQ4 | DQ5 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "pad-1-07",
+        "expected": "VSS",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ2 | DQ3 | DQ4 | DQ5 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "pad-1-08",
+        "expected": "VDD",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ2 | DQ3 | DQ4 | DQ5 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "pad-1-09",
+        "expected": "DQ11",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ2 | DQ3 | DQ4 | DQ5 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "pad-1-10",
+        "expected": "VDDQ",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ2 | DQ3 | DQ4 | DQ5 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "pad-1-11",
+        "expected": "DQ12",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ2 | DQ3 | DQ4 | DQ5 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "pad-1-12",
+        "expected": "VSS",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ2 | DQ3 | DQ4 | DQ5 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "pad-1-13",
+        "expected": "DQ13",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ2 | DQ3 | DQ4 | DQ5 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "pad-1-14",
+        "expected": "VDDQ",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ2 | DQ3 | DQ4 | DQ5 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "pad-1-15",
+        "expected": "DQ14",
+        "assigned": "DQ14",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-16",
+        "expected": "VSS",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ2 | DQ3 | DQ4 | DQ5 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "pad-1-17",
+        "expected": "DQ15",
+        "assigned": "DQ15",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-18",
+        "expected": "VDD",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ2 | DQ3 | DQ4 | DQ5 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-01",
+        "expected": "VDD",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ2 | DQ3 | DQ4 | DQ5 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-02",
+        "expected": "DQ0",
+        "assigned": "DQ0",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-03",
+        "expected": "VSS",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ2 | DQ3 | DQ4 | DQ5 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-04",
+        "expected": "DQ1",
+        "assigned": "DQ1",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-05",
+        "expected": "VDDQ",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ2 | DQ3 | DQ4 | DQ5 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-06",
+        "expected": "DQ2",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ2 | DQ3 | DQ4 | DQ5 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-07",
+        "expected": "VSS",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ2 | DQ3 | DQ4 | DQ5 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-08",
+        "expected": "DQ3",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ2 | DQ3 | DQ4 | DQ5 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-09",
+        "expected": "VDDQ",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ2 | DQ3 | DQ4 | DQ5 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-10",
+        "expected": "VDD",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ2 | DQ3 | DQ4 | DQ5 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-11",
+        "expected": "DQ4",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ2 | DQ3 | DQ4 | DQ5 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-12",
+        "expected": "VSS",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ2 | DQ3 | DQ4 | DQ5 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-13",
+        "expected": "DQ5",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ2 | DQ3 | DQ4 | DQ5 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-14",
+        "expected": "VDDQ",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ2 | DQ3 | DQ4 | DQ5 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-15",
+        "expected": "DQ6",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-16",
+        "expected": "VSS",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ2 | DQ3 | DQ4 | DQ5 | VDD | VDDQ | VSS",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-17",
+        "expected": "DQ7",
+        "assigned": "DQ7",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-18",
+        "expected": "VDD",
+        "assigned": "DQ10 | DQ11 | DQ12 | DQ13 | DQ2 | DQ3 | DQ4 | DQ5 | VDD | VDDQ | VSS",
+        "correct": false
+      }
+    ],
+    "per_net": [
+      {
+        "net": "VSS",
+        "truth_px": 1110415,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "VDDQ",
+        "truth_px": 553050,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "VDD",
+        "truth_px": 575325,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ0",
+        "truth_px": 4709,
+        "assigned_px": 4752,
+        "correct_px": 4694,
+        "net_recall": 0.9968146103206625
+      },
+      {
+        "net": "DQ1",
+        "truth_px": 4709,
+        "assigned_px": 4706,
+        "correct_px": 4688,
+        "net_recall": 0.9955404544489276
+      },
+      {
+        "net": "DQ2",
+        "truth_px": 4709,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ3",
+        "truth_px": 4709,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ4",
+        "truth_px": 4709,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ5",
+        "truth_px": 4709,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ6",
+        "truth_px": 4709,
+        "assigned_px": 2370,
+        "correct_px": 2338,
+        "net_recall": 0.49649607135272883
+      },
+      {
+        "net": "DQ7",
+        "truth_px": 4709,
+        "assigned_px": 4687,
+        "correct_px": 4679,
+        "net_recall": 0.9936292206413251
+      },
+      {
+        "net": "DQ8",
+        "truth_px": 4709,
+        "assigned_px": 4742,
+        "correct_px": 4700,
+        "net_recall": 0.9980887661923975
+      },
+      {
+        "net": "DQ9",
+        "truth_px": 4709,
+        "assigned_px": 4697,
+        "correct_px": 4686,
+        "net_recall": 0.9951157358250159
+      },
+      {
+        "net": "DQ10",
+        "truth_px": 4709,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ11",
+        "truth_px": 4709,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ12",
+        "truth_px": 4709,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ13",
+        "truth_px": 4709,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0
+      },
+      {
+        "net": "DQ14",
+        "truth_px": 4709,
+        "assigned_px": 4720,
+        "correct_px": 4697,
+        "net_recall": 0.9974516882565301
+      },
+      {
+        "net": "DQ15",
+        "truth_px": 4709,
+        "assigned_px": 4692,
+        "correct_px": 4683,
+        "net_recall": 0.9944786578891485
+      }
+    ],
+    "profile": "severe"
+  }
+]

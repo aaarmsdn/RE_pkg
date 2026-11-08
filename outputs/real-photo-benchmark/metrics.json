@@ -1,0 +1,124 @@
+{
+  "source_file": "pcb_L2.jpg",
+  "source_sha256": "cf38ba7f30e2f8a89b13c369bd973d099ca6126987db3b79922d5ed7cbc0dd7f",
+  "source_size": [
+    5616,
+    3744
+  ],
+  "roi": [
+    1800,
+    1000,
+    1200,
+    1200
+  ],
+  "patches": {
+    "copper_plane": [
+      750,
+      450,
+      60,
+      60
+    ],
+    "copper_trace": [
+      500,
+      155,
+      60,
+      7
+    ],
+    "dielectric": [
+      750,
+      280,
+      35,
+      20
+    ],
+    "clearance": [
+      500,
+      135,
+      60,
+      8
+    ]
+  },
+  "patch_selection": "Human-selected visible copper/dielectric interiors, not a full pixel oracle.",
+  "modes": [
+    {
+      "mode": "legacy",
+      "coverage": 0.9862694444444444,
+      "selected_fraction": {
+        "copper_plane": 1.0,
+        "copper_trace": 1.0,
+        "dielectric": 1.0,
+        "clearance": 1.0
+      }
+    },
+    {
+      "mode": "red_chroma",
+      "coverage": 0.7469284722222223,
+      "selected_fraction": {
+        "copper_plane": 0.9616666666666667,
+        "copper_trace": 1.0,
+        "dielectric": 0.0,
+        "clearance": 0.0
+      }
+    }
+  ],
+  "source_hashes": {
+    "pkg_re/__init__.py": "03eec5c60cffccef32cc94d116dad2ad6d8153924bfe19a8bf412b63f136925d",
+    "pkg_re/annotations.py": "c64b2d55656e2a2d975dea3dda3381d3d66037f340fe7b379610e69552b9af85",
+    "pkg_re/app.py": "c4113def9f492b1fed01a18c5b9c32fd2835e761490472841c2ac401a134777a",
+    "pkg_re/batch_review.py": "b6a30825f22994c767141acb120f33d9d05bfd215fd308d5b6ec7c23c1cb3ade",
+    "pkg_re/bga_benchmark.py": "5737936d540c94794197668eb599d8a07d0121b574631dec9b15ab3b93de4013",
+    "pkg_re/bga_fixture.py": "3b23f57e9137d7f7d16da06caa3175aad4d90b8e6f74f13fc93c85182c7f34dc",
+    "pkg_re/bga_render.py": "6fa177bb70254b2cd2243f3e2c99985778250a56633c8cddb68239771013199c",
+    "pkg_re/bga_sample.py": "7c23ee969c14647d0e43049c5b00cf2e121045b27954332bfa3176f656789105",
+    "pkg_re/demo.py": "7885e6801d6aca00489cb6e2bb97bd975d22dae699ca6772b0a1ae7ff73fa6ce",
+    "pkg_re/die_benchmark.py": "482e88749bb698e52c7aff5330396a1a545adff21786147d5a6ff8d654db01e3",
+    "pkg_re/die_fixture.py": "8f9e895e639717af77f129e98479b30b6493e70d3a4346f9312481123acc9bf2",
+    "pkg_re/die_render.py": "e5ef45e7596dec141bd42662fd25f8f70ea790122c20b804691889f78cd6c7f7",
+    "pkg_re/die_sample.py": "c804fabd196453a72a2c6bed35da7f5fadac95c80e0bde57ba40d43be45a9128",
+    "pkg_re/engine/__init__.py": "967a5f67d7b6ea5524f3a4da33fae308ef7204ddd993bce20b8da9c49c30cc15",
+    "pkg_re/engine/continuity.py": "a03e248b6f7101ada705f33c2308a355332ee820a3dbb65275fb7d9217f4c331",
+    "pkg_re/engine/geometry.py": "04fa9ebab878216a59d99e9803f9b361fe88b06e88c27c1577c0dcf1825a0b25",
+    "pkg_re/engine/masks.py": "8f230df30b6166786f05b99a7a69052f28ad03fcbce2d1f1f6dcc71ced44ae1e",
+    "pkg_re/engine/repairs.py": "be0af2aeb67463dd20ae0bd568c0068c4e64ec3d9d7ae541ed33290eb5f2a158",
+    "pkg_re/engine/types.py": "2654ee72201329078c3f8ac4a87d85a83a58e30da6c4b4d308a70909c6c85c39",
+    "pkg_re/exporting.py": "beb4cfc50b3fc9fc270d9048c164fe896fa7bb92ec01540d63aa2b2aa9040177",
+    "pkg_re/graph.py": "b1369abda0ed07742a1536a73882ecb33d8bebfc7327bfdf73012f02a84922fc",
+    "pkg_re/images.py": "a79ea1b3990ccabe483eee634f254f79920fdb85e19a0376272bc881406ad587",
+    "pkg_re/models.py": "c4a03ce7df0d70bb6b46df829bcc9bbbb59aff142aef03d65d1ebc40083aadf1",
+    "pkg_re/net_colors.py": "c9c27baa5e35f80e6e29368daf28ec8ec8a453f996162be961cb6d4843682dcd",
+    "pkg_re/net_review.py": "8d813b6851bef9d75d7a9f8cd3195c9daa6ee909f8118a7ba96e7a0bc6a3f231",
+    "pkg_re/operations.py": "bb71bae1926b9833d47720f1a2a4b400cc7683ea54714902bf2ec21369948fb4",
+    "pkg_re/real_photo_benchmark.py": "48fe20d7933bb7ca22040c08e592dfcf89919a74d5acfc8c67e5d38caa9df4b2",
+    "pkg_re/routes.py": "706803adf02a5599d13de0e01ece136ae00b318af253a88cf1a0d11c383fa0ce",
+    "pkg_re/short_splits.py": "c4c8b604cfe6c27a11253ad1105da12ab1300e7def0cdb0f37e9ebcc04c23a40",
+    "pkg_re/store.py": "3b8c2afaaeb189858c077d13db045e77a60ca1ab0f9b4b3a120d01a9b5446ca8",
+    "pkg_re/weave_benchmark.py": "30613ac97d5d4e24e66046e8f3684dd97d6fb8d5c611b914ba9b42d4321f72e8",
+    "pkg_re/weave_fixture.py": "d4c54112596627d5b2271ac80e65e96c0f47c59a21cab39f1295a6452aacf681",
+    "pkg_re/weave_planes.py": "87b6be6deffc8a48d935d42209c2a53e39a6644e1cee080789c62ff0a059a975",
+    "pkg_re/weave_render.py": "20ff352474396ed734c1fa3e142ff7176b554c7a736410d4b2f40bbef94b047c",
+    "pkg_re/weave_sample.py": "f4f376da696bf61262f94d0abb8da0defb69d014c8cc3d7ea33e8baaf0024328"
+  },
+  "net_accuracy": null,
+  "net_accuracy_reason": "No groundtruth netlist; PHOTO_PLANE_A is a demonstration user label.",
+  "full_image_roi_guard_status": 422,
+  "demonstration_seed": {
+    "native_xy": [
+      2580,
+      1480
+    ],
+    "assigned_areas": [
+      {
+        "layer_id": "ff23e2a344bf4bff8f0b7fbe9ae4d1e9",
+        "net": "PHOTO_PLANE_A",
+        "status": "assigned",
+        "observed_px": 815312,
+        "inferred_px": 0,
+        "total_px": 815312,
+        "observed_mm2": null,
+        "inferred_mm2": null,
+        "total_mm2": null,
+        "islands": 1
+      }
+    ]
+  },
+  "csv_export_and_zip_roundtrip": "PASS"
+}

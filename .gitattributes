@@ -1,0 +1,2 @@
+# CSV exports use RFC 4180 CRLF records; preserve their bytes and hashes.
+*.csv whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

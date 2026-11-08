@@ -1,0 +1,5545 @@
+{
+  "inputs": [
+    {
+      "file": "edge_dense-clean-L1.png",
+      "sha256": "0f3c3667bf840b35638fbed28df3edb971750747718819879e5b808b98d3d2d9",
+      "events": [],
+      "removed_px": 0,
+      "faded_gap_px": 0
+    },
+    {
+      "file": "edge_dense-clean-L2.png",
+      "sha256": "b7fd85cae6457b0f7eda0f2abbfd6a08b2860c7a82049becc02ef6a1be837a36",
+      "events": [],
+      "removed_px": 0,
+      "faded_gap_px": 0
+    },
+    {
+      "file": "edge_dense-damaged-L1.png",
+      "sha256": "84b44625ef9cbbc9d21805a451e545463e71f5e79fd8bf585516011d3c2315de",
+      "events": [
+        {
+          "kind": "missing_ball",
+          "bbox": [
+            312,
+            664,
+            49,
+            49
+          ],
+          "removed_px": 1793,
+          "note": "VSS"
+        },
+        {
+          "kind": "half_ball",
+          "bbox": [
+            336,
+            824,
+            25,
+            49
+          ],
+          "removed_px": 921,
+          "note": "VDDQ"
+        },
+        {
+          "kind": "missing_ball",
+          "bbox": [
+            632,
+            984,
+            49,
+            49
+          ],
+          "removed_px": 1793,
+          "note": "DQ2"
+        },
+        {
+          "kind": "half_ball",
+          "bbox": [
+            1136,
+            984,
+            25,
+            49
+          ],
+          "removed_px": 921,
+          "note": "DQ5"
+        },
+        {
+          "kind": "plane_scratch",
+          "bbox": [
+            362,
+            681,
+            62,
+            2
+          ],
+          "removed_px": 124,
+          "note": "VSS"
+        },
+        {
+          "kind": "plane_hole",
+          "bbox": [
+            389,
+            689,
+            8,
+            6
+          ],
+          "removed_px": 48,
+          "note": "VSS"
+        },
+        {
+          "kind": "plane_scratch",
+          "bbox": [
+            849,
+            845,
+            66,
+            2
+          ],
+          "removed_px": 132,
+          "note": "VDDQ"
+        },
+        {
+          "kind": "plane_hole",
+          "bbox": [
+            878,
+            853,
+            8,
+            6
+          ],
+          "removed_px": 48,
+          "note": "VDDQ"
+        },
+        {
+          "kind": "plane_scratch",
+          "bbox": [
+            1002,
+            851,
+            54,
+            2
+          ],
+          "removed_px": 108,
+          "note": "VDD"
+        },
+        {
+          "kind": "plane_hole",
+          "bbox": [
+            1025,
+            859,
+            8,
+            6
+          ],
+          "removed_px": 48,
+          "note": "VDD"
+        },
+        {
+          "kind": "trace_gap",
+          "bbox": [
+            1284,
+            1022,
+            25,
+            2
+          ],
+          "removed_px": 50,
+          "note": "DQ6"
+        },
+        {
+          "kind": "faded_gap",
+          "bbox": [
+            627,
+            55,
+            539,
+            1427
+          ],
+          "removed_px": 0,
+          "note": "Optical gap contrast reduced; intended copper geometry unchanged."
+        }
+      ],
+      "removed_px": 5986,
+      "faded_gap_px": 44640
+    },
+    {
+      "file": "edge_dense-damaged-L2.png",
+      "sha256": "2a9a7eddad882a0f5d4e85996ff1c2ffed3339316c7f1bf29440236b6e68b085",
+      "events": [
+        {
+          "kind": "plane_scratch",
+          "bbox": [
+            785,
+            791,
+            12,
+            2
+          ],
+          "removed_px": 24,
+          "note": "VSS"
+        },
+        {
+          "kind": "plane_hole",
+          "bbox": [
+            787,
+            799,
+            8,
+            2
+          ],
+          "removed_px": 16,
+          "note": "VSS"
+        },
+        {
+          "kind": "plane_scratch",
+          "bbox": [
+            881,
+            791,
+            12,
+            2
+          ],
+          "removed_px": 24,
+          "note": "VDDQ"
+        },
+        {
+          "kind": "plane_hole",
+          "bbox": [
+            883,
+            799,
+            8,
+            2
+          ],
+          "removed_px": 16,
+          "note": "VDDQ"
+        },
+        {
+          "kind": "plane_scratch",
+          "bbox": [
+            941,
+            791,
+            12,
+            2
+          ],
+          "removed_px": 24,
+          "note": "VDD"
+        },
+        {
+          "kind": "plane_hole",
+          "bbox": [
+            943,
+            799,
+            8,
+            2
+          ],
+          "removed_px": 16,
+          "note": "VDD"
+        },
+        {
+          "kind": "trace_gap",
+          "bbox": [
+            1095,
+            1308,
+            7,
+            2
+          ],
+          "removed_px": 11,
+          "note": "DQ6"
+        },
+        {
+          "kind": "faded_gap",
+          "bbox": [
+            597,
+            55,
+            597,
+            1427
+          ],
+          "removed_px": 0,
+          "note": "Optical gap contrast reduced; intended copper geometry unchanged."
+        },
+        {
+          "kind": "fine_power_gap",
+          "bbox": [
+            804,
+            567,
+            5,
+            2
+          ],
+          "removed_px": 6,
+          "note": "VSS"
+        }
+      ],
+      "removed_px": 137,
+      "faded_gap_px": 76184
+    },
+    {
+      "file": "edge_dense-severe-L1.png",
+      "sha256": "e6c7a1d6e3e00449c63099c43ab0a8da98a985a9488a99b3a074e942452d1da7",
+      "events": [
+        {
+          "kind": "missing_ball",
+          "bbox": [
+            312,
+            664,
+            49,
+            49
+          ],
+          "removed_px": 1793,
+          "note": "VSS"
+        },
+        {
+          "kind": "half_ball",
+          "bbox": [
+            336,
+            824,
+            25,
+            49
+          ],
+          "removed_px": 921,
+          "note": "VDDQ"
+        },
+        {
+          "kind": "missing_ball",
+          "bbox": [
+            632,
+            984,
+            49,
+            49
+          ],
+          "removed_px": 1793,
+          "note": "DQ2"
+        },
+        {
+          "kind": "half_ball",
+          "bbox": [
+            1136,
+            984,
+            25,
+            49
+          ],
+          "removed_px": 921,
+          "note": "DQ5"
+        },
+        {
+          "kind": "plane_scratch",
+          "bbox": [
+            362,
+            681,
+            62,
+            2
+          ],
+          "removed_px": 124,
+          "note": "VSS"
+        },
+        {
+          "kind": "plane_hole",
+          "bbox": [
+            389,
+            689,
+            8,
+            6
+          ],
+          "removed_px": 48,
+          "note": "VSS"
+        },
+        {
+          "kind": "plane_scratch",
+          "bbox": [
+            849,
+            845,
+            66,
+            2
+          ],
+          "removed_px": 132,
+          "note": "VDDQ"
+        },
+        {
+          "kind": "plane_hole",
+          "bbox": [
+            878,
+            853,
+            8,
+            6
+          ],
+          "removed_px": 48,
+          "note": "VDDQ"
+        },
+        {
+          "kind": "plane_scratch",
+          "bbox": [
+            1002,
+            851,
+            54,
+            2
+          ],
+          "removed_px": 108,
+          "note": "VDD"
+        },
+        {
+          "kind": "plane_hole",
+          "bbox": [
+            1025,
+            859,
+            8,
+            6
+          ],
+          "removed_px": 48,
+          "note": "VDD"
+        },
+        {
+          "kind": "trace_gap",
+          "bbox": [
+            1284,
+            1022,
+            25,
+            2
+          ],
+          "removed_px": 50,
+          "note": "DQ6"
+        },
+        {
+          "kind": "faded_gap",
+          "bbox": [
+            627,
+            55,
+            539,
+            1427
+          ],
+          "removed_px": 0,
+          "note": "Optical gap contrast reduced; intended copper geometry unchanged."
+        }
+      ],
+      "removed_px": 5986,
+      "faded_gap_px": 44640
+    },
+    {
+      "file": "edge_dense-severe-L2.png",
+      "sha256": "cc159b8eb110130d8a395c7c9d73ea49aeb689b3276745870d77c7cd31a55bfa",
+      "events": [
+        {
+          "kind": "plane_scratch",
+          "bbox": [
+            785,
+            791,
+            12,
+            2
+          ],
+          "removed_px": 24,
+          "note": "VSS"
+        },
+        {
+          "kind": "plane_hole",
+          "bbox": [
+            787,
+            799,
+            8,
+            2
+          ],
+          "removed_px": 16,
+          "note": "VSS"
+        },
+        {
+          "kind": "plane_scratch",
+          "bbox": [
+            881,
+            791,
+            12,
+            2
+          ],
+          "removed_px": 24,
+          "note": "VDDQ"
+        },
+        {
+          "kind": "plane_hole",
+          "bbox": [
+            883,
+            799,
+            8,
+            2
+          ],
+          "removed_px": 16,
+          "note": "VDDQ"
+        },
+        {
+          "kind": "plane_scratch",
+          "bbox": [
+            941,
+            791,
+            12,
+            2
+          ],
+          "removed_px": 24,
+          "note": "VDD"
+        },
+        {
+          "kind": "plane_hole",
+          "bbox": [
+            943,
+            799,
+            8,
+            2
+          ],
+          "removed_px": 16,
+          "note": "VDD"
+        },
+        {
+          "kind": "trace_gap",
+          "bbox": [
+            1095,
+            1308,
+            7,
+            2
+          ],
+          "removed_px": 11,
+          "note": "DQ6"
+        },
+        {
+          "kind": "faded_gap",
+          "bbox": [
+            597,
+            55,
+            597,
+            1427
+          ],
+          "removed_px": 0,
+          "note": "Optical gap contrast reduced; intended copper geometry unchanged."
+        },
+        {
+          "kind": "fine_power_gap",
+          "bbox": [
+            804,
+            567,
+            5,
+            2
+          ],
+          "removed_px": 6,
+          "note": "VSS"
+        },
+        {
+          "kind": "missing_die_pad",
+          "bbox": [
+            861,
+            1130,
+            6,
+            12
+          ],
+          "removed_px": 72,
+          "note": "DQ3"
+        }
+      ],
+      "removed_px": 209,
+      "faded_gap_px": 76080
+    },
+    {
+      "file": "center_rows-clean-L1.png",
+      "sha256": "0f3c3667bf840b35638fbed28df3edb971750747718819879e5b808b98d3d2d9",
+      "events": [],
+      "removed_px": 0,
+      "faded_gap_px": 0
+    },
+    {
+      "file": "center_rows-clean-L2.png",
+      "sha256": "78201a4e4ad21ff1c88ed03231b24e1771aa9013da3bb2b481e1670826750ea3",
+      "events": [],
+      "removed_px": 0,
+      "faded_gap_px": 0
+    },
+    {
+      "file": "center_rows-damaged-L1.png",
+      "sha256": "84b44625ef9cbbc9d21805a451e545463e71f5e79fd8bf585516011d3c2315de",
+      "events": [
+        {
+          "kind": "missing_ball",
+          "bbox": [
+            312,
+            664,
+            49,
+            49
+          ],
+          "removed_px": 1793,
+          "note": "VSS"
+        },
+        {
+          "kind": "half_ball",
+          "bbox": [
+            336,
+            824,
+            25,
+            49
+          ],
+          "removed_px": 921,
+          "note": "VDDQ"
+        },
+        {
+          "kind": "missing_ball",
+          "bbox": [
+            632,
+            984,
+            49,
+            49
+          ],
+          "removed_px": 1793,
+          "note": "DQ2"
+        },
+        {
+          "kind": "half_ball",
+          "bbox": [
+            1136,
+            984,
+            25,
+            49
+          ],
+          "removed_px": 921,
+          "note": "DQ5"
+        },
+        {
+          "kind": "plane_scratch",
+          "bbox": [
+            362,
+            681,
+            62,
+            2
+          ],
+          "removed_px": 124,
+          "note": "VSS"
+        },
+        {
+          "kind": "plane_hole",
+          "bbox": [
+            389,
+            689,
+            8,
+            6
+          ],
+          "removed_px": 48,
+          "note": "VSS"
+        },
+        {
+          "kind": "plane_scratch",
+          "bbox": [
+            849,
+            845,
+            66,
+            2
+          ],
+          "removed_px": 132,
+          "note": "VDDQ"
+        },
+        {
+          "kind": "plane_hole",
+          "bbox": [
+            878,
+            853,
+            8,
+            6
+          ],
+          "removed_px": 48,
+          "note": "VDDQ"
+        },
+        {
+          "kind": "plane_scratch",
+          "bbox": [
+            1002,
+            851,
+            54,
+            2
+          ],
+          "removed_px": 108,
+          "note": "VDD"
+        },
+        {
+          "kind": "plane_hole",
+          "bbox": [
+            1025,
+            859,
+            8,
+            6
+          ],
+          "removed_px": 48,
+          "note": "VDD"
+        },
+        {
+          "kind": "trace_gap",
+          "bbox": [
+            1284,
+            1022,
+            25,
+            2
+          ],
+          "removed_px": 50,
+          "note": "DQ6"
+        },
+        {
+          "kind": "faded_gap",
+          "bbox": [
+            627,
+            55,
+            539,
+            1427
+          ],
+          "removed_px": 0,
+          "note": "Optical gap contrast reduced; intended copper geometry unchanged."
+        }
+      ],
+      "removed_px": 5986,
+      "faded_gap_px": 44640
+    },
+    {
+      "file": "center_rows-damaged-L2.png",
+      "sha256": "1224ca1892a6a60ac4860d7c3a55ccf72a85737a372bb2f70828803533896b37",
+      "events": [
+        {
+          "kind": "plane_scratch",
+          "bbox": [
+            785,
+            791,
+            12,
+            2
+          ],
+          "removed_px": 24,
+          "note": "VSS"
+        },
+        {
+          "kind": "plane_hole",
+          "bbox": [
+            787,
+            799,
+            8,
+            2
+          ],
+          "removed_px": 16,
+          "note": "VSS"
+        },
+        {
+          "kind": "plane_scratch",
+          "bbox": [
+            881,
+            791,
+            12,
+            2
+          ],
+          "removed_px": 24,
+          "note": "VDDQ"
+        },
+        {
+          "kind": "plane_hole",
+          "bbox": [
+            883,
+            799,
+            8,
+            2
+          ],
+          "removed_px": 16,
+          "note": "VDDQ"
+        },
+        {
+          "kind": "plane_scratch",
+          "bbox": [
+            941,
+            791,
+            12,
+            2
+          ],
+          "removed_px": 24,
+          "note": "VDD"
+        },
+        {
+          "kind": "plane_hole",
+          "bbox": [
+            943,
+            799,
+            8,
+            2
+          ],
+          "removed_px": 16,
+          "note": "VDD"
+        },
+        {
+          "kind": "trace_gap",
+          "bbox": [
+            1100,
+            1185,
+            5,
+            2
+          ],
+          "removed_px": 8,
+          "note": "DQ6"
+        },
+        {
+          "kind": "faded_gap",
+          "bbox": [
+            597,
+            55,
+            597,
+            1427
+          ],
+          "removed_px": 0,
+          "note": "Optical gap contrast reduced; intended copper geometry unchanged."
+        },
+        {
+          "kind": "fine_power_gap",
+          "bbox": [
+            804,
+            687,
+            5,
+            2
+          ],
+          "removed_px": 6,
+          "note": "VSS"
+        }
+      ],
+      "removed_px": 134,
+      "faded_gap_px": 106787
+    },
+    {
+      "file": "center_rows-severe-L1.png",
+      "sha256": "e6c7a1d6e3e00449c63099c43ab0a8da98a985a9488a99b3a074e942452d1da7",
+      "events": [
+        {
+          "kind": "missing_ball",
+          "bbox": [
+            312,
+            664,
+            49,
+            49
+          ],
+          "removed_px": 1793,
+          "note": "VSS"
+        },
+        {
+          "kind": "half_ball",
+          "bbox": [
+            336,
+            824,
+            25,
+            49
+          ],
+          "removed_px": 921,
+          "note": "VDDQ"
+        },
+        {
+          "kind": "missing_ball",
+          "bbox": [
+            632,
+            984,
+            49,
+            49
+          ],
+          "removed_px": 1793,
+          "note": "DQ2"
+        },
+        {
+          "kind": "half_ball",
+          "bbox": [
+            1136,
+            984,
+            25,
+            49
+          ],
+          "removed_px": 921,
+          "note": "DQ5"
+        },
+        {
+          "kind": "plane_scratch",
+          "bbox": [
+            362,
+            681,
+            62,
+            2
+          ],
+          "removed_px": 124,
+          "note": "VSS"
+        },
+        {
+          "kind": "plane_hole",
+          "bbox": [
+            389,
+            689,
+            8,
+            6
+          ],
+          "removed_px": 48,
+          "note": "VSS"
+        },
+        {
+          "kind": "plane_scratch",
+          "bbox": [
+            849,
+            845,
+            66,
+            2
+          ],
+          "removed_px": 132,
+          "note": "VDDQ"
+        },
+        {
+          "kind": "plane_hole",
+          "bbox": [
+            878,
+            853,
+            8,
+            6
+          ],
+          "removed_px": 48,
+          "note": "VDDQ"
+        },
+        {
+          "kind": "plane_scratch",
+          "bbox": [
+            1002,
+            851,
+            54,
+            2
+          ],
+          "removed_px": 108,
+          "note": "VDD"
+        },
+        {
+          "kind": "plane_hole",
+          "bbox": [
+            1025,
+            859,
+            8,
+            6
+          ],
+          "removed_px": 48,
+          "note": "VDD"
+        },
+        {
+          "kind": "trace_gap",
+          "bbox": [
+            1284,
+            1022,
+            25,
+            2
+          ],
+          "removed_px": 50,
+          "note": "DQ6"
+        },
+        {
+          "kind": "faded_gap",
+          "bbox": [
+            627,
+            55,
+            539,
+            1427
+          ],
+          "removed_px": 0,
+          "note": "Optical gap contrast reduced; intended copper geometry unchanged."
+        }
+      ],
+      "removed_px": 5986,
+      "faded_gap_px": 44640
+    },
+    {
+      "file": "center_rows-severe-L2.png",
+      "sha256": "e9430bcc26e598a42328e9a1cf71285e8423ba5b4d6ba2093ef358946355d94a",
+      "events": [
+        {
+          "kind": "plane_scratch",
+          "bbox": [
+            785,
+            791,
+            12,
+            2
+          ],
+          "removed_px": 24,
+          "note": "VSS"
+        },
+        {
+          "kind": "plane_hole",
+          "bbox": [
+            787,
+            799,
+            8,
+            2
+          ],
+          "removed_px": 16,
+          "note": "VSS"
+        },
+        {
+          "kind": "plane_scratch",
+          "bbox": [
+            881,
+            791,
+            12,
+            2
+          ],
+          "removed_px": 24,
+          "note": "VDDQ"
+        },
+        {
+          "kind": "plane_hole",
+          "bbox": [
+            883,
+            799,
+            8,
+            2
+          ],
+          "removed_px": 16,
+          "note": "VDDQ"
+        },
+        {
+          "kind": "plane_scratch",
+          "bbox": [
+            941,
+            791,
+            12,
+            2
+          ],
+          "removed_px": 24,
+          "note": "VDD"
+        },
+        {
+          "kind": "plane_hole",
+          "bbox": [
+            943,
+            799,
+            8,
+            2
+          ],
+          "removed_px": 16,
+          "note": "VDD"
+        },
+        {
+          "kind": "trace_gap",
+          "bbox": [
+            1100,
+            1185,
+            5,
+            2
+          ],
+          "removed_px": 8,
+          "note": "DQ6"
+        },
+        {
+          "kind": "faded_gap",
+          "bbox": [
+            597,
+            55,
+            597,
+            1427
+          ],
+          "removed_px": 0,
+          "note": "Optical gap contrast reduced; intended copper geometry unchanged."
+        },
+        {
+          "kind": "fine_power_gap",
+          "bbox": [
+            804,
+            687,
+            5,
+            2
+          ],
+          "removed_px": 6,
+          "note": "VSS"
+        },
+        {
+          "kind": "missing_die_pad",
+          "bbox": [
+            861,
+            890,
+            6,
+            12
+          ],
+          "removed_px": 72,
+          "note": "DQ3"
+        }
+      ],
+      "removed_px": 206,
+      "faded_gap_px": 106683
+    },
+    {
+      "file": "center_array-clean-L1.png",
+      "sha256": "0f3c3667bf840b35638fbed28df3edb971750747718819879e5b808b98d3d2d9",
+      "events": [],
+      "removed_px": 0,
+      "faded_gap_px": 0
+    },
+    {
+      "file": "center_array-clean-L2.png",
+      "sha256": "3718d4fa5056d6065b816b637ce0a944814e0f8423ff2528156a537331c10e76",
+      "events": [],
+      "removed_px": 0,
+      "faded_gap_px": 0
+    },
+    {
+      "file": "center_array-damaged-L1.png",
+      "sha256": "84b44625ef9cbbc9d21805a451e545463e71f5e79fd8bf585516011d3c2315de",
+      "events": [
+        {
+          "kind": "missing_ball",
+          "bbox": [
+            312,
+            664,
+            49,
+            49
+          ],
+          "removed_px": 1793,
+          "note": "VSS"
+        },
+        {
+          "kind": "half_ball",
+          "bbox": [
+            336,
+            824,
+            25,
+            49
+          ],
+          "removed_px": 921,
+          "note": "VDDQ"
+        },
+        {
+          "kind": "missing_ball",
+          "bbox": [
+            632,
+            984,
+            49,
+            49
+          ],
+          "removed_px": 1793,
+          "note": "DQ2"
+        },
+        {
+          "kind": "half_ball",
+          "bbox": [
+            1136,
+            984,
+            25,
+            49
+          ],
+          "removed_px": 921,
+          "note": "DQ5"
+        },
+        {
+          "kind": "plane_scratch",
+          "bbox": [
+            362,
+            681,
+            62,
+            2
+          ],
+          "removed_px": 124,
+          "note": "VSS"
+        },
+        {
+          "kind": "plane_hole",
+          "bbox": [
+            389,
+            689,
+            8,
+            6
+          ],
+          "removed_px": 48,
+          "note": "VSS"
+        },
+        {
+          "kind": "plane_scratch",
+          "bbox": [
+            849,
+            845,
+            66,
+            2
+          ],
+          "removed_px": 132,
+          "note": "VDDQ"
+        },
+        {
+          "kind": "plane_hole",
+          "bbox": [
+            878,
+            853,
+            8,
+            6
+          ],
+          "removed_px": 48,
+          "note": "VDDQ"
+        },
+        {
+          "kind": "plane_scratch",
+          "bbox": [
+            1002,
+            851,
+            54,
+            2
+          ],
+          "removed_px": 108,
+          "note": "VDD"
+        },
+        {
+          "kind": "plane_hole",
+          "bbox": [
+            1025,
+            859,
+            8,
+            6
+          ],
+          "removed_px": 48,
+          "note": "VDD"
+        },
+        {
+          "kind": "trace_gap",
+          "bbox": [
+            1284,
+            1022,
+            25,
+            2
+          ],
+          "removed_px": 50,
+          "note": "DQ6"
+        },
+        {
+          "kind": "faded_gap",
+          "bbox": [
+            627,
+            55,
+            539,
+            1427
+          ],
+          "removed_px": 0,
+          "note": "Optical gap contrast reduced; intended copper geometry unchanged."
+        }
+      ],
+      "removed_px": 5986,
+      "faded_gap_px": 44640
+    },
+    {
+      "file": "center_array-damaged-L2.png",
+      "sha256": "7fc16dd28be45484b98f0ea0d63c75d629e5fd0237d06e021d79437b53be49f2",
+      "events": [
+        {
+          "kind": "plane_scratch",
+          "bbox": [
+            785,
+            791,
+            12,
+            2
+          ],
+          "removed_px": 24,
+          "note": "VSS"
+        },
+        {
+          "kind": "plane_hole",
+          "bbox": [
+            787,
+            799,
+            8,
+            2
+          ],
+          "removed_px": 16,
+          "note": "VSS"
+        },
+        {
+          "kind": "plane_scratch",
+          "bbox": [
+            881,
+            791,
+            12,
+            2
+          ],
+          "removed_px": 24,
+          "note": "VDDQ"
+        },
+        {
+          "kind": "plane_hole",
+          "bbox": [
+            883,
+            799,
+            8,
+            2
+          ],
+          "removed_px": 16,
+          "note": "VDDQ"
+        },
+        {
+          "kind": "plane_scratch",
+          "bbox": [
+            941,
+            791,
+            12,
+            2
+          ],
+          "removed_px": 24,
+          "note": "VDD"
+        },
+        {
+          "kind": "plane_hole",
+          "bbox": [
+            943,
+            799,
+            8,
+            2
+          ],
+          "removed_px": 16,
+          "note": "VDD"
+        },
+        {
+          "kind": "trace_gap",
+          "bbox": [
+            1101,
+            1152,
+            4,
+            2
+          ],
+          "removed_px": 8,
+          "note": "DQ6"
+        },
+        {
+          "kind": "faded_gap",
+          "bbox": [
+            597,
+            55,
+            597,
+            1427
+          ],
+          "removed_px": 0,
+          "note": "Optical gap contrast reduced; intended copper geometry unchanged."
+        },
+        {
+          "kind": "fine_power_gap",
+          "bbox": [
+            803,
+            729,
+            5,
+            2
+          ],
+          "removed_px": 6,
+          "note": "VSS"
+        }
+      ],
+      "removed_px": 134,
+      "faded_gap_px": 115270
+    },
+    {
+      "file": "center_array-severe-L1.png",
+      "sha256": "e6c7a1d6e3e00449c63099c43ab0a8da98a985a9488a99b3a074e942452d1da7",
+      "events": [
+        {
+          "kind": "missing_ball",
+          "bbox": [
+            312,
+            664,
+            49,
+            49
+          ],
+          "removed_px": 1793,
+          "note": "VSS"
+        },
+        {
+          "kind": "half_ball",
+          "bbox": [
+            336,
+            824,
+            25,
+            49
+          ],
+          "removed_px": 921,
+          "note": "VDDQ"
+        },
+        {
+          "kind": "missing_ball",
+          "bbox": [
+            632,
+            984,
+            49,
+            49
+          ],
+          "removed_px": 1793,
+          "note": "DQ2"
+        },
+        {
+          "kind": "half_ball",
+          "bbox": [
+            1136,
+            984,
+            25,
+            49
+          ],
+          "removed_px": 921,
+          "note": "DQ5"
+        },
+        {
+          "kind": "plane_scratch",
+          "bbox": [
+            362,
+            681,
+            62,
+            2
+          ],
+          "removed_px": 124,
+          "note": "VSS"
+        },
+        {
+          "kind": "plane_hole",
+          "bbox": [
+            389,
+            689,
+            8,
+            6
+          ],
+          "removed_px": 48,
+          "note": "VSS"
+        },
+        {
+          "kind": "plane_scratch",
+          "bbox": [
+            849,
+            845,
+            66,
+            2
+          ],
+          "removed_px": 132,
+          "note": "VDDQ"
+        },
+        {
+          "kind": "plane_hole",
+          "bbox": [
+            878,
+            853,
+            8,
+            6
+          ],
+          "removed_px": 48,
+          "note": "VDDQ"
+        },
+        {
+          "kind": "plane_scratch",
+          "bbox": [
+            1002,
+            851,
+            54,
+            2
+          ],
+          "removed_px": 108,
+          "note": "VDD"
+        },
+        {
+          "kind": "plane_hole",
+          "bbox": [
+            1025,
+            859,
+            8,
+            6
+          ],
+          "removed_px": 48,
+          "note": "VDD"
+        },
+        {
+          "kind": "trace_gap",
+          "bbox": [
+            1284,
+            1022,
+            25,
+            2
+          ],
+          "removed_px": 50,
+          "note": "DQ6"
+        },
+        {
+          "kind": "faded_gap",
+          "bbox": [
+            627,
+            55,
+            539,
+            1427
+          ],
+          "removed_px": 0,
+          "note": "Optical gap contrast reduced; intended copper geometry unchanged."
+        }
+      ],
+      "removed_px": 5986,
+      "faded_gap_px": 44640
+    },
+    {
+      "file": "center_array-severe-L2.png",
+      "sha256": "afd2cbe9b6095c02b94da88bc138041427c21fe6ac7a643541289e8076ba7b83",
+      "events": [
+        {
+          "kind": "plane_scratch",
+          "bbox": [
+            785,
+            791,
+            12,
+            2
+          ],
+          "removed_px": 24,
+          "note": "VSS"
+        },
+        {
+          "kind": "plane_hole",
+          "bbox": [
+            787,
+            799,
+            8,
+            2
+          ],
+          "removed_px": 16,
+          "note": "VSS"
+        },
+        {
+          "kind": "plane_scratch",
+          "bbox": [
+            881,
+            791,
+            12,
+            2
+          ],
+          "removed_px": 24,
+          "note": "VDDQ"
+        },
+        {
+          "kind": "plane_hole",
+          "bbox": [
+            883,
+            799,
+            8,
+            2
+          ],
+          "removed_px": 16,
+          "note": "VDDQ"
+        },
+        {
+          "kind": "plane_scratch",
+          "bbox": [
+            941,
+            791,
+            12,
+            2
+          ],
+          "removed_px": 24,
+          "note": "VDD"
+        },
+        {
+          "kind": "plane_hole",
+          "bbox": [
+            943,
+            799,
+            8,
+            2
+          ],
+          "removed_px": 16,
+          "note": "VDD"
+        },
+        {
+          "kind": "trace_gap",
+          "bbox": [
+            1101,
+            1152,
+            4,
+            2
+          ],
+          "removed_px": 8,
+          "note": "DQ6"
+        },
+        {
+          "kind": "faded_gap",
+          "bbox": [
+            597,
+            55,
+            597,
+            1427
+          ],
+          "removed_px": 0,
+          "note": "Optical gap contrast reduced; intended copper geometry unchanged."
+        },
+        {
+          "kind": "fine_power_gap",
+          "bbox": [
+            803,
+            729,
+            5,
+            2
+          ],
+          "removed_px": 6,
+          "note": "VSS"
+        },
+        {
+          "kind": "missing_die_pad",
+          "bbox": [
+            861,
+            826,
+            6,
+            12
+          ],
+          "removed_px": 72,
+          "note": "DQ3"
+        }
+      ],
+      "removed_px": 206,
+      "faded_gap_px": 115159
+    }
+  ],
+  "layouts": [
+    {
+      "layout": "edge_dense",
+      "pad_width_px": 6,
+      "pad_height_px": 12,
+      "pad_pitch_px": 16,
+      "trace_width_px": 3,
+      "minimum_gap_px": 2,
+      "pad_count": 22,
+      "nominal_ball_pitch_mm": 5.0,
+      "plane_area_ratios": {
+        "L1": {
+          "VSS": 0.5299110970363105,
+          "VDDQ": 0.24891285037886102,
+          "VDD": 0.22117605258482856
+        },
+        "L2": {
+          "VSS": 0.3480849151971246,
+          "VDDQ": 0.31685948556666294,
+          "VDD": 0.33505559923621253
+        }
+      },
+      "supplied_annotations": [
+        {
+          "terminals": [
+            {
+              "name": "ball-1-1",
+              "kind": "ball",
+              "net": "DQ8",
+              "x": 336,
+              "y": 528,
+              "radius": 24
+            },
+            {
+              "name": "ball-1-2",
+              "kind": "ball",
+              "net": "DQ9",
+              "x": 496,
+              "y": 528,
+              "radius": 24
+            },
+            {
+              "name": "ball-1-3",
+              "kind": "ball",
+              "net": "DQ10",
+              "x": 656,
+              "y": 528,
+              "radius": 24
+            },
+            {
+              "name": "ball-1-4",
+              "kind": "ball",
+              "net": "DQ11",
+              "x": 816,
+              "y": 528,
+              "radius": 24
+            },
+            {
+              "name": "ball-1-5",
+              "kind": "ball",
+              "net": "DQ12",
+              "x": 976,
+              "y": 528,
+              "radius": 24
+            },
+            {
+              "name": "ball-1-6",
+              "kind": "ball",
+              "net": "DQ13",
+              "x": 1136,
+              "y": 528,
+              "radius": 24
+            },
+            {
+              "name": "ball-1-7",
+              "kind": "ball",
+              "net": "DQ14",
+              "x": 1296,
+              "y": 528,
+              "radius": 24
+            },
+            {
+              "name": "ball-1-8",
+              "kind": "ball",
+              "net": "DQ15",
+              "x": 1456,
+              "y": 528,
+              "radius": 24
+            },
+            {
+              "name": "ball-2-1",
+              "kind": "ball",
+              "net": "VSS",
+              "x": 336,
+              "y": 688,
+              "radius": 24
+            },
+            {
+              "name": "ball-2-2",
+              "kind": "ball",
+              "net": "VSS",
+              "x": 496,
+              "y": 688,
+              "radius": 24
+            },
+            {
+              "name": "ball-2-3",
+              "kind": "ball",
+              "net": "VSS",
+              "x": 656,
+              "y": 688,
+              "radius": 24
+            },
+            {
+              "name": "ball-2-4",
+              "kind": "ball",
+              "net": "VSS",
+              "x": 816,
+              "y": 688,
+              "radius": 24
+            },
+            {
+              "name": "ball-2-5",
+              "kind": "ball",
+              "net": "VSS",
+              "x": 976,
+              "y": 688,
+              "radius": 24
+            },
+            {
+              "name": "ball-2-6",
+              "kind": "ball",
+              "net": "VSS",
+              "x": 1136,
+              "y": 688,
+              "radius": 24
+            },
+            {
+              "name": "ball-2-7",
+              "kind": "ball",
+              "net": "VSS",
+              "x": 1296,
+              "y": 688,
+              "radius": 24
+            },
+            {
+              "name": "ball-2-8",
+              "kind": "ball",
+              "net": "VSS",
+              "x": 1456,
+              "y": 688,
+              "radius": 24
+            },
+            {
+              "name": "ball-3-1",
+              "kind": "ball",
+              "net": "VDDQ",
+              "x": 336,
+              "y": 848,
+              "radius": 24
+            },
+            {
+              "name": "ball-3-2",
+              "kind": "ball",
+              "net": "VDDQ",
+              "x": 496,
+              "y": 848,
+              "radius": 24
+            },
+            {
+              "name": "ball-3-3",
+              "kind": "ball",
+              "net": "VDDQ",
+              "x": 656,
+              "y": 848,
+              "radius": 24
+            },
+            {
+              "name": "ball-3-4",
+              "kind": "ball",
+              "net": "VDDQ",
+              "x": 816,
+              "y": 848,
+              "radius": 24
+            },
+            {
+              "name": "ball-3-5",
+              "kind": "ball",
+              "net": "VDD",
+              "x": 976,
+              "y": 848,
+              "radius": 24
+            },
+            {
+              "name": "ball-3-6",
+              "kind": "ball",
+              "net": "VDD",
+              "x": 1136,
+              "y": 848,
+              "radius": 24
+            },
+            {
+              "name": "ball-3-7",
+              "kind": "ball",
+              "net": "VDD",
+              "x": 1296,
+              "y": 848,
+              "radius": 24
+            },
+            {
+              "name": "ball-3-8",
+              "kind": "ball",
+              "net": "VDD",
+              "x": 1456,
+              "y": 848,
+              "radius": 24
+            },
+            {
+              "name": "ball-4-1",
+              "kind": "ball",
+              "net": "DQ0",
+              "x": 336,
+              "y": 1008,
+              "radius": 24
+            },
+            {
+              "name": "ball-4-2",
+              "kind": "ball",
+              "net": "DQ1",
+              "x": 496,
+              "y": 1008,
+              "radius": 24
+            },
+            {
+              "name": "ball-4-3",
+              "kind": "ball",
+              "net": "DQ2",
+              "x": 656,
+              "y": 1008,
+              "radius": 24
+            },
+            {
+              "name": "ball-4-4",
+              "kind": "ball",
+              "net": "DQ3",
+              "x": 816,
+              "y": 1008,
+              "radius": 24
+            },
+            {
+              "name": "ball-4-5",
+              "kind": "ball",
+              "net": "DQ4",
+              "x": 976,
+              "y": 1008,
+              "radius": 24
+            },
+            {
+              "name": "ball-4-6",
+              "kind": "ball",
+              "net": "DQ5",
+              "x": 1136,
+              "y": 1008,
+              "radius": 24
+            },
+            {
+              "name": "ball-4-7",
+              "kind": "ball",
+              "net": "DQ6",
+              "x": 1296,
+              "y": 1008,
+              "radius": 24
+            },
+            {
+              "name": "ball-4-8",
+              "kind": "ball",
+              "net": "DQ7",
+              "x": 1456,
+              "y": 1008,
+              "radius": 24
+            }
+          ],
+          "vias": [
+            {
+              "id": "via-DQ8",
+              "net": "",
+              "x": 336,
+              "y": 64,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ9",
+              "net": "",
+              "x": 496,
+              "y": 64,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ10",
+              "net": "",
+              "x": 656,
+              "y": 64,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ11",
+              "net": "",
+              "x": 816,
+              "y": 64,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ12",
+              "net": "",
+              "x": 976,
+              "y": 64,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ13",
+              "net": "",
+              "x": 1136,
+              "y": 64,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ14",
+              "net": "",
+              "x": 1296,
+              "y": 64,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ15",
+              "net": "",
+              "x": 1456,
+              "y": 64,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ0",
+              "net": "",
+              "x": 336,
+              "y": 1472,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ1",
+              "net": "",
+              "x": 496,
+              "y": 1472,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ2",
+              "net": "",
+              "x": 656,
+              "y": 1472,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ3",
+              "net": "",
+              "x": 816,
+              "y": 1472,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ4",
+              "net": "",
+              "x": 976,
+              "y": 1472,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ5",
+              "net": "",
+              "x": 1136,
+              "y": 1472,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ6",
+              "net": "",
+              "x": 1296,
+              "y": 1472,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ7",
+              "net": "",
+              "x": 1456,
+              "y": 1472,
+              "radius": 4
+            },
+            {
+              "id": "via-VSS-00",
+              "net": "",
+              "x": 786,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VSS-01",
+              "net": "",
+              "x": 796,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VSS-02",
+              "net": "",
+              "x": 806,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VSS-03",
+              "net": "",
+              "x": 816,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VSS-04",
+              "net": "",
+              "x": 826,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VSS-05",
+              "net": "",
+              "x": 786,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VSS-06",
+              "net": "",
+              "x": 796,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VSS-07",
+              "net": "",
+              "x": 806,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VSS-08",
+              "net": "",
+              "x": 816,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VSS-09",
+              "net": "",
+              "x": 826,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VSS-10",
+              "net": "",
+              "x": 786,
+              "y": 782,
+              "radius": 3
+            },
+            {
+              "id": "via-VSS-11",
+              "net": "",
+              "x": 796,
+              "y": 782,
+              "radius": 3
+            },
+            {
+              "id": "via-VSS-12",
+              "net": "",
+              "x": 806,
+              "y": 782,
+              "radius": 3
+            },
+            {
+              "id": "via-VSS-13",
+              "net": "",
+              "x": 816,
+              "y": 782,
+              "radius": 3
+            },
+            {
+              "id": "via-VSS-14",
+              "net": "",
+              "x": 826,
+              "y": 782,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-00",
+              "net": "",
+              "x": 862,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-01",
+              "net": "",
+              "x": 872,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-02",
+              "net": "",
+              "x": 882,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-03",
+              "net": "",
+              "x": 892,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-04",
+              "net": "",
+              "x": 902,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-05",
+              "net": "",
+              "x": 862,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-06",
+              "net": "",
+              "x": 872,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-07",
+              "net": "",
+              "x": 882,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-08",
+              "net": "",
+              "x": 892,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-09",
+              "net": "",
+              "x": 902,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-10",
+              "net": "",
+              "x": 862,
+              "y": 782,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-11",
+              "net": "",
+              "x": 872,
+              "y": 782,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-12",
+              "net": "",
+              "x": 882,
+              "y": 782,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-13",
+              "net": "",
+              "x": 892,
+              "y": 782,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-14",
+              "net": "",
+              "x": 902,
+              "y": 782,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-00",
+              "net": "",
+              "x": 942,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-01",
+              "net": "",
+              "x": 952,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-02",
+              "net": "",
+              "x": 962,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-03",
+              "net": "",
+              "x": 972,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-04",
+              "net": "",
+              "x": 982,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-05",
+              "net": "",
+              "x": 942,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-06",
+              "net": "",
+              "x": 952,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-07",
+              "net": "",
+              "x": 962,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-08",
+              "net": "",
+              "x": 972,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-09",
+              "net": "",
+              "x": 982,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-10",
+              "net": "",
+              "x": 942,
+              "y": 782,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-11",
+              "net": "",
+              "x": 952,
+              "y": 782,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-12",
+              "net": "",
+              "x": 962,
+              "y": 782,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-13",
+              "net": "",
+              "x": 972,
+              "y": 782,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-14",
+              "net": "",
+              "x": 982,
+              "y": 782,
+              "radius": 3
+            }
+          ]
+        },
+        {
+          "terminals": [
+            {
+              "name": "pad-1-01",
+              "kind": "pad",
+              "net": "",
+              "x": 800,
+              "y": 400,
+              "radius": 3
+            },
+            {
+              "name": "pad-1-02",
+              "kind": "pad",
+              "net": "",
+              "x": 816,
+              "y": 400,
+              "radius": 3
+            },
+            {
+              "name": "pad-1-03",
+              "kind": "pad",
+              "net": "",
+              "x": 832,
+              "y": 400,
+              "radius": 3
+            },
+            {
+              "name": "pad-1-04",
+              "kind": "pad",
+              "net": "",
+              "x": 848,
+              "y": 400,
+              "radius": 3
+            },
+            {
+              "name": "pad-1-05",
+              "kind": "pad",
+              "net": "",
+              "x": 864,
+              "y": 400,
+              "radius": 3
+            },
+            {
+              "name": "pad-1-06",
+              "kind": "pad",
+              "net": "",
+              "x": 880,
+              "y": 400,
+              "radius": 3
+            },
+            {
+              "name": "pad-1-07",
+              "kind": "pad",
+              "net": "",
+              "x": 896,
+              "y": 400,
+              "radius": 3
+            },
+            {
+              "name": "pad-1-08",
+              "kind": "pad",
+              "net": "",
+              "x": 912,
+              "y": 400,
+              "radius": 3
+            },
+            {
+              "name": "pad-1-09",
+              "kind": "pad",
+              "net": "",
+              "x": 928,
+              "y": 400,
+              "radius": 3
+            },
+            {
+              "name": "pad-1-10",
+              "kind": "pad",
+              "net": "",
+              "x": 944,
+              "y": 400,
+              "radius": 3
+            },
+            {
+              "name": "pad-1-11",
+              "kind": "pad",
+              "net": "",
+              "x": 960,
+              "y": 400,
+              "radius": 3
+            },
+            {
+              "name": "pad-2-01",
+              "kind": "pad",
+              "net": "",
+              "x": 800,
+              "y": 1136,
+              "radius": 3
+            },
+            {
+              "name": "pad-2-02",
+              "kind": "pad",
+              "net": "",
+              "x": 816,
+              "y": 1136,
+              "radius": 3
+            },
+            {
+              "name": "pad-2-03",
+              "kind": "pad",
+              "net": "",
+              "x": 832,
+              "y": 1136,
+              "radius": 3
+            },
+            {
+              "name": "pad-2-04",
+              "kind": "pad",
+              "net": "",
+              "x": 848,
+              "y": 1136,
+              "radius": 3
+            },
+            {
+              "name": "pad-2-05",
+              "kind": "pad",
+              "net": "",
+              "x": 864,
+              "y": 1136,
+              "radius": 3
+            },
+            {
+              "name": "pad-2-06",
+              "kind": "pad",
+              "net": "",
+              "x": 880,
+              "y": 1136,
+              "radius": 3
+            },
+            {
+              "name": "pad-2-07",
+              "kind": "pad",
+              "net": "",
+              "x": 896,
+              "y": 1136,
+              "radius": 3
+            },
+            {
+              "name": "pad-2-08",
+              "kind": "pad",
+              "net": "",
+              "x": 912,
+              "y": 1136,
+              "radius": 3
+            },
+            {
+              "name": "pad-2-09",
+              "kind": "pad",
+              "net": "",
+              "x": 928,
+              "y": 1136,
+              "radius": 3
+            },
+            {
+              "name": "pad-2-10",
+              "kind": "pad",
+              "net": "",
+              "x": 944,
+              "y": 1136,
+              "radius": 3
+            },
+            {
+              "name": "pad-2-11",
+              "kind": "pad",
+              "net": "",
+              "x": 960,
+              "y": 1136,
+              "radius": 3
+            }
+          ],
+          "vias": [
+            {
+              "id": "via-DQ8",
+              "net": "",
+              "x": 336,
+              "y": 64,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ9",
+              "net": "",
+              "x": 496,
+              "y": 64,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ10",
+              "net": "",
+              "x": 656,
+              "y": 64,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ11",
+              "net": "",
+              "x": 816,
+              "y": 64,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ12",
+              "net": "",
+              "x": 976,
+              "y": 64,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ13",
+              "net": "",
+              "x": 1136,
+              "y": 64,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ14",
+              "net": "",
+              "x": 1296,
+              "y": 64,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ15",
+              "net": "",
+              "x": 1456,
+              "y": 64,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ0",
+              "net": "",
+              "x": 336,
+              "y": 1472,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ1",
+              "net": "",
+              "x": 496,
+              "y": 1472,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ2",
+              "net": "",
+              "x": 656,
+              "y": 1472,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ3",
+              "net": "",
+              "x": 816,
+              "y": 1472,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ4",
+              "net": "",
+              "x": 976,
+              "y": 1472,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ5",
+              "net": "",
+              "x": 1136,
+              "y": 1472,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ6",
+              "net": "",
+              "x": 1296,
+              "y": 1472,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ7",
+              "net": "",
+              "x": 1456,
+              "y": 1472,
+              "radius": 4
+            },
+            {
+              "id": "via-VSS-00",
+              "net": "",
+              "x": 786,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VSS-01",
+              "net": "",
+              "x": 796,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VSS-02",
+              "net": "",
+              "x": 806,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VSS-03",
+              "net": "",
+              "x": 816,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VSS-04",
+              "net": "",
+              "x": 826,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VSS-05",
+              "net": "",
+              "x": 786,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VSS-06",
+              "net": "",
+              "x": 796,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VSS-07",
+              "net": "",
+              "x": 806,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VSS-08",
+              "net": "",
+              "x": 816,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VSS-09",
+              "net": "",
+              "x": 826,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VSS-10",
+              "net": "",
+              "x": 786,
+              "y": 782,
+              "radius": 3
+            },
+            {
+              "id": "via-VSS-11",
+              "net": "",
+              "x": 796,
+              "y": 782,
+              "radius": 3
+            },
+            {
+              "id": "via-VSS-12",
+              "net": "",
+              "x": 806,
+              "y": 782,
+              "radius": 3
+            },
+            {
+              "id": "via-VSS-13",
+              "net": "",
+              "x": 816,
+              "y": 782,
+              "radius": 3
+            },
+            {
+              "id": "via-VSS-14",
+              "net": "",
+              "x": 826,
+              "y": 782,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-00",
+              "net": "",
+              "x": 862,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-01",
+              "net": "",
+              "x": 872,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-02",
+              "net": "",
+              "x": 882,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-03",
+              "net": "",
+              "x": 892,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-04",
+              "net": "",
+              "x": 902,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-05",
+              "net": "",
+              "x": 862,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-06",
+              "net": "",
+              "x": 872,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-07",
+              "net": "",
+              "x": 882,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-08",
+              "net": "",
+              "x": 892,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-09",
+              "net": "",
+              "x": 902,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-10",
+              "net": "",
+              "x": 862,
+              "y": 782,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-11",
+              "net": "",
+              "x": 872,
+              "y": 782,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-12",
+              "net": "",
+              "x": 882,
+              "y": 782,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-13",
+              "net": "",
+              "x": 892,
+              "y": 782,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-14",
+              "net": "",
+              "x": 902,
+              "y": 782,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-00",
+              "net": "",
+              "x": 942,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-01",
+              "net": "",
+              "x": 952,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-02",
+              "net": "",
+              "x": 962,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-03",
+              "net": "",
+              "x": 972,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-04",
+              "net": "",
+              "x": 982,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-05",
+              "net": "",
+              "x": 942,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-06",
+              "net": "",
+              "x": 952,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-07",
+              "net": "",
+              "x": 962,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-08",
+              "net": "",
+              "x": 972,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-09",
+              "net": "",
+              "x": 982,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-10",
+              "net": "",
+              "x": 942,
+              "y": 782,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-11",
+              "net": "",
+              "x": 952,
+              "y": 782,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-12",
+              "net": "",
+              "x": 962,
+              "y": 782,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-13",
+              "net": "",
+              "x": 972,
+              "y": 782,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-14",
+              "net": "",
+              "x": 982,
+              "y": 782,
+              "radius": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "layout": "center_rows",
+      "pad_width_px": 6,
+      "pad_height_px": 12,
+      "pad_pitch_px": 16,
+      "trace_width_px": 3,
+      "minimum_gap_px": 2,
+      "pad_count": 22,
+      "nominal_ball_pitch_mm": 5.0,
+      "plane_area_ratios": {
+        "L1": {
+          "VSS": 0.5299110970363105,
+          "VDDQ": 0.24891285037886102,
+          "VDD": 0.22117605258482856
+        },
+        "L2": {
+          "VSS": 0.3480849151971246,
+          "VDDQ": 0.31685948556666294,
+          "VDD": 0.33505559923621253
+        }
+      },
+      "supplied_annotations": [
+        {
+          "terminals": [
+            {
+              "name": "ball-1-1",
+              "kind": "ball",
+              "net": "DQ8",
+              "x": 336,
+              "y": 528,
+              "radius": 24
+            },
+            {
+              "name": "ball-1-2",
+              "kind": "ball",
+              "net": "DQ9",
+              "x": 496,
+              "y": 528,
+              "radius": 24
+            },
+            {
+              "name": "ball-1-3",
+              "kind": "ball",
+              "net": "DQ10",
+              "x": 656,
+              "y": 528,
+              "radius": 24
+            },
+            {
+              "name": "ball-1-4",
+              "kind": "ball",
+              "net": "DQ11",
+              "x": 816,
+              "y": 528,
+              "radius": 24
+            },
+            {
+              "name": "ball-1-5",
+              "kind": "ball",
+              "net": "DQ12",
+              "x": 976,
+              "y": 528,
+              "radius": 24
+            },
+            {
+              "name": "ball-1-6",
+              "kind": "ball",
+              "net": "DQ13",
+              "x": 1136,
+              "y": 528,
+              "radius": 24
+            },
+            {
+              "name": "ball-1-7",
+              "kind": "ball",
+              "net": "DQ14",
+              "x": 1296,
+              "y": 528,
+              "radius": 24
+            },
+            {
+              "name": "ball-1-8",
+              "kind": "ball",
+              "net": "DQ15",
+              "x": 1456,
+              "y": 528,
+              "radius": 24
+            },
+            {
+              "name": "ball-2-1",
+              "kind": "ball",
+              "net": "VSS",
+              "x": 336,
+              "y": 688,
+              "radius": 24
+            },
+            {
+              "name": "ball-2-2",
+              "kind": "ball",
+              "net": "VSS",
+              "x": 496,
+              "y": 688,
+              "radius": 24
+            },
+            {
+              "name": "ball-2-3",
+              "kind": "ball",
+              "net": "VSS",
+              "x": 656,
+              "y": 688,
+              "radius": 24
+            },
+            {
+              "name": "ball-2-4",
+              "kind": "ball",
+              "net": "VSS",
+              "x": 816,
+              "y": 688,
+              "radius": 24
+            },
+            {
+              "name": "ball-2-5",
+              "kind": "ball",
+              "net": "VSS",
+              "x": 976,
+              "y": 688,
+              "radius": 24
+            },
+            {
+              "name": "ball-2-6",
+              "kind": "ball",
+              "net": "VSS",
+              "x": 1136,
+              "y": 688,
+              "radius": 24
+            },
+            {
+              "name": "ball-2-7",
+              "kind": "ball",
+              "net": "VSS",
+              "x": 1296,
+              "y": 688,
+              "radius": 24
+            },
+            {
+              "name": "ball-2-8",
+              "kind": "ball",
+              "net": "VSS",
+              "x": 1456,
+              "y": 688,
+              "radius": 24
+            },
+            {
+              "name": "ball-3-1",
+              "kind": "ball",
+              "net": "VDDQ",
+              "x": 336,
+              "y": 848,
+              "radius": 24
+            },
+            {
+              "name": "ball-3-2",
+              "kind": "ball",
+              "net": "VDDQ",
+              "x": 496,
+              "y": 848,
+              "radius": 24
+            },
+            {
+              "name": "ball-3-3",
+              "kind": "ball",
+              "net": "VDDQ",
+              "x": 656,
+              "y": 848,
+              "radius": 24
+            },
+            {
+              "name": "ball-3-4",
+              "kind": "ball",
+              "net": "VDDQ",
+              "x": 816,
+              "y": 848,
+              "radius": 24
+            },
+            {
+              "name": "ball-3-5",
+              "kind": "ball",
+              "net": "VDD",
+              "x": 976,
+              "y": 848,
+              "radius": 24
+            },
+            {
+              "name": "ball-3-6",
+              "kind": "ball",
+              "net": "VDD",
+              "x": 1136,
+              "y": 848,
+              "radius": 24
+            },
+            {
+              "name": "ball-3-7",
+              "kind": "ball",
+              "net": "VDD",
+              "x": 1296,
+              "y": 848,
+              "radius": 24
+            },
+            {
+              "name": "ball-3-8",
+              "kind": "ball",
+              "net": "VDD",
+              "x": 1456,
+              "y": 848,
+              "radius": 24
+            },
+            {
+              "name": "ball-4-1",
+              "kind": "ball",
+              "net": "DQ0",
+              "x": 336,
+              "y": 1008,
+              "radius": 24
+            },
+            {
+              "name": "ball-4-2",
+              "kind": "ball",
+              "net": "DQ1",
+              "x": 496,
+              "y": 1008,
+              "radius": 24
+            },
+            {
+              "name": "ball-4-3",
+              "kind": "ball",
+              "net": "DQ2",
+              "x": 656,
+              "y": 1008,
+              "radius": 24
+            },
+            {
+              "name": "ball-4-4",
+              "kind": "ball",
+              "net": "DQ3",
+              "x": 816,
+              "y": 1008,
+              "radius": 24
+            },
+            {
+              "name": "ball-4-5",
+              "kind": "ball",
+              "net": "DQ4",
+              "x": 976,
+              "y": 1008,
+              "radius": 24
+            },
+            {
+              "name": "ball-4-6",
+              "kind": "ball",
+              "net": "DQ5",
+              "x": 1136,
+              "y": 1008,
+              "radius": 24
+            },
+            {
+              "name": "ball-4-7",
+              "kind": "ball",
+              "net": "DQ6",
+              "x": 1296,
+              "y": 1008,
+              "radius": 24
+            },
+            {
+              "name": "ball-4-8",
+              "kind": "ball",
+              "net": "DQ7",
+              "x": 1456,
+              "y": 1008,
+              "radius": 24
+            }
+          ],
+          "vias": [
+            {
+              "id": "via-DQ8",
+              "net": "",
+              "x": 336,
+              "y": 64,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ9",
+              "net": "",
+              "x": 496,
+              "y": 64,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ10",
+              "net": "",
+              "x": 656,
+              "y": 64,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ11",
+              "net": "",
+              "x": 816,
+              "y": 64,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ12",
+              "net": "",
+              "x": 976,
+              "y": 64,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ13",
+              "net": "",
+              "x": 1136,
+              "y": 64,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ14",
+              "net": "",
+              "x": 1296,
+              "y": 64,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ15",
+              "net": "",
+              "x": 1456,
+              "y": 64,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ0",
+              "net": "",
+              "x": 336,
+              "y": 1472,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ1",
+              "net": "",
+              "x": 496,
+              "y": 1472,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ2",
+              "net": "",
+              "x": 656,
+              "y": 1472,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ3",
+              "net": "",
+              "x": 816,
+              "y": 1472,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ4",
+              "net": "",
+              "x": 976,
+              "y": 1472,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ5",
+              "net": "",
+              "x": 1136,
+              "y": 1472,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ6",
+              "net": "",
+              "x": 1296,
+              "y": 1472,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ7",
+              "net": "",
+              "x": 1456,
+              "y": 1472,
+              "radius": 4
+            },
+            {
+              "id": "via-VSS-00",
+              "net": "",
+              "x": 786,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VSS-01",
+              "net": "",
+              "x": 796,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VSS-02",
+              "net": "",
+              "x": 806,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VSS-03",
+              "net": "",
+              "x": 816,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VSS-04",
+              "net": "",
+              "x": 826,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VSS-05",
+              "net": "",
+              "x": 786,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VSS-06",
+              "net": "",
+              "x": 796,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VSS-07",
+              "net": "",
+              "x": 806,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VSS-08",
+              "net": "",
+              "x": 816,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VSS-09",
+              "net": "",
+              "x": 826,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VSS-10",
+              "net": "",
+              "x": 786,
+              "y": 782,
+              "radius": 3
+            },
+            {
+              "id": "via-VSS-11",
+              "net": "",
+              "x": 796,
+              "y": 782,
+              "radius": 3
+            },
+            {
+              "id": "via-VSS-12",
+              "net": "",
+              "x": 806,
+              "y": 782,
+              "radius": 3
+            },
+            {
+              "id": "via-VSS-13",
+              "net": "",
+              "x": 816,
+              "y": 782,
+              "radius": 3
+            },
+            {
+              "id": "via-VSS-14",
+              "net": "",
+              "x": 826,
+              "y": 782,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-00",
+              "net": "",
+              "x": 862,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-01",
+              "net": "",
+              "x": 872,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-02",
+              "net": "",
+              "x": 882,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-03",
+              "net": "",
+              "x": 892,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-04",
+              "net": "",
+              "x": 902,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-05",
+              "net": "",
+              "x": 862,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-06",
+              "net": "",
+              "x": 872,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-07",
+              "net": "",
+              "x": 882,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-08",
+              "net": "",
+              "x": 892,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-09",
+              "net": "",
+              "x": 902,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-10",
+              "net": "",
+              "x": 862,
+              "y": 782,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-11",
+              "net": "",
+              "x": 872,
+              "y": 782,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-12",
+              "net": "",
+              "x": 882,
+              "y": 782,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-13",
+              "net": "",
+              "x": 892,
+              "y": 782,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-14",
+              "net": "",
+              "x": 902,
+              "y": 782,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-00",
+              "net": "",
+              "x": 942,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-01",
+              "net": "",
+              "x": 952,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-02",
+              "net": "",
+              "x": 962,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-03",
+              "net": "",
+              "x": 972,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-04",
+              "net": "",
+              "x": 982,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-05",
+              "net": "",
+              "x": 942,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-06",
+              "net": "",
+              "x": 952,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-07",
+              "net": "",
+              "x": 962,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-08",
+              "net": "",
+              "x": 972,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-09",
+              "net": "",
+              "x": 982,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-10",
+              "net": "",
+              "x": 942,
+              "y": 782,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-11",
+              "net": "",
+              "x": 952,
+              "y": 782,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-12",
+              "net": "",
+              "x": 962,
+              "y": 782,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-13",
+              "net": "",
+              "x": 972,
+              "y": 782,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-14",
+              "net": "",
+              "x": 982,
+              "y": 782,
+              "radius": 3
+            }
+          ]
+        },
+        {
+          "terminals": [
+            {
+              "name": "pad-1-01",
+              "kind": "pad",
+              "net": "",
+              "x": 800,
+              "y": 640,
+              "radius": 3
+            },
+            {
+              "name": "pad-1-02",
+              "kind": "pad",
+              "net": "",
+              "x": 816,
+              "y": 640,
+              "radius": 3
+            },
+            {
+              "name": "pad-1-03",
+              "kind": "pad",
+              "net": "",
+              "x": 832,
+              "y": 640,
+              "radius": 3
+            },
+            {
+              "name": "pad-1-04",
+              "kind": "pad",
+              "net": "",
+              "x": 848,
+              "y": 640,
+              "radius": 3
+            },
+            {
+              "name": "pad-1-05",
+              "kind": "pad",
+              "net": "",
+              "x": 864,
+              "y": 640,
+              "radius": 3
+            },
+            {
+              "name": "pad-1-06",
+              "kind": "pad",
+              "net": "",
+              "x": 880,
+              "y": 640,
+              "radius": 3
+            },
+            {
+              "name": "pad-1-07",
+              "kind": "pad",
+              "net": "",
+              "x": 896,
+              "y": 640,
+              "radius": 3
+            },
+            {
+              "name": "pad-1-08",
+              "kind": "pad",
+              "net": "",
+              "x": 912,
+              "y": 640,
+              "radius": 3
+            },
+            {
+              "name": "pad-1-09",
+              "kind": "pad",
+              "net": "",
+              "x": 928,
+              "y": 640,
+              "radius": 3
+            },
+            {
+              "name": "pad-1-10",
+              "kind": "pad",
+              "net": "",
+              "x": 944,
+              "y": 640,
+              "radius": 3
+            },
+            {
+              "name": "pad-1-11",
+              "kind": "pad",
+              "net": "",
+              "x": 960,
+              "y": 640,
+              "radius": 3
+            },
+            {
+              "name": "pad-2-01",
+              "kind": "pad",
+              "net": "",
+              "x": 800,
+              "y": 896,
+              "radius": 3
+            },
+            {
+              "name": "pad-2-02",
+              "kind": "pad",
+              "net": "",
+              "x": 816,
+              "y": 896,
+              "radius": 3
+            },
+            {
+              "name": "pad-2-03",
+              "kind": "pad",
+              "net": "",
+              "x": 832,
+              "y": 896,
+              "radius": 3
+            },
+            {
+              "name": "pad-2-04",
+              "kind": "pad",
+              "net": "",
+              "x": 848,
+              "y": 896,
+              "radius": 3
+            },
+            {
+              "name": "pad-2-05",
+              "kind": "pad",
+              "net": "",
+              "x": 864,
+              "y": 896,
+              "radius": 3
+            },
+            {
+              "name": "pad-2-06",
+              "kind": "pad",
+              "net": "",
+              "x": 880,
+              "y": 896,
+              "radius": 3
+            },
+            {
+              "name": "pad-2-07",
+              "kind": "pad",
+              "net": "",
+              "x": 896,
+              "y": 896,
+              "radius": 3
+            },
+            {
+              "name": "pad-2-08",
+              "kind": "pad",
+              "net": "",
+              "x": 912,
+              "y": 896,
+              "radius": 3
+            },
+            {
+              "name": "pad-2-09",
+              "kind": "pad",
+              "net": "",
+              "x": 928,
+              "y": 896,
+              "radius": 3
+            },
+            {
+              "name": "pad-2-10",
+              "kind": "pad",
+              "net": "",
+              "x": 944,
+              "y": 896,
+              "radius": 3
+            },
+            {
+              "name": "pad-2-11",
+              "kind": "pad",
+              "net": "",
+              "x": 960,
+              "y": 896,
+              "radius": 3
+            }
+          ],
+          "vias": [
+            {
+              "id": "via-DQ8",
+              "net": "",
+              "x": 336,
+              "y": 64,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ9",
+              "net": "",
+              "x": 496,
+              "y": 64,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ10",
+              "net": "",
+              "x": 656,
+              "y": 64,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ11",
+              "net": "",
+              "x": 816,
+              "y": 64,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ12",
+              "net": "",
+              "x": 976,
+              "y": 64,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ13",
+              "net": "",
+              "x": 1136,
+              "y": 64,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ14",
+              "net": "",
+              "x": 1296,
+              "y": 64,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ15",
+              "net": "",
+              "x": 1456,
+              "y": 64,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ0",
+              "net": "",
+              "x": 336,
+              "y": 1472,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ1",
+              "net": "",
+              "x": 496,
+              "y": 1472,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ2",
+              "net": "",
+              "x": 656,
+              "y": 1472,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ3",
+              "net": "",
+              "x": 816,
+              "y": 1472,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ4",
+              "net": "",
+              "x": 976,
+              "y": 1472,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ5",
+              "net": "",
+              "x": 1136,
+              "y": 1472,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ6",
+              "net": "",
+              "x": 1296,
+              "y": 1472,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ7",
+              "net": "",
+              "x": 1456,
+              "y": 1472,
+              "radius": 4
+            },
+            {
+              "id": "via-VSS-00",
+              "net": "",
+              "x": 786,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VSS-01",
+              "net": "",
+              "x": 796,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VSS-02",
+              "net": "",
+              "x": 806,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VSS-03",
+              "net": "",
+              "x": 816,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VSS-04",
+              "net": "",
+              "x": 826,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VSS-05",
+              "net": "",
+              "x": 786,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VSS-06",
+              "net": "",
+              "x": 796,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VSS-07",
+              "net": "",
+              "x": 806,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VSS-08",
+              "net": "",
+              "x": 816,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VSS-09",
+              "net": "",
+              "x": 826,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VSS-10",
+              "net": "",
+              "x": 786,
+              "y": 782,
+              "radius": 3
+            },
+            {
+              "id": "via-VSS-11",
+              "net": "",
+              "x": 796,
+              "y": 782,
+              "radius": 3
+            },
+            {
+              "id": "via-VSS-12",
+              "net": "",
+              "x": 806,
+              "y": 782,
+              "radius": 3
+            },
+            {
+              "id": "via-VSS-13",
+              "net": "",
+              "x": 816,
+              "y": 782,
+              "radius": 3
+            },
+            {
+              "id": "via-VSS-14",
+              "net": "",
+              "x": 826,
+              "y": 782,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-00",
+              "net": "",
+              "x": 862,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-01",
+              "net": "",
+              "x": 872,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-02",
+              "net": "",
+              "x": 882,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-03",
+              "net": "",
+              "x": 892,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-04",
+              "net": "",
+              "x": 902,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-05",
+              "net": "",
+              "x": 862,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-06",
+              "net": "",
+              "x": 872,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-07",
+              "net": "",
+              "x": 882,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-08",
+              "net": "",
+              "x": 892,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-09",
+              "net": "",
+              "x": 902,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-10",
+              "net": "",
+              "x": 862,
+              "y": 782,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-11",
+              "net": "",
+              "x": 872,
+              "y": 782,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-12",
+              "net": "",
+              "x": 882,
+              "y": 782,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-13",
+              "net": "",
+              "x": 892,
+              "y": 782,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-14",
+              "net": "",
+              "x": 902,
+              "y": 782,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-00",
+              "net": "",
+              "x": 942,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-01",
+              "net": "",
+              "x": 952,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-02",
+              "net": "",
+              "x": 962,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-03",
+              "net": "",
+              "x": 972,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-04",
+              "net": "",
+              "x": 982,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-05",
+              "net": "",
+              "x": 942,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-06",
+              "net": "",
+              "x": 952,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-07",
+              "net": "",
+              "x": 962,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-08",
+              "net": "",
+              "x": 972,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-09",
+              "net": "",
+              "x": 982,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-10",
+              "net": "",
+              "x": 942,
+              "y": 782,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-11",
+              "net": "",
+              "x": 952,
+              "y": 782,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-12",
+              "net": "",
+              "x": 962,
+              "y": 782,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-13",
+              "net": "",
+              "x": 972,
+              "y": 782,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-14",
+              "net": "",
+              "x": 982,
+              "y": 782,
+              "radius": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "layout": "center_array",
+      "pad_width_px": 6,
+      "pad_height_px": 12,
+      "pad_pitch_px": 16,
+      "trace_width_px": 3,
+      "minimum_gap_px": 1,
+      "pad_count": 22,
+      "nominal_ball_pitch_mm": 5.0,
+      "plane_area_ratios": {
+        "L1": {
+          "VSS": 0.5299110970363105,
+          "VDDQ": 0.24891285037886102,
+          "VDD": 0.22117605258482856
+        },
+        "L2": {
+          "VSS": 0.34857014185994145,
+          "VDDQ": 0.3155820761089845,
+          "VDD": 0.33584778203107407
+        }
+      },
+      "supplied_annotations": [
+        {
+          "terminals": [
+            {
+              "name": "ball-1-1",
+              "kind": "ball",
+              "net": "DQ8",
+              "x": 336,
+              "y": 528,
+              "radius": 24
+            },
+            {
+              "name": "ball-1-2",
+              "kind": "ball",
+              "net": "DQ9",
+              "x": 496,
+              "y": 528,
+              "radius": 24
+            },
+            {
+              "name": "ball-1-3",
+              "kind": "ball",
+              "net": "DQ10",
+              "x": 656,
+              "y": 528,
+              "radius": 24
+            },
+            {
+              "name": "ball-1-4",
+              "kind": "ball",
+              "net": "DQ11",
+              "x": 816,
+              "y": 528,
+              "radius": 24
+            },
+            {
+              "name": "ball-1-5",
+              "kind": "ball",
+              "net": "DQ12",
+              "x": 976,
+              "y": 528,
+              "radius": 24
+            },
+            {
+              "name": "ball-1-6",
+              "kind": "ball",
+              "net": "DQ13",
+              "x": 1136,
+              "y": 528,
+              "radius": 24
+            },
+            {
+              "name": "ball-1-7",
+              "kind": "ball",
+              "net": "DQ14",
+              "x": 1296,
+              "y": 528,
+              "radius": 24
+            },
+            {
+              "name": "ball-1-8",
+              "kind": "ball",
+              "net": "DQ15",
+              "x": 1456,
+              "y": 528,
+              "radius": 24
+            },
+            {
+              "name": "ball-2-1",
+              "kind": "ball",
+              "net": "VSS",
+              "x": 336,
+              "y": 688,
+              "radius": 24
+            },
+            {
+              "name": "ball-2-2",
+              "kind": "ball",
+              "net": "VSS",
+              "x": 496,
+              "y": 688,
+              "radius": 24
+            },
+            {
+              "name": "ball-2-3",
+              "kind": "ball",
+              "net": "VSS",
+              "x": 656,
+              "y": 688,
+              "radius": 24
+            },
+            {
+              "name": "ball-2-4",
+              "kind": "ball",
+              "net": "VSS",
+              "x": 816,
+              "y": 688,
+              "radius": 24
+            },
+            {
+              "name": "ball-2-5",
+              "kind": "ball",
+              "net": "VSS",
+              "x": 976,
+              "y": 688,
+              "radius": 24
+            },
+            {
+              "name": "ball-2-6",
+              "kind": "ball",
+              "net": "VSS",
+              "x": 1136,
+              "y": 688,
+              "radius": 24
+            },
+            {
+              "name": "ball-2-7",
+              "kind": "ball",
+              "net": "VSS",
+              "x": 1296,
+              "y": 688,
+              "radius": 24
+            },
+            {
+              "name": "ball-2-8",
+              "kind": "ball",
+              "net": "VSS",
+              "x": 1456,
+              "y": 688,
+              "radius": 24
+            },
+            {
+              "name": "ball-3-1",
+              "kind": "ball",
+              "net": "VDDQ",
+              "x": 336,
+              "y": 848,
+              "radius": 24
+            },
+            {
+              "name": "ball-3-2",
+              "kind": "ball",
+              "net": "VDDQ",
+              "x": 496,
+              "y": 848,
+              "radius": 24
+            },
+            {
+              "name": "ball-3-3",
+              "kind": "ball",
+              "net": "VDDQ",
+              "x": 656,
+              "y": 848,
+              "radius": 24
+            },
+            {
+              "name": "ball-3-4",
+              "kind": "ball",
+              "net": "VDDQ",
+              "x": 816,
+              "y": 848,
+              "radius": 24
+            },
+            {
+              "name": "ball-3-5",
+              "kind": "ball",
+              "net": "VDD",
+              "x": 976,
+              "y": 848,
+              "radius": 24
+            },
+            {
+              "name": "ball-3-6",
+              "kind": "ball",
+              "net": "VDD",
+              "x": 1136,
+              "y": 848,
+              "radius": 24
+            },
+            {
+              "name": "ball-3-7",
+              "kind": "ball",
+              "net": "VDD",
+              "x": 1296,
+              "y": 848,
+              "radius": 24
+            },
+            {
+              "name": "ball-3-8",
+              "kind": "ball",
+              "net": "VDD",
+              "x": 1456,
+              "y": 848,
+              "radius": 24
+            },
+            {
+              "name": "ball-4-1",
+              "kind": "ball",
+              "net": "DQ0",
+              "x": 336,
+              "y": 1008,
+              "radius": 24
+            },
+            {
+              "name": "ball-4-2",
+              "kind": "ball",
+              "net": "DQ1",
+              "x": 496,
+              "y": 1008,
+              "radius": 24
+            },
+            {
+              "name": "ball-4-3",
+              "kind": "ball",
+              "net": "DQ2",
+              "x": 656,
+              "y": 1008,
+              "radius": 24
+            },
+            {
+              "name": "ball-4-4",
+              "kind": "ball",
+              "net": "DQ3",
+              "x": 816,
+              "y": 1008,
+              "radius": 24
+            },
+            {
+              "name": "ball-4-5",
+              "kind": "ball",
+              "net": "DQ4",
+              "x": 976,
+              "y": 1008,
+              "radius": 24
+            },
+            {
+              "name": "ball-4-6",
+              "kind": "ball",
+              "net": "DQ5",
+              "x": 1136,
+              "y": 1008,
+              "radius": 24
+            },
+            {
+              "name": "ball-4-7",
+              "kind": "ball",
+              "net": "DQ6",
+              "x": 1296,
+              "y": 1008,
+              "radius": 24
+            },
+            {
+              "name": "ball-4-8",
+              "kind": "ball",
+              "net": "DQ7",
+              "x": 1456,
+              "y": 1008,
+              "radius": 24
+            }
+          ],
+          "vias": [
+            {
+              "id": "via-DQ8",
+              "net": "",
+              "x": 336,
+              "y": 64,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ9",
+              "net": "",
+              "x": 496,
+              "y": 64,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ10",
+              "net": "",
+              "x": 656,
+              "y": 64,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ11",
+              "net": "",
+              "x": 816,
+              "y": 64,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ12",
+              "net": "",
+              "x": 976,
+              "y": 64,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ13",
+              "net": "",
+              "x": 1136,
+              "y": 64,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ14",
+              "net": "",
+              "x": 1296,
+              "y": 64,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ15",
+              "net": "",
+              "x": 1456,
+              "y": 64,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ0",
+              "net": "",
+              "x": 336,
+              "y": 1472,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ1",
+              "net": "",
+              "x": 496,
+              "y": 1472,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ2",
+              "net": "",
+              "x": 656,
+              "y": 1472,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ3",
+              "net": "",
+              "x": 816,
+              "y": 1472,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ4",
+              "net": "",
+              "x": 976,
+              "y": 1472,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ5",
+              "net": "",
+              "x": 1136,
+              "y": 1472,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ6",
+              "net": "",
+              "x": 1296,
+              "y": 1472,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ7",
+              "net": "",
+              "x": 1456,
+              "y": 1472,
+              "radius": 4
+            },
+            {
+              "id": "via-VSS-00",
+              "net": "",
+              "x": 786,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VSS-01",
+              "net": "",
+              "x": 796,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VSS-02",
+              "net": "",
+              "x": 806,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VSS-03",
+              "net": "",
+              "x": 816,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VSS-04",
+              "net": "",
+              "x": 826,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VSS-05",
+              "net": "",
+              "x": 786,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VSS-06",
+              "net": "",
+              "x": 796,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VSS-07",
+              "net": "",
+              "x": 806,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VSS-08",
+              "net": "",
+              "x": 816,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VSS-09",
+              "net": "",
+              "x": 826,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VSS-10",
+              "net": "",
+              "x": 786,
+              "y": 782,
+              "radius": 3
+            },
+            {
+              "id": "via-VSS-11",
+              "net": "",
+              "x": 796,
+              "y": 782,
+              "radius": 3
+            },
+            {
+              "id": "via-VSS-12",
+              "net": "",
+              "x": 806,
+              "y": 782,
+              "radius": 3
+            },
+            {
+              "id": "via-VSS-13",
+              "net": "",
+              "x": 816,
+              "y": 782,
+              "radius": 3
+            },
+            {
+              "id": "via-VSS-14",
+              "net": "",
+              "x": 826,
+              "y": 782,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-00",
+              "net": "",
+              "x": 862,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-01",
+              "net": "",
+              "x": 872,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-02",
+              "net": "",
+              "x": 882,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-03",
+              "net": "",
+              "x": 892,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-04",
+              "net": "",
+              "x": 902,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-05",
+              "net": "",
+              "x": 862,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-06",
+              "net": "",
+              "x": 872,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-07",
+              "net": "",
+              "x": 882,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-08",
+              "net": "",
+              "x": 892,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-09",
+              "net": "",
+              "x": 902,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-10",
+              "net": "",
+              "x": 862,
+              "y": 782,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-11",
+              "net": "",
+              "x": 872,
+              "y": 782,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-12",
+              "net": "",
+              "x": 882,
+              "y": 782,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-13",
+              "net": "",
+              "x": 892,
+              "y": 782,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-14",
+              "net": "",
+              "x": 902,
+              "y": 782,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-00",
+              "net": "",
+              "x": 942,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-01",
+              "net": "",
+              "x": 952,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-02",
+              "net": "",
+              "x": 962,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-03",
+              "net": "",
+              "x": 972,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-04",
+              "net": "",
+              "x": 982,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-05",
+              "net": "",
+              "x": 942,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-06",
+              "net": "",
+              "x": 952,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-07",
+              "net": "",
+              "x": 962,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-08",
+              "net": "",
+              "x": 972,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-09",
+              "net": "",
+              "x": 982,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-10",
+              "net": "",
+              "x": 942,
+              "y": 782,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-11",
+              "net": "",
+              "x": 952,
+              "y": 782,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-12",
+              "net": "",
+              "x": 962,
+              "y": 782,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-13",
+              "net": "",
+              "x": 972,
+              "y": 782,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-14",
+              "net": "",
+              "x": 982,
+              "y": 782,
+              "radius": 3
+            }
+          ]
+        },
+        {
+          "terminals": [
+            {
+              "name": "pad-1-01",
+              "kind": "pad",
+              "net": "",
+              "x": 800,
+              "y": 704,
+              "radius": 3
+            },
+            {
+              "name": "pad-1-02",
+              "kind": "pad",
+              "net": "",
+              "x": 816,
+              "y": 724,
+              "radius": 3
+            },
+            {
+              "name": "pad-1-03",
+              "kind": "pad",
+              "net": "",
+              "x": 832,
+              "y": 704,
+              "radius": 3
+            },
+            {
+              "name": "pad-1-04",
+              "kind": "pad",
+              "net": "",
+              "x": 848,
+              "y": 724,
+              "radius": 3
+            },
+            {
+              "name": "pad-1-05",
+              "kind": "pad",
+              "net": "",
+              "x": 864,
+              "y": 704,
+              "radius": 3
+            },
+            {
+              "name": "pad-1-06",
+              "kind": "pad",
+              "net": "",
+              "x": 880,
+              "y": 724,
+              "radius": 3
+            },
+            {
+              "name": "pad-1-07",
+              "kind": "pad",
+              "net": "",
+              "x": 896,
+              "y": 704,
+              "radius": 3
+            },
+            {
+              "name": "pad-1-08",
+              "kind": "pad",
+              "net": "",
+              "x": 912,
+              "y": 724,
+              "radius": 3
+            },
+            {
+              "name": "pad-1-09",
+              "kind": "pad",
+              "net": "",
+              "x": 928,
+              "y": 704,
+              "radius": 3
+            },
+            {
+              "name": "pad-1-10",
+              "kind": "pad",
+              "net": "",
+              "x": 944,
+              "y": 724,
+              "radius": 3
+            },
+            {
+              "name": "pad-1-11",
+              "kind": "pad",
+              "net": "",
+              "x": 960,
+              "y": 704,
+              "radius": 3
+            },
+            {
+              "name": "pad-2-01",
+              "kind": "pad",
+              "net": "",
+              "x": 800,
+              "y": 832,
+              "radius": 3
+            },
+            {
+              "name": "pad-2-02",
+              "kind": "pad",
+              "net": "",
+              "x": 816,
+              "y": 812,
+              "radius": 3
+            },
+            {
+              "name": "pad-2-03",
+              "kind": "pad",
+              "net": "",
+              "x": 832,
+              "y": 832,
+              "radius": 3
+            },
+            {
+              "name": "pad-2-04",
+              "kind": "pad",
+              "net": "",
+              "x": 848,
+              "y": 812,
+              "radius": 3
+            },
+            {
+              "name": "pad-2-05",
+              "kind": "pad",
+              "net": "",
+              "x": 864,
+              "y": 832,
+              "radius": 3
+            },
+            {
+              "name": "pad-2-06",
+              "kind": "pad",
+              "net": "",
+              "x": 880,
+              "y": 812,
+              "radius": 3
+            },
+            {
+              "name": "pad-2-07",
+              "kind": "pad",
+              "net": "",
+              "x": 896,
+              "y": 832,
+              "radius": 3
+            },
+            {
+              "name": "pad-2-08",
+              "kind": "pad",
+              "net": "",
+              "x": 912,
+              "y": 812,
+              "radius": 3
+            },
+            {
+              "name": "pad-2-09",
+              "kind": "pad",
+              "net": "",
+              "x": 928,
+              "y": 832,
+              "radius": 3
+            },
+            {
+              "name": "pad-2-10",
+              "kind": "pad",
+              "net": "",
+              "x": 944,
+              "y": 812,
+              "radius": 3
+            },
+            {
+              "name": "pad-2-11",
+              "kind": "pad",
+              "net": "",
+              "x": 960,
+              "y": 832,
+              "radius": 3
+            }
+          ],
+          "vias": [
+            {
+              "id": "via-DQ8",
+              "net": "",
+              "x": 336,
+              "y": 64,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ9",
+              "net": "",
+              "x": 496,
+              "y": 64,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ10",
+              "net": "",
+              "x": 656,
+              "y": 64,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ11",
+              "net": "",
+              "x": 816,
+              "y": 64,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ12",
+              "net": "",
+              "x": 976,
+              "y": 64,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ13",
+              "net": "",
+              "x": 1136,
+              "y": 64,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ14",
+              "net": "",
+              "x": 1296,
+              "y": 64,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ15",
+              "net": "",
+              "x": 1456,
+              "y": 64,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ0",
+              "net": "",
+              "x": 336,
+              "y": 1472,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ1",
+              "net": "",
+              "x": 496,
+              "y": 1472,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ2",
+              "net": "",
+              "x": 656,
+              "y": 1472,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ3",
+              "net": "",
+              "x": 816,
+              "y": 1472,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ4",
+              "net": "",
+              "x": 976,
+              "y": 1472,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ5",
+              "net": "",
+              "x": 1136,
+              "y": 1472,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ6",
+              "net": "",
+              "x": 1296,
+              "y": 1472,
+              "radius": 4
+            },
+            {
+              "id": "via-DQ7",
+              "net": "",
+              "x": 1456,
+              "y": 1472,
+              "radius": 4
+            },
+            {
+              "id": "via-VSS-00",
+              "net": "",
+              "x": 786,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VSS-01",
+              "net": "",
+              "x": 796,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VSS-02",
+              "net": "",
+              "x": 806,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VSS-03",
+              "net": "",
+              "x": 816,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VSS-04",
+              "net": "",
+              "x": 826,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VSS-05",
+              "net": "",
+              "x": 786,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VSS-06",
+              "net": "",
+              "x": 796,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VSS-07",
+              "net": "",
+              "x": 806,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VSS-08",
+              "net": "",
+              "x": 816,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VSS-09",
+              "net": "",
+              "x": 826,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VSS-10",
+              "net": "",
+              "x": 786,
+              "y": 782,
+              "radius": 3
+            },
+            {
+              "id": "via-VSS-11",
+              "net": "",
+              "x": 796,
+              "y": 782,
+              "radius": 3
+            },
+            {
+              "id": "via-VSS-12",
+              "net": "",
+              "x": 806,
+              "y": 782,
+              "radius": 3
+            },
+            {
+              "id": "via-VSS-13",
+              "net": "",
+              "x": 816,
+              "y": 782,
+              "radius": 3
+            },
+            {
+              "id": "via-VSS-14",
+              "net": "",
+              "x": 826,
+              "y": 782,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-00",
+              "net": "",
+              "x": 862,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-01",
+              "net": "",
+              "x": 872,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-02",
+              "net": "",
+              "x": 882,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-03",
+              "net": "",
+              "x": 892,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-04",
+              "net": "",
+              "x": 902,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-05",
+              "net": "",
+              "x": 862,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-06",
+              "net": "",
+              "x": 872,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-07",
+              "net": "",
+              "x": 882,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-08",
+              "net": "",
+              "x": 892,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-09",
+              "net": "",
+              "x": 902,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-10",
+              "net": "",
+              "x": 862,
+              "y": 782,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-11",
+              "net": "",
+              "x": 872,
+              "y": 782,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-12",
+              "net": "",
+              "x": 882,
+              "y": 782,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-13",
+              "net": "",
+              "x": 892,
+              "y": 782,
+              "radius": 3
+            },
+            {
+              "id": "via-VDDQ-14",
+              "net": "",
+              "x": 902,
+              "y": 782,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-00",
+              "net": "",
+              "x": 942,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-01",
+              "net": "",
+              "x": 952,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-02",
+              "net": "",
+              "x": 962,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-03",
+              "net": "",
+              "x": 972,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-04",
+              "net": "",
+              "x": 982,
+              "y": 746,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-05",
+              "net": "",
+              "x": 942,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-06",
+              "net": "",
+              "x": 952,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-07",
+              "net": "",
+              "x": 962,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-08",
+              "net": "",
+              "x": 972,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-09",
+              "net": "",
+              "x": 982,
+              "y": 764,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-10",
+              "net": "",
+              "x": 942,
+              "y": 782,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-11",
+              "net": "",
+              "x": 952,
+              "y": 782,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-12",
+              "net": "",
+              "x": 962,
+              "y": 782,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-13",
+              "net": "",
+              "x": 972,
+              "y": 782,
+              "radius": 3
+            },
+            {
+              "id": "via-VDD-14",
+              "net": "",
+              "x": 982,
+              "y": 782,
+              "radius": 3
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "baseline_sources": {
+    "baseline-repairs.py": "d9bd2566d9717d94260b04db2a6a42da6351bd3b78ae8252ec404b09f331e8b6",
+    "baseline-net_review.py": "c32e3e205958b145f1c48952df427ed6dcf4669dc700c724cc12432d532589c7",
+    "damage-baseline.json": "bdc09256a717dd60a6189e7baed230d6d0069b5da0361b6db1e07f51985faf0d",
+    "damage-baseline-replay.json": "bdc09256a717dd60a6189e7baed230d6d0069b5da0361b6db1e07f51985faf0d",
+    "replay_baseline.py": "0cca94ae8afc8df22bd80cd9147786f04a1f67ae6affcd3efba36f7ed95c2332"
+  },
+  "current_sources": {
+    "pkg_re/engine/repairs.py": "e26133fc85d579fe5f86e321f9114c96bf097e2b7841d4f38f4564d389abaa46",
+    "pkg_re/engine/continuity.py": "8d81cb2a1fd3ced852a9a7301174fb897c6a78771c482e6f2dcaeac8e6181172",
+    "pkg_re/die_benchmark.py": "02b1b7c6ec2968ad9536738443eec2f15655e69cfd47ea98faf235fc64b1ea91",
+    "pkg_re/net_review.py": "14905c6c334174565a295c2e313b2df8e3293b2ac803dcc1d2a55ef301ad6774",
+    "pkg_re/die_fixture.py": "8f9e895e639717af77f129e98479b30b6493e70d3a4346f9312481123acc9bf2",
+    "pkg_re/die_render.py": "e5ef45e7596dec141bd42662fd25f8f70ea790122c20b804691889f78cd6c7f7",
+    "pkg_re/bga_render.py": "03f6816c0b1b42c3c47946524a05fa8450f30abd41f521b7ed64ba8e6bb2b2d9"
+  }
+}

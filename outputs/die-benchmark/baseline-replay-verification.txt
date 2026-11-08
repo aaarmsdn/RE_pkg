@@ -1,0 +1,3 @@
+Invocation: PYTHONPATH=. uv run python .omo/evidence/dense-die/replay_baseline.py
+Observable: parsed JSON exactly equals .omo/evidence/dense-die/damage-baseline.json
+Result: PASS

@@ -1,0 +1,3044 @@
+{
+  "layouts": [
+    {
+      "layout": "weave16",
+      "plane_layers": [
+        {
+          "layer": "L1",
+          "plane_area_px": 2436704,
+          "nonplane_area_px": 47165,
+          "available_area_px": 2705347,
+          "coverage_fraction": 0.9006992448658158,
+          "net_plane_area_px": {
+            "VSS": 1172886,
+            "VDDQ": 642829,
+            "VDD": 620989
+          },
+          "net_plane_share": {
+            "VSS": 0.48134118875333237,
+            "VDDQ": 0.263810869108435,
+            "VDD": 0.25484794213823264
+          }
+        },
+        {
+          "layer": "L2",
+          "plane_area_px": 2459777,
+          "nonplane_area_px": 21774,
+          "available_area_px": 2730738,
+          "coverage_fraction": 0.9007737102570806,
+          "net_plane_area_px": {
+            "VSS": 1194337,
+            "VDDQ": 619442,
+            "VDD": 645998
+          },
+          "net_plane_share": {
+            "VSS": 0.4855468605487408,
+            "VDDQ": 0.2518285194145648,
+            "VDD": 0.2626246200366944
+          }
+        }
+      ],
+      "signal_count": 16,
+      "ball_count": 31,
+      "pad_count": 19,
+      "pad_width_px": 4,
+      "pad_height_px": 8,
+      "pad_pitch_px": 10,
+      "trace_width_px": 3,
+      "minimum_gap_px": 2,
+      "pad_bounds": [
+        864,
+        576,
+        928,
+        884
+      ],
+      "mapping": [
+        {
+          "net": "DQ7",
+          "ball": "ball-DQ7",
+          "ball_x": 128,
+          "ball_y": 128,
+          "pad": "pad-000",
+          "pad_x": 866,
+          "pad_y": 610
+        },
+        {
+          "net": "DQ4",
+          "ball": "ball-DQ4",
+          "ball_x": 320,
+          "ball_y": 192,
+          "pad": "pad-001",
+          "pad_x": 866,
+          "pad_y": 620
+        },
+        {
+          "net": "DQ1",
+          "ball": "ball-DQ1",
+          "ball_x": 192,
+          "ball_y": 256,
+          "pad": "pad-002",
+          "pad_x": 866,
+          "pad_y": 630
+        },
+        {
+          "net": "DQ14",
+          "ball": "ball-DQ14",
+          "ball_x": 384,
+          "ball_y": 320,
+          "pad": "pad-003",
+          "pad_x": 866,
+          "pad_y": 640
+        },
+        {
+          "net": "DQ11",
+          "ball": "ball-DQ11",
+          "ball_x": 1600,
+          "ball_y": 128,
+          "pad": "pad-004",
+          "pad_x": 926,
+          "pad_y": 580
+        },
+        {
+          "net": "DQ8",
+          "ball": "ball-DQ8",
+          "ball_x": 1408,
+          "ball_y": 192,
+          "pad": "pad-005",
+          "pad_x": 926,
+          "pad_y": 590
+        },
+        {
+          "net": "DQ5",
+          "ball": "ball-DQ5",
+          "ball_x": 1536,
+          "ball_y": 256,
+          "pad": "pad-006",
+          "pad_x": 926,
+          "pad_y": 600
+        },
+        {
+          "net": "DQ2",
+          "ball": "ball-DQ2",
+          "ball_x": 1664,
+          "ball_y": 320,
+          "pad": "pad-007",
+          "pad_x": 926,
+          "pad_y": 610
+        },
+        {
+          "net": "DQ15",
+          "ball": "ball-DQ15",
+          "ball_x": 256,
+          "ball_y": 960,
+          "pad": "pad-008",
+          "pad_x": 866,
+          "pad_y": 850
+        },
+        {
+          "net": "DQ12",
+          "ball": "ball-DQ12",
+          "ball_x": 128,
+          "ball_y": 1024,
+          "pad": "pad-009",
+          "pad_x": 866,
+          "pad_y": 860
+        },
+        {
+          "net": "DQ9",
+          "ball": "ball-DQ9",
+          "ball_x": 320,
+          "ball_y": 1088,
+          "pad": "pad-010",
+          "pad_x": 866,
+          "pad_y": 870
+        },
+        {
+          "net": "DQ6",
+          "ball": "ball-DQ6",
+          "ball_x": 192,
+          "ball_y": 1152,
+          "pad": "pad-011",
+          "pad_x": 866,
+          "pad_y": 880
+        },
+        {
+          "net": "DQ3",
+          "ball": "ball-DQ3",
+          "ball_x": 1472,
+          "ball_y": 960,
+          "pad": "pad-012",
+          "pad_x": 926,
+          "pad_y": 820
+        },
+        {
+          "net": "DQ0",
+          "ball": "ball-DQ0",
+          "ball_x": 1600,
+          "ball_y": 1024,
+          "pad": "pad-013",
+          "pad_x": 926,
+          "pad_y": 830
+        },
+        {
+          "net": "DQ13",
+          "ball": "ball-DQ13",
+          "ball_x": 1408,
+          "ball_y": 1088,
+          "pad": "pad-014",
+          "pad_x": 926,
+          "pad_y": 840
+        },
+        {
+          "net": "DQ10",
+          "ball": "ball-DQ10",
+          "ball_x": 1536,
+          "ball_y": 1152,
+          "pad": "pad-015",
+          "pad_x": 926,
+          "pad_y": 850
+        },
+        {
+          "net": "VSS",
+          "ball": "ball-VSS-0",
+          "ball_x": 192,
+          "ball_y": 704,
+          "pad": "pad-016",
+          "pad_x": 896,
+          "pad_y": 704
+        },
+        {
+          "net": "VSS",
+          "ball": "ball-VSS-1",
+          "ball_x": 384,
+          "ball_y": 704,
+          "pad": "pad-016",
+          "pad_x": 896,
+          "pad_y": 704
+        },
+        {
+          "net": "VSS",
+          "ball": "ball-VSS-2",
+          "ball_x": 576,
+          "ball_y": 704,
+          "pad": "pad-016",
+          "pad_x": 896,
+          "pad_y": 704
+        },
+        {
+          "net": "VSS",
+          "ball": "ball-VSS-3",
+          "ball_x": 768,
+          "ball_y": 704,
+          "pad": "pad-016",
+          "pad_x": 896,
+          "pad_y": 704
+        },
+        {
+          "net": "VSS",
+          "ball": "ball-VSS-outer",
+          "ball_x": 64,
+          "ball_y": 320,
+          "pad": "pad-016",
+          "pad_x": 896,
+          "pad_y": 704
+        },
+        {
+          "net": "VDDQ",
+          "ball": "ball-VDDQ-0",
+          "ball_x": 192,
+          "ball_y": 768,
+          "pad": "pad-017",
+          "pad_x": 896,
+          "pad_y": 768
+        },
+        {
+          "net": "VDDQ",
+          "ball": "ball-VDDQ-1",
+          "ball_x": 384,
+          "ball_y": 768,
+          "pad": "pad-017",
+          "pad_x": 896,
+          "pad_y": 768
+        },
+        {
+          "net": "VDDQ",
+          "ball": "ball-VDDQ-2",
+          "ball_x": 576,
+          "ball_y": 768,
+          "pad": "pad-017",
+          "pad_x": 896,
+          "pad_y": 768
+        },
+        {
+          "net": "VDDQ",
+          "ball": "ball-VDDQ-3",
+          "ball_x": 768,
+          "ball_y": 768,
+          "pad": "pad-017",
+          "pad_x": 896,
+          "pad_y": 768
+        },
+        {
+          "net": "VDDQ",
+          "ball": "ball-VDDQ-outer",
+          "ball_x": 1728,
+          "ball_y": 384,
+          "pad": "pad-017",
+          "pad_x": 896,
+          "pad_y": 768
+        },
+        {
+          "net": "VDD",
+          "ball": "ball-VDD-0",
+          "ball_x": 192,
+          "ball_y": 832,
+          "pad": "pad-018",
+          "pad_x": 896,
+          "pad_y": 832
+        },
+        {
+          "net": "VDD",
+          "ball": "ball-VDD-1",
+          "ball_x": 384,
+          "ball_y": 832,
+          "pad": "pad-018",
+          "pad_x": 896,
+          "pad_y": 832
+        },
+        {
+          "net": "VDD",
+          "ball": "ball-VDD-2",
+          "ball_x": 576,
+          "ball_y": 832,
+          "pad": "pad-018",
+          "pad_x": 896,
+          "pad_y": 832
+        },
+        {
+          "net": "VDD",
+          "ball": "ball-VDD-3",
+          "ball_x": 768,
+          "ball_y": 832,
+          "pad": "pad-018",
+          "pad_x": 896,
+          "pad_y": 832
+        },
+        {
+          "net": "VDD",
+          "ball": "ball-VDD-outer",
+          "ball_x": 64,
+          "ball_y": 1152,
+          "pad": "pad-018",
+          "pad_x": 896,
+          "pad_y": 832
+        }
+      ],
+      "mapping_order_inversions": 18,
+      "minimum_signal_bends": 13,
+      "signal_route_lengths_px": {
+        "DQ7": 1364,
+        "DQ4": 1118,
+        "DQ1": 1192,
+        "DQ14": 950,
+        "DQ11": 1270,
+        "DQ8": 1024,
+        "DQ5": 1098,
+        "DQ2": 1180,
+        "DQ15": 960,
+        "DQ12": 1094,
+        "DQ9": 930,
+        "DQ6": 1100,
+        "DQ3": 900,
+        "DQ0": 1048,
+        "DQ13": 890,
+        "DQ10": 1064
+      },
+      "image_width_px": 1792,
+      "image_height_px": 1536,
+      "mm_per_pixel": 0.078125
+    },
+    {
+      "layout": "weave32",
+      "plane_layers": [
+        {
+          "layer": "L1",
+          "plane_area_px": 2402791,
+          "nonplane_area_px": 84269,
+          "available_area_px": 2668243,
+          "coverage_fraction": 0.9005143084794001,
+          "net_plane_area_px": {
+            "VSS": 1149141,
+            "VDDQ": 642244,
+            "VDD": 611406
+          },
+          "net_plane_share": {
+            "VSS": 0.4782525821013979,
+            "VDDQ": 0.26729082970595447,
+            "VDD": 0.25445658819264766
+          }
+        },
+        {
+          "layer": "L2",
+          "plane_area_px": 2435054,
+          "nonplane_area_px": 43799,
+          "available_area_px": 2708713,
+          "coverage_fraction": 0.8989708396570623,
+          "net_plane_area_px": {
+            "VSS": 1193442,
+            "VDDQ": 614729,
+            "VDD": 626883
+          },
+          "net_plane_share": {
+            "VSS": 0.49010904891636903,
+            "VDDQ": 0.2524498430014283,
+            "VDD": 0.2574411080822027
+          }
+        }
+      ],
+      "signal_count": 32,
+      "ball_count": 47,
+      "pad_count": 35,
+      "pad_width_px": 4,
+      "pad_height_px": 8,
+      "pad_pitch_px": 10,
+      "trace_width_px": 3,
+      "minimum_gap_px": 2,
+      "pad_bounds": [
+        864,
+        576,
+        928,
+        924
+      ],
+      "mapping": [
+        {
+          "net": "DQ7",
+          "ball": "ball-DQ7",
+          "ball_x": 128,
+          "ball_y": 128,
+          "pad": "pad-000",
+          "pad_x": 866,
+          "pad_y": 620
+        },
+        {
+          "net": "DQ20",
+          "ball": "ball-DQ20",
+          "ball_x": 320,
+          "ball_y": 192,
+          "pad": "pad-001",
+          "pad_x": 866,
+          "pad_y": 610
+        },
+        {
+          "net": "DQ1",
+          "ball": "ball-DQ1",
+          "ball_x": 192,
+          "ball_y": 256,
+          "pad": "pad-002",
+          "pad_x": 866,
+          "pad_y": 640
+        },
+        {
+          "net": "DQ14",
+          "ball": "ball-DQ14",
+          "ball_x": 384,
+          "ball_y": 320,
+          "pad": "pad-003",
+          "pad_x": 866,
+          "pad_y": 630
+        },
+        {
+          "net": "DQ27",
+          "ball": "ball-DQ27",
+          "ball_x": 128,
+          "ball_y": 384,
+          "pad": "pad-004",
+          "pad_x": 866,
+          "pad_y": 660
+        },
+        {
+          "net": "DQ8",
+          "ball": "ball-DQ8",
+          "ball_x": 320,
+          "ball_y": 448,
+          "pad": "pad-005",
+          "pad_x": 866,
+          "pad_y": 650
+        },
+        {
+          "net": "DQ21",
+          "ball": "ball-DQ21",
+          "ball_x": 192,
+          "ball_y": 512,
+          "pad": "pad-006",
+          "pad_x": 866,
+          "pad_y": 680
+        },
+        {
+          "net": "DQ2",
+          "ball": "ball-DQ2",
+          "ball_x": 384,
+          "ball_y": 576,
+          "pad": "pad-007",
+          "pad_x": 866,
+          "pad_y": 670
+        },
+        {
+          "net": "DQ15",
+          "ball": "ball-DQ15",
+          "ball_x": 1664,
+          "ball_y": 128,
+          "pad": "pad-008",
+          "pad_x": 926,
+          "pad_y": 590
+        },
+        {
+          "net": "DQ28",
+          "ball": "ball-DQ28",
+          "ball_x": 1472,
+          "ball_y": 192,
+          "pad": "pad-009",
+          "pad_x": 926,
+          "pad_y": 580
+        },
+        {
+          "net": "DQ9",
+          "ball": "ball-DQ9",
+          "ball_x": 1600,
+          "ball_y": 256,
+          "pad": "pad-010",
+          "pad_x": 926,
+          "pad_y": 610
+        },
+        {
+          "net": "DQ22",
+          "ball": "ball-DQ22",
+          "ball_x": 1408,
+          "ball_y": 320,
+          "pad": "pad-011",
+          "pad_x": 926,
+          "pad_y": 600
+        },
+        {
+          "net": "DQ3",
+          "ball": "ball-DQ3",
+          "ball_x": 1664,
+          "ball_y": 384,
+          "pad": "pad-012",
+          "pad_x": 926,
+          "pad_y": 630
+        },
+        {
+          "net": "DQ16",
+          "ball": "ball-DQ16",
+          "ball_x": 1472,
+          "ball_y": 448,
+          "pad": "pad-013",
+          "pad_x": 926,
+          "pad_y": 620
+        },
+        {
+          "net": "DQ29",
+          "ball": "ball-DQ29",
+          "ball_x": 1600,
+          "ball_y": 512,
+          "pad": "pad-014",
+          "pad_x": 926,
+          "pad_y": 650
+        },
+        {
+          "net": "DQ10",
+          "ball": "ball-DQ10",
+          "ball_x": 1408,
+          "ball_y": 576,
+          "pad": "pad-015",
+          "pad_x": 926,
+          "pad_y": 640
+        },
+        {
+          "net": "DQ23",
+          "ball": "ball-DQ23",
+          "ball_x": 128,
+          "ball_y": 960,
+          "pad": "pad-016",
+          "pad_x": 866,
+          "pad_y": 860
+        },
+        {
+          "net": "DQ4",
+          "ball": "ball-DQ4",
+          "ball_x": 320,
+          "ball_y": 1024,
+          "pad": "pad-017",
+          "pad_x": 866,
+          "pad_y": 850
+        },
+        {
+          "net": "DQ17",
+          "ball": "ball-DQ17",
+          "ball_x": 192,
+          "ball_y": 1088,
+          "pad": "pad-018",
+          "pad_x": 866,
+          "pad_y": 880
+        },
+        {
+          "net": "DQ30",
+          "ball": "ball-DQ30",
+          "ball_x": 384,
+          "ball_y": 1152,
+          "pad": "pad-019",
+          "pad_x": 866,
+          "pad_y": 870
+        },
+        {
+          "net": "DQ11",
+          "ball": "ball-DQ11",
+          "ball_x": 128,
+          "ball_y": 1216,
+          "pad": "pad-020",
+          "pad_x": 866,
+          "pad_y": 900
+        },
+        {
+          "net": "DQ24",
+          "ball": "ball-DQ24",
+          "ball_x": 320,
+          "ball_y": 1280,
+          "pad": "pad-021",
+          "pad_x": 866,
+          "pad_y": 890
+        },
+        {
+          "net": "DQ5",
+          "ball": "ball-DQ5",
+          "ball_x": 192,
+          "ball_y": 1344,
+          "pad": "pad-022",
+          "pad_x": 866,
+          "pad_y": 920
+        },
+        {
+          "net": "DQ18",
+          "ball": "ball-DQ18",
+          "ball_x": 384,
+          "ball_y": 1408,
+          "pad": "pad-023",
+          "pad_x": 866,
+          "pad_y": 910
+        },
+        {
+          "net": "DQ31",
+          "ball": "ball-DQ31",
+          "ball_x": 1664,
+          "ball_y": 960,
+          "pad": "pad-024",
+          "pad_x": 926,
+          "pad_y": 830
+        },
+        {
+          "net": "DQ12",
+          "ball": "ball-DQ12",
+          "ball_x": 1472,
+          "ball_y": 1024,
+          "pad": "pad-025",
+          "pad_x": 926,
+          "pad_y": 820
+        },
+        {
+          "net": "DQ25",
+          "ball": "ball-DQ25",
+          "ball_x": 1600,
+          "ball_y": 1088,
+          "pad": "pad-026",
+          "pad_x": 926,
+          "pad_y": 850
+        },
+        {
+          "net": "DQ6",
+          "ball": "ball-DQ6",
+          "ball_x": 1408,
+          "ball_y": 1152,
+          "pad": "pad-027",
+          "pad_x": 926,
+          "pad_y": 840
+        },
+        {
+          "net": "DQ19",
+          "ball": "ball-DQ19",
+          "ball_x": 1664,
+          "ball_y": 1216,
+          "pad": "pad-028",
+          "pad_x": 926,
+          "pad_y": 870
+        },
+        {
+          "net": "DQ0",
+          "ball": "ball-DQ0",
+          "ball_x": 1472,
+          "ball_y": 1280,
+          "pad": "pad-029",
+          "pad_x": 926,
+          "pad_y": 860
+        },
+        {
+          "net": "DQ13",
+          "ball": "ball-DQ13",
+          "ball_x": 1600,
+          "ball_y": 1344,
+          "pad": "pad-030",
+          "pad_x": 926,
+          "pad_y": 890
+        },
+        {
+          "net": "DQ26",
+          "ball": "ball-DQ26",
+          "ball_x": 1408,
+          "ball_y": 1408,
+          "pad": "pad-031",
+          "pad_x": 926,
+          "pad_y": 880
+        },
+        {
+          "net": "VSS",
+          "ball": "ball-VSS-0",
+          "ball_x": 192,
+          "ball_y": 704,
+          "pad": "pad-032",
+          "pad_x": 896,
+          "pad_y": 704
+        },
+        {
+          "net": "VSS",
+          "ball": "ball-VSS-1",
+          "ball_x": 384,
+          "ball_y": 704,
+          "pad": "pad-032",
+          "pad_x": 896,
+          "pad_y": 704
+        },
+        {
+          "net": "VSS",
+          "ball": "ball-VSS-2",
+          "ball_x": 576,
+          "ball_y": 704,
+          "pad": "pad-032",
+          "pad_x": 896,
+          "pad_y": 704
+        },
+        {
+          "net": "VSS",
+          "ball": "ball-VSS-3",
+          "ball_x": 768,
+          "ball_y": 704,
+          "pad": "pad-032",
+          "pad_x": 896,
+          "pad_y": 704
+        },
+        {
+          "net": "VSS",
+          "ball": "ball-VSS-outer",
+          "ball_x": 64,
+          "ball_y": 320,
+          "pad": "pad-032",
+          "pad_x": 896,
+          "pad_y": 704
+        },
+        {
+          "net": "VDDQ",
+          "ball": "ball-VDDQ-0",
+          "ball_x": 192,
+          "ball_y": 768,
+          "pad": "pad-033",
+          "pad_x": 896,
+          "pad_y": 768
+        },
+        {
+          "net": "VDDQ",
+          "ball": "ball-VDDQ-1",
+          "ball_x": 384,
+          "ball_y": 768,
+          "pad": "pad-033",
+          "pad_x": 896,
+          "pad_y": 768
+        },
+        {
+          "net": "VDDQ",
+          "ball": "ball-VDDQ-2",
+          "ball_x": 576,
+          "ball_y": 768,
+          "pad": "pad-033",
+          "pad_x": 896,
+          "pad_y": 768
+        },
+        {
+          "net": "VDDQ",
+          "ball": "ball-VDDQ-3",
+          "ball_x": 768,
+          "ball_y": 768,
+          "pad": "pad-033",
+          "pad_x": 896,
+          "pad_y": 768
+        },
+        {
+          "net": "VDDQ",
+          "ball": "ball-VDDQ-outer",
+          "ball_x": 1728,
+          "ball_y": 384,
+          "pad": "pad-033",
+          "pad_x": 896,
+          "pad_y": 768
+        },
+        {
+          "net": "VDD",
+          "ball": "ball-VDD-0",
+          "ball_x": 192,
+          "ball_y": 832,
+          "pad": "pad-034",
+          "pad_x": 896,
+          "pad_y": 832
+        },
+        {
+          "net": "VDD",
+          "ball": "ball-VDD-1",
+          "ball_x": 384,
+          "ball_y": 832,
+          "pad": "pad-034",
+          "pad_x": 896,
+          "pad_y": 832
+        },
+        {
+          "net": "VDD",
+          "ball": "ball-VDD-2",
+          "ball_x": 576,
+          "ball_y": 832,
+          "pad": "pad-034",
+          "pad_x": 896,
+          "pad_y": 832
+        },
+        {
+          "net": "VDD",
+          "ball": "ball-VDD-3",
+          "ball_x": 768,
+          "ball_y": 832,
+          "pad": "pad-034",
+          "pad_x": 896,
+          "pad_y": 832
+        },
+        {
+          "net": "VDD",
+          "ball": "ball-VDD-outer",
+          "ball_x": 64,
+          "ball_y": 1152,
+          "pad": "pad-034",
+          "pad_x": 896,
+          "pad_y": 832
+        }
+      ],
+      "mapping_order_inversions": 58,
+      "minimum_signal_bends": 14,
+      "signal_route_lengths_px": {
+        "DQ7": 1308,
+        "DQ20": 1176,
+        "DQ1": 1140,
+        "DQ14": 1004,
+        "DQ27": 1116,
+        "DQ8": 970,
+        "DQ21": 1020,
+        "DQ2": 838,
+        "DQ15": 1278,
+        "DQ28": 1146,
+        "DQ9": 1114,
+        "DQ22": 974,
+        "DQ3": 1100,
+        "DQ16": 946,
+        "DQ29": 1016,
+        "DQ10": 836,
+        "DQ23": 1092,
+        "DQ4": 900,
+        "DQ17": 1098,
+        "DQ30": 870,
+        "DQ11": 1262,
+        "DQ24": 1024,
+        "DQ5": 1304,
+        "DQ18": 1064,
+        "DQ31": 1110,
+        "DQ12": 904,
+        "DQ25": 1126,
+        "DQ6": 894,
+        "DQ19": 1290,
+        "DQ0": 1054,
+        "DQ13": 1334,
+        "DQ26": 1094
+      },
+      "image_width_px": 1792,
+      "image_height_px": 1536,
+      "mm_per_pixel": 0.078125
+    },
+    {
+      "layout": "micro32",
+      "plane_layers": [
+        {
+          "layer": "L1",
+          "plane_area_px": 2426632,
+          "nonplane_area_px": 53421,
+          "available_area_px": 2699091,
+          "coverage_fraction": 0.8990552745350194,
+          "net_plane_area_px": {
+            "VSS": 1161453,
+            "VDDQ": 647486,
+            "VDD": 617693
+          },
+          "net_plane_share": {
+            "VSS": 0.4786275792950888,
+            "VDDQ": 0.26682496563137714,
+            "VDD": 0.254547455073534
+          }
+        },
+        {
+          "layer": "L2",
+          "plane_area_px": 2461287,
+          "nonplane_area_px": 21226,
+          "available_area_px": 2731286,
+          "coverage_fraction": 0.9011458338672699,
+          "net_plane_area_px": {
+            "VSS": 1206130,
+            "VDDQ": 623137,
+            "VDD": 632020
+          },
+          "net_plane_share": {
+            "VSS": 0.4900403731868734,
+            "VDDQ": 0.2531752696861439,
+            "VDD": 0.2567843571269828
+          }
+        }
+      ],
+      "signal_count": 32,
+      "ball_count": 47,
+      "pad_count": 35,
+      "pad_width_px": 2,
+      "pad_height_px": 4,
+      "pad_pitch_px": 6,
+      "trace_width_px": 1,
+      "minimum_gap_px": 2,
+      "pad_bounds": [
+        865,
+        578,
+        927,
+        894
+      ],
+      "mapping": [
+        {
+          "net": "DQ7",
+          "ball": "ball-DQ7",
+          "ball_x": 128,
+          "ball_y": 128,
+          "pad": "pad-000",
+          "pad_x": 866,
+          "pad_y": 616
+        },
+        {
+          "net": "DQ20",
+          "ball": "ball-DQ20",
+          "ball_x": 320,
+          "ball_y": 192,
+          "pad": "pad-001",
+          "pad_x": 866,
+          "pad_y": 610
+        },
+        {
+          "net": "DQ1",
+          "ball": "ball-DQ1",
+          "ball_x": 192,
+          "ball_y": 256,
+          "pad": "pad-002",
+          "pad_x": 866,
+          "pad_y": 628
+        },
+        {
+          "net": "DQ14",
+          "ball": "ball-DQ14",
+          "ball_x": 384,
+          "ball_y": 320,
+          "pad": "pad-003",
+          "pad_x": 866,
+          "pad_y": 622
+        },
+        {
+          "net": "DQ27",
+          "ball": "ball-DQ27",
+          "ball_x": 128,
+          "ball_y": 384,
+          "pad": "pad-004",
+          "pad_x": 866,
+          "pad_y": 640
+        },
+        {
+          "net": "DQ8",
+          "ball": "ball-DQ8",
+          "ball_x": 320,
+          "ball_y": 448,
+          "pad": "pad-005",
+          "pad_x": 866,
+          "pad_y": 634
+        },
+        {
+          "net": "DQ21",
+          "ball": "ball-DQ21",
+          "ball_x": 192,
+          "ball_y": 512,
+          "pad": "pad-006",
+          "pad_x": 866,
+          "pad_y": 652
+        },
+        {
+          "net": "DQ2",
+          "ball": "ball-DQ2",
+          "ball_x": 384,
+          "ball_y": 576,
+          "pad": "pad-007",
+          "pad_x": 866,
+          "pad_y": 646
+        },
+        {
+          "net": "DQ15",
+          "ball": "ball-DQ15",
+          "ball_x": 1664,
+          "ball_y": 128,
+          "pad": "pad-008",
+          "pad_x": 926,
+          "pad_y": 586
+        },
+        {
+          "net": "DQ28",
+          "ball": "ball-DQ28",
+          "ball_x": 1472,
+          "ball_y": 192,
+          "pad": "pad-009",
+          "pad_x": 926,
+          "pad_y": 580
+        },
+        {
+          "net": "DQ9",
+          "ball": "ball-DQ9",
+          "ball_x": 1600,
+          "ball_y": 256,
+          "pad": "pad-010",
+          "pad_x": 926,
+          "pad_y": 598
+        },
+        {
+          "net": "DQ22",
+          "ball": "ball-DQ22",
+          "ball_x": 1408,
+          "ball_y": 320,
+          "pad": "pad-011",
+          "pad_x": 926,
+          "pad_y": 592
+        },
+        {
+          "net": "DQ3",
+          "ball": "ball-DQ3",
+          "ball_x": 1664,
+          "ball_y": 384,
+          "pad": "pad-012",
+          "pad_x": 926,
+          "pad_y": 610
+        },
+        {
+          "net": "DQ16",
+          "ball": "ball-DQ16",
+          "ball_x": 1472,
+          "ball_y": 448,
+          "pad": "pad-013",
+          "pad_x": 926,
+          "pad_y": 604
+        },
+        {
+          "net": "DQ29",
+          "ball": "ball-DQ29",
+          "ball_x": 1600,
+          "ball_y": 512,
+          "pad": "pad-014",
+          "pad_x": 926,
+          "pad_y": 622
+        },
+        {
+          "net": "DQ10",
+          "ball": "ball-DQ10",
+          "ball_x": 1408,
+          "ball_y": 576,
+          "pad": "pad-015",
+          "pad_x": 926,
+          "pad_y": 616
+        },
+        {
+          "net": "DQ23",
+          "ball": "ball-DQ23",
+          "ball_x": 128,
+          "ball_y": 960,
+          "pad": "pad-016",
+          "pad_x": 866,
+          "pad_y": 856
+        },
+        {
+          "net": "DQ4",
+          "ball": "ball-DQ4",
+          "ball_x": 320,
+          "ball_y": 1024,
+          "pad": "pad-017",
+          "pad_x": 866,
+          "pad_y": 850
+        },
+        {
+          "net": "DQ17",
+          "ball": "ball-DQ17",
+          "ball_x": 192,
+          "ball_y": 1088,
+          "pad": "pad-018",
+          "pad_x": 866,
+          "pad_y": 868
+        },
+        {
+          "net": "DQ30",
+          "ball": "ball-DQ30",
+          "ball_x": 384,
+          "ball_y": 1152,
+          "pad": "pad-019",
+          "pad_x": 866,
+          "pad_y": 862
+        },
+        {
+          "net": "DQ11",
+          "ball": "ball-DQ11",
+          "ball_x": 128,
+          "ball_y": 1216,
+          "pad": "pad-020",
+          "pad_x": 866,
+          "pad_y": 880
+        },
+        {
+          "net": "DQ24",
+          "ball": "ball-DQ24",
+          "ball_x": 320,
+          "ball_y": 1280,
+          "pad": "pad-021",
+          "pad_x": 866,
+          "pad_y": 874
+        },
+        {
+          "net": "DQ5",
+          "ball": "ball-DQ5",
+          "ball_x": 192,
+          "ball_y": 1344,
+          "pad": "pad-022",
+          "pad_x": 866,
+          "pad_y": 892
+        },
+        {
+          "net": "DQ18",
+          "ball": "ball-DQ18",
+          "ball_x": 384,
+          "ball_y": 1408,
+          "pad": "pad-023",
+          "pad_x": 866,
+          "pad_y": 886
+        },
+        {
+          "net": "DQ31",
+          "ball": "ball-DQ31",
+          "ball_x": 1664,
+          "ball_y": 960,
+          "pad": "pad-024",
+          "pad_x": 926,
+          "pad_y": 826
+        },
+        {
+          "net": "DQ12",
+          "ball": "ball-DQ12",
+          "ball_x": 1472,
+          "ball_y": 1024,
+          "pad": "pad-025",
+          "pad_x": 926,
+          "pad_y": 820
+        },
+        {
+          "net": "DQ25",
+          "ball": "ball-DQ25",
+          "ball_x": 1600,
+          "ball_y": 1088,
+          "pad": "pad-026",
+          "pad_x": 926,
+          "pad_y": 838
+        },
+        {
+          "net": "DQ6",
+          "ball": "ball-DQ6",
+          "ball_x": 1408,
+          "ball_y": 1152,
+          "pad": "pad-027",
+          "pad_x": 926,
+          "pad_y": 832
+        },
+        {
+          "net": "DQ19",
+          "ball": "ball-DQ19",
+          "ball_x": 1664,
+          "ball_y": 1216,
+          "pad": "pad-028",
+          "pad_x": 926,
+          "pad_y": 850
+        },
+        {
+          "net": "DQ0",
+          "ball": "ball-DQ0",
+          "ball_x": 1472,
+          "ball_y": 1280,
+          "pad": "pad-029",
+          "pad_x": 926,
+          "pad_y": 844
+        },
+        {
+          "net": "DQ13",
+          "ball": "ball-DQ13",
+          "ball_x": 1600,
+          "ball_y": 1344,
+          "pad": "pad-030",
+          "pad_x": 926,
+          "pad_y": 862
+        },
+        {
+          "net": "DQ26",
+          "ball": "ball-DQ26",
+          "ball_x": 1408,
+          "ball_y": 1408,
+          "pad": "pad-031",
+          "pad_x": 926,
+          "pad_y": 856
+        },
+        {
+          "net": "VSS",
+          "ball": "ball-VSS-0",
+          "ball_x": 192,
+          "ball_y": 704,
+          "pad": "pad-032",
+          "pad_x": 896,
+          "pad_y": 704
+        },
+        {
+          "net": "VSS",
+          "ball": "ball-VSS-1",
+          "ball_x": 384,
+          "ball_y": 704,
+          "pad": "pad-032",
+          "pad_x": 896,
+          "pad_y": 704
+        },
+        {
+          "net": "VSS",
+          "ball": "ball-VSS-2",
+          "ball_x": 576,
+          "ball_y": 704,
+          "pad": "pad-032",
+          "pad_x": 896,
+          "pad_y": 704
+        },
+        {
+          "net": "VSS",
+          "ball": "ball-VSS-3",
+          "ball_x": 768,
+          "ball_y": 704,
+          "pad": "pad-032",
+          "pad_x": 896,
+          "pad_y": 704
+        },
+        {
+          "net": "VSS",
+          "ball": "ball-VSS-outer",
+          "ball_x": 64,
+          "ball_y": 320,
+          "pad": "pad-032",
+          "pad_x": 896,
+          "pad_y": 704
+        },
+        {
+          "net": "VDDQ",
+          "ball": "ball-VDDQ-0",
+          "ball_x": 192,
+          "ball_y": 768,
+          "pad": "pad-033",
+          "pad_x": 896,
+          "pad_y": 768
+        },
+        {
+          "net": "VDDQ",
+          "ball": "ball-VDDQ-1",
+          "ball_x": 384,
+          "ball_y": 768,
+          "pad": "pad-033",
+          "pad_x": 896,
+          "pad_y": 768
+        },
+        {
+          "net": "VDDQ",
+          "ball": "ball-VDDQ-2",
+          "ball_x": 576,
+          "ball_y": 768,
+          "pad": "pad-033",
+          "pad_x": 896,
+          "pad_y": 768
+        },
+        {
+          "net": "VDDQ",
+          "ball": "ball-VDDQ-3",
+          "ball_x": 768,
+          "ball_y": 768,
+          "pad": "pad-033",
+          "pad_x": 896,
+          "pad_y": 768
+        },
+        {
+          "net": "VDDQ",
+          "ball": "ball-VDDQ-outer",
+          "ball_x": 1728,
+          "ball_y": 384,
+          "pad": "pad-033",
+          "pad_x": 896,
+          "pad_y": 768
+        },
+        {
+          "net": "VDD",
+          "ball": "ball-VDD-0",
+          "ball_x": 192,
+          "ball_y": 832,
+          "pad": "pad-034",
+          "pad_x": 896,
+          "pad_y": 832
+        },
+        {
+          "net": "VDD",
+          "ball": "ball-VDD-1",
+          "ball_x": 384,
+          "ball_y": 832,
+          "pad": "pad-034",
+          "pad_x": 896,
+          "pad_y": 832
+        },
+        {
+          "net": "VDD",
+          "ball": "ball-VDD-2",
+          "ball_x": 576,
+          "ball_y": 832,
+          "pad": "pad-034",
+          "pad_x": 896,
+          "pad_y": 832
+        },
+        {
+          "net": "VDD",
+          "ball": "ball-VDD-3",
+          "ball_x": 768,
+          "ball_y": 832,
+          "pad": "pad-034",
+          "pad_x": 896,
+          "pad_y": 832
+        },
+        {
+          "net": "VDD",
+          "ball": "ball-VDD-outer",
+          "ball_x": 64,
+          "ball_y": 1152,
+          "pad": "pad-034",
+          "pad_x": 896,
+          "pad_y": 832
+        }
+      ],
+      "mapping_order_inversions": 76,
+      "minimum_signal_bends": 14,
+      "signal_route_lengths_px": {
+        "DQ7": 1304,
+        "DQ20": 1176,
+        "DQ1": 1128,
+        "DQ14": 996,
+        "DQ27": 1104,
+        "DQ8": 956,
+        "DQ21": 1014,
+        "DQ2": 838,
+        "DQ15": 1274,
+        "DQ28": 1146,
+        "DQ9": 1104,
+        "DQ22": 968,
+        "DQ3": 1092,
+        "DQ16": 938,
+        "DQ29": 1010,
+        "DQ10": 834,
+        "DQ23": 1094,
+        "DQ4": 900,
+        "DQ17": 1110,
+        "DQ30": 876,
+        "DQ11": 1280,
+        "DQ24": 1040,
+        "DQ5": 1332,
+        "DQ18": 1088,
+        "DQ31": 1110,
+        "DQ12": 904,
+        "DQ25": 1136,
+        "DQ6": 900,
+        "DQ19": 1310,
+        "DQ0": 1068,
+        "DQ13": 1362,
+        "DQ26": 1118
+      },
+      "image_width_px": 1792,
+      "image_height_px": 1536,
+      "mm_per_pixel": 0.078125
+    }
+  ],
+  "damage_events": [
+    {
+      "file": "weave16-clean-L1.png",
+      "events": [],
+      "removed_px": 0,
+      "faded_gap_px": 0
+    },
+    {
+      "file": "weave16-clean-L2.png",
+      "events": [],
+      "removed_px": 0,
+      "faded_gap_px": 0
+    },
+    {
+      "file": "weave16-damaged-L1.png",
+      "events": [
+        {
+          "kind": "half_ball",
+          "bbox": [
+            1536,
+            240,
+            17,
+            33
+          ],
+          "removed_px": 415,
+          "note": "DQ5"
+        },
+        {
+          "kind": "missing_ball",
+          "bbox": [
+            1648,
+            304,
+            33,
+            33
+          ],
+          "removed_px": 797,
+          "note": "DQ2"
+        },
+        {
+          "kind": "missing_ball",
+          "bbox": [
+            176,
+            688,
+            33,
+            33
+          ],
+          "removed_px": 797,
+          "note": "VSS"
+        },
+        {
+          "kind": "half_ball",
+          "bbox": [
+            192,
+            752,
+            17,
+            33
+          ],
+          "removed_px": 415,
+          "note": "VDDQ"
+        },
+        {
+          "kind": "plane_scratch",
+          "bbox": [
+            787,
+            288,
+            200,
+            2
+          ],
+          "removed_px": 400,
+          "note": "VSS"
+        },
+        {
+          "kind": "plane_hole",
+          "bbox": [
+            883,
+            296,
+            8,
+            6
+          ],
+          "removed_px": 48,
+          "note": "VSS"
+        },
+        {
+          "kind": "plane_scratch",
+          "bbox": [
+            1414,
+            552,
+            200,
+            2
+          ],
+          "removed_px": 400,
+          "note": "VDDQ"
+        },
+        {
+          "kind": "plane_hole",
+          "bbox": [
+            1510,
+            560,
+            8,
+            6
+          ],
+          "removed_px": 48,
+          "note": "VDDQ"
+        },
+        {
+          "kind": "plane_scratch",
+          "bbox": [
+            725,
+            1119,
+            200,
+            2
+          ],
+          "removed_px": 400,
+          "note": "VDD"
+        },
+        {
+          "kind": "plane_hole",
+          "bbox": [
+            821,
+            1127,
+            8,
+            6
+          ],
+          "removed_px": 48,
+          "note": "VDD"
+        },
+        {
+          "kind": "trace_gap",
+          "bbox": [
+            315,
+            1140,
+            25,
+            2
+          ],
+          "removed_px": 50,
+          "note": "DQ6"
+        },
+        {
+          "kind": "faded_gap",
+          "bbox": [
+            597,
+            113,
+            597,
+            1047
+          ],
+          "removed_px": 0,
+          "note": "Optical gap contrast reduced; intended copper geometry unchanged."
+        }
+      ],
+      "removed_px": 3818,
+      "faded_gap_px": 3296
+    },
+    {
+      "file": "weave16-damaged-L2.png",
+      "events": [
+        {
+          "kind": "plane_scratch",
+          "bbox": [
+            1358,
+            445,
+            200,
+            2
+          ],
+          "removed_px": 400,
+          "note": "VSS"
+        },
+        {
+          "kind": "plane_hole",
+          "bbox": [
+            1454,
+            453,
+            8,
+            6
+          ],
+          "removed_px": 48,
+          "note": "VSS"
+        },
+        {
+          "kind": "plane_scratch",
+          "bbox": [
+            1363,
+            1215,
+            200,
+            2
+          ],
+          "removed_px": 400,
+          "note": "VDDQ"
+        },
+        {
+          "kind": "plane_hole",
+          "bbox": [
+            1459,
+            1223,
+            8,
+            6
+          ],
+          "removed_px": 48,
+          "note": "VDDQ"
+        },
+        {
+          "kind": "plane_scratch",
+          "bbox": [
+            221,
+            1114,
+            200,
+            2
+          ],
+          "removed_px": 400,
+          "note": "VDD"
+        },
+        {
+          "kind": "plane_hole",
+          "bbox": [
+            317,
+            1122,
+            8,
+            6
+          ],
+          "removed_px": 48,
+          "note": "VDD"
+        },
+        {
+          "kind": "trace_gap",
+          "bbox": [
+            702,
+            992,
+            25,
+            2
+          ],
+          "removed_px": 39,
+          "note": "DQ6"
+        },
+        {
+          "kind": "faded_gap",
+          "bbox": [
+            613,
+            121,
+            567,
+            1039
+          ],
+          "removed_px": 0,
+          "note": "Optical gap contrast reduced; intended copper geometry unchanged."
+        },
+        {
+          "kind": "fine_power_gap",
+          "bbox": [
+            828,
+            702,
+            3,
+            5
+          ],
+          "removed_px": 3,
+          "note": "VSS"
+        }
+      ],
+      "removed_px": 1386,
+      "faded_gap_px": 43734
+    },
+    {
+      "file": "weave16-severe-L1.png",
+      "events": [
+        {
+          "kind": "half_ball",
+          "bbox": [
+            1536,
+            240,
+            17,
+            33
+          ],
+          "removed_px": 415,
+          "note": "DQ5"
+        },
+        {
+          "kind": "missing_ball",
+          "bbox": [
+            1648,
+            304,
+            33,
+            33
+          ],
+          "removed_px": 797,
+          "note": "DQ2"
+        },
+        {
+          "kind": "missing_ball",
+          "bbox": [
+            176,
+            688,
+            33,
+            33
+          ],
+          "removed_px": 797,
+          "note": "VSS"
+        },
+        {
+          "kind": "half_ball",
+          "bbox": [
+            192,
+            752,
+            17,
+            33
+          ],
+          "removed_px": 415,
+          "note": "VDDQ"
+        },
+        {
+          "kind": "plane_scratch",
+          "bbox": [
+            787,
+            288,
+            200,
+            2
+          ],
+          "removed_px": 400,
+          "note": "VSS"
+        },
+        {
+          "kind": "plane_hole",
+          "bbox": [
+            883,
+            296,
+            8,
+            6
+          ],
+          "removed_px": 48,
+          "note": "VSS"
+        },
+        {
+          "kind": "plane_scratch",
+          "bbox": [
+            1414,
+            552,
+            200,
+            2
+          ],
+          "removed_px": 400,
+          "note": "VDDQ"
+        },
+        {
+          "kind": "plane_hole",
+          "bbox": [
+            1510,
+            560,
+            8,
+            6
+          ],
+          "removed_px": 48,
+          "note": "VDDQ"
+        },
+        {
+          "kind": "plane_scratch",
+          "bbox": [
+            725,
+            1119,
+            200,
+            2
+          ],
+          "removed_px": 400,
+          "note": "VDD"
+        },
+        {
+          "kind": "plane_hole",
+          "bbox": [
+            821,
+            1127,
+            8,
+            6
+          ],
+          "removed_px": 48,
+          "note": "VDD"
+        },
+        {
+          "kind": "trace_gap",
+          "bbox": [
+            315,
+            1140,
+            25,
+            2
+          ],
+          "removed_px": 50,
+          "note": "DQ6"
+        },
+        {
+          "kind": "faded_gap",
+          "bbox": [
+            597,
+            113,
+            597,
+            1047
+          ],
+          "removed_px": 0,
+          "note": "Optical gap contrast reduced; intended copper geometry unchanged."
+        }
+      ],
+      "removed_px": 3818,
+      "faded_gap_px": 3296
+    },
+    {
+      "file": "weave16-severe-L2.png",
+      "events": [
+        {
+          "kind": "plane_scratch",
+          "bbox": [
+            1358,
+            445,
+            200,
+            2
+          ],
+          "removed_px": 400,
+          "note": "VSS"
+        },
+        {
+          "kind": "plane_hole",
+          "bbox": [
+            1454,
+            453,
+            8,
+            6
+          ],
+          "removed_px": 48,
+          "note": "VSS"
+        },
+        {
+          "kind": "plane_scratch",
+          "bbox": [
+            1363,
+            1215,
+            200,
+            2
+          ],
+          "removed_px": 400,
+          "note": "VDDQ"
+        },
+        {
+          "kind": "plane_hole",
+          "bbox": [
+            1459,
+            1223,
+            8,
+            6
+          ],
+          "removed_px": 48,
+          "note": "VDDQ"
+        },
+        {
+          "kind": "plane_scratch",
+          "bbox": [
+            221,
+            1114,
+            200,
+            2
+          ],
+          "removed_px": 400,
+          "note": "VDD"
+        },
+        {
+          "kind": "plane_hole",
+          "bbox": [
+            317,
+            1122,
+            8,
+            6
+          ],
+          "removed_px": 48,
+          "note": "VDD"
+        },
+        {
+          "kind": "trace_gap",
+          "bbox": [
+            702,
+            992,
+            25,
+            2
+          ],
+          "removed_px": 39,
+          "note": "DQ6"
+        },
+        {
+          "kind": "faded_gap",
+          "bbox": [
+            613,
+            121,
+            567,
+            1039
+          ],
+          "removed_px": 0,
+          "note": "Optical gap contrast reduced; intended copper geometry unchanged."
+        },
+        {
+          "kind": "fine_power_gap",
+          "bbox": [
+            828,
+            702,
+            3,
+            5
+          ],
+          "removed_px": 3,
+          "note": "VSS"
+        },
+        {
+          "kind": "missing_die_pad",
+          "bbox": [
+            924,
+            816,
+            4,
+            8
+          ],
+          "removed_px": 32,
+          "note": "DQ3"
+        }
+      ],
+      "removed_px": 1418,
+      "faded_gap_px": 43696
+    },
+    {
+      "file": "weave16-diagonal-L1.png",
+      "events": [
+        {
+          "kind": "diagonal_scratch",
+          "bbox": [
+            19,
+            29,
+            1752,
+            1478
+          ],
+          "removed_px": 96140,
+          "note": "Uniform parallel full-frame scratches"
+        }
+      ],
+      "removed_px": 96140,
+      "faded_gap_px": 0
+    },
+    {
+      "file": "weave16-diagonal-L2.png",
+      "events": [
+        {
+          "kind": "diagonal_scratch",
+          "bbox": [
+            29,
+            29,
+            1742,
+            1478
+          ],
+          "removed_px": 95866,
+          "note": "Uniform parallel full-frame scratches"
+        }
+      ],
+      "removed_px": 95866,
+      "faded_gap_px": 0
+    },
+    {
+      "file": "weave32-clean-L1.png",
+      "events": [],
+      "removed_px": 0,
+      "faded_gap_px": 0
+    },
+    {
+      "file": "weave32-clean-L2.png",
+      "events": [],
+      "removed_px": 0,
+      "faded_gap_px": 0
+    },
+    {
+      "file": "weave32-damaged-L1.png",
+      "events": [
+        {
+          "kind": "missing_ball",
+          "bbox": [
+            368,
+            560,
+            33,
+            33
+          ],
+          "removed_px": 797,
+          "note": "DQ2"
+        },
+        {
+          "kind": "half_ball",
+          "bbox": [
+            192,
+            1328,
+            17,
+            33
+          ],
+          "removed_px": 415,
+          "note": "DQ5"
+        },
+        {
+          "kind": "missing_ball",
+          "bbox": [
+            176,
+            688,
+            33,
+            33
+          ],
+          "removed_px": 797,
+          "note": "VSS"
+        },
+        {
+          "kind": "half_ball",
+          "bbox": [
+            192,
+            752,
+            17,
+            33
+          ],
+          "removed_px": 415,
+          "note": "VDDQ"
+        },
+        {
+          "kind": "plane_scratch",
+          "bbox": [
+            790,
+            285,
+            200,
+            2
+          ],
+          "removed_px": 400,
+          "note": "VSS"
+        },
+        {
+          "kind": "plane_hole",
+          "bbox": [
+            886,
+            293,
+            8,
+            6
+          ],
+          "removed_px": 48,
+          "note": "VSS"
+        },
+        {
+          "kind": "plane_scratch",
+          "bbox": [
+            991,
+            868,
+            196,
+            2
+          ],
+          "removed_px": 392,
+          "note": "VDDQ"
+        },
+        {
+          "kind": "plane_hole",
+          "bbox": [
+            1085,
+            876,
+            8,
+            6
+          ],
+          "removed_px": 48,
+          "note": "VDDQ"
+        },
+        {
+          "kind": "plane_scratch",
+          "bbox": [
+            725,
+            1119,
+            200,
+            2
+          ],
+          "removed_px": 400,
+          "note": "VDD"
+        },
+        {
+          "kind": "plane_hole",
+          "bbox": [
+            821,
+            1127,
+            8,
+            6
+          ],
+          "removed_px": 48,
+          "note": "VDD"
+        },
+        {
+          "kind": "trace_gap",
+          "bbox": [
+            1395,
+            1087,
+            25,
+            2
+          ],
+          "removed_px": 42,
+          "note": "DQ6"
+        },
+        {
+          "kind": "faded_gap",
+          "bbox": [
+            597,
+            98,
+            597,
+            1338
+          ],
+          "removed_px": 0,
+          "note": "Optical gap contrast reduced; intended copper geometry unchanged."
+        }
+      ],
+      "removed_px": 3802,
+      "faded_gap_px": 8146
+    },
+    {
+      "file": "weave32-damaged-L2.png",
+      "events": [
+        {
+          "kind": "plane_scratch",
+          "bbox": [
+            218,
+            346,
+            200,
+            2
+          ],
+          "removed_px": 400,
+          "note": "VSS"
+        },
+        {
+          "kind": "plane_hole",
+          "bbox": [
+            314,
+            354,
+            8,
+            6
+          ],
+          "removed_px": 48,
+          "note": "VSS"
+        },
+        {
+          "kind": "plane_scratch",
+          "bbox": [
+            1366,
+            1049,
+            200,
+            2
+          ],
+          "removed_px": 400,
+          "note": "VDDQ"
+        },
+        {
+          "kind": "plane_hole",
+          "bbox": [
+            1462,
+            1057,
+            8,
+            6
+          ],
+          "removed_px": 48,
+          "note": "VDDQ"
+        },
+        {
+          "kind": "plane_scratch",
+          "bbox": [
+            218,
+            1114,
+            200,
+            2
+          ],
+          "removed_px": 400,
+          "note": "VDD"
+        },
+        {
+          "kind": "plane_hole",
+          "bbox": [
+            314,
+            1122,
+            8,
+            6
+          ],
+          "removed_px": 48,
+          "note": "VDD"
+        },
+        {
+          "kind": "trace_gap",
+          "bbox": [
+            1065,
+            940,
+            25,
+            2
+          ],
+          "removed_px": 33,
+          "note": "DQ6"
+        },
+        {
+          "kind": "faded_gap",
+          "bbox": [
+            613,
+            121,
+            567,
+            1295
+          ],
+          "removed_px": 0,
+          "note": "Optical gap contrast reduced; intended copper geometry unchanged."
+        },
+        {
+          "kind": "fine_power_gap",
+          "bbox": [
+            828,
+            702,
+            3,
+            5
+          ],
+          "removed_px": 3,
+          "note": "VSS"
+        }
+      ],
+      "removed_px": 1380,
+      "faded_gap_px": 87844
+    },
+    {
+      "file": "weave32-severe-L1.png",
+      "events": [
+        {
+          "kind": "missing_ball",
+          "bbox": [
+            368,
+            560,
+            33,
+            33
+          ],
+          "removed_px": 797,
+          "note": "DQ2"
+        },
+        {
+          "kind": "half_ball",
+          "bbox": [
+            192,
+            1328,
+            17,
+            33
+          ],
+          "removed_px": 415,
+          "note": "DQ5"
+        },
+        {
+          "kind": "missing_ball",
+          "bbox": [
+            176,
+            688,
+            33,
+            33
+          ],
+          "removed_px": 797,
+          "note": "VSS"
+        },
+        {
+          "kind": "half_ball",
+          "bbox": [
+            192,
+            752,
+            17,
+            33
+          ],
+          "removed_px": 415,
+          "note": "VDDQ"
+        },
+        {
+          "kind": "plane_scratch",
+          "bbox": [
+            790,
+            285,
+            200,
+            2
+          ],
+          "removed_px": 400,
+          "note": "VSS"
+        },
+        {
+          "kind": "plane_hole",
+          "bbox": [
+            886,
+            293,
+            8,
+            6
+          ],
+          "removed_px": 48,
+          "note": "VSS"
+        },
+        {
+          "kind": "plane_scratch",
+          "bbox": [
+            991,
+            868,
+            196,
+            2
+          ],
+          "removed_px": 392,
+          "note": "VDDQ"
+        },
+        {
+          "kind": "plane_hole",
+          "bbox": [
+            1085,
+            876,
+            8,
+            6
+          ],
+          "removed_px": 48,
+          "note": "VDDQ"
+        },
+        {
+          "kind": "plane_scratch",
+          "bbox": [
+            725,
+            1119,
+            200,
+            2
+          ],
+          "removed_px": 400,
+          "note": "VDD"
+        },
+        {
+          "kind": "plane_hole",
+          "bbox": [
+            821,
+            1127,
+            8,
+            6
+          ],
+          "removed_px": 48,
+          "note": "VDD"
+        },
+        {
+          "kind": "trace_gap",
+          "bbox": [
+            1395,
+            1087,
+            25,
+            2
+          ],
+          "removed_px": 42,
+          "note": "DQ6"
+        },
+        {
+          "kind": "faded_gap",
+          "bbox": [
+            597,
+            98,
+            597,
+            1338
+          ],
+          "removed_px": 0,
+          "note": "Optical gap contrast reduced; intended copper geometry unchanged."
+        }
+      ],
+      "removed_px": 3802,
+      "faded_gap_px": 8146
+    },
+    {
+      "file": "weave32-severe-L2.png",
+      "events": [
+        {
+          "kind": "plane_scratch",
+          "bbox": [
+            218,
+            346,
+            200,
+            2
+          ],
+          "removed_px": 400,
+          "note": "VSS"
+        },
+        {
+          "kind": "plane_hole",
+          "bbox": [
+            314,
+            354,
+            8,
+            6
+          ],
+          "removed_px": 48,
+          "note": "VSS"
+        },
+        {
+          "kind": "plane_scratch",
+          "bbox": [
+            1366,
+            1049,
+            200,
+            2
+          ],
+          "removed_px": 400,
+          "note": "VDDQ"
+        },
+        {
+          "kind": "plane_hole",
+          "bbox": [
+            1462,
+            1057,
+            8,
+            6
+          ],
+          "removed_px": 48,
+          "note": "VDDQ"
+        },
+        {
+          "kind": "plane_scratch",
+          "bbox": [
+            218,
+            1114,
+            200,
+            2
+          ],
+          "removed_px": 400,
+          "note": "VDD"
+        },
+        {
+          "kind": "plane_hole",
+          "bbox": [
+            314,
+            1122,
+            8,
+            6
+          ],
+          "removed_px": 48,
+          "note": "VDD"
+        },
+        {
+          "kind": "trace_gap",
+          "bbox": [
+            1065,
+            940,
+            25,
+            2
+          ],
+          "removed_px": 33,
+          "note": "DQ6"
+        },
+        {
+          "kind": "faded_gap",
+          "bbox": [
+            613,
+            121,
+            567,
+            1295
+          ],
+          "removed_px": 0,
+          "note": "Optical gap contrast reduced; intended copper geometry unchanged."
+        },
+        {
+          "kind": "fine_power_gap",
+          "bbox": [
+            828,
+            702,
+            3,
+            5
+          ],
+          "removed_px": 3,
+          "note": "VSS"
+        },
+        {
+          "kind": "missing_die_pad",
+          "bbox": [
+            924,
+            626,
+            4,
+            8
+          ],
+          "removed_px": 32,
+          "note": "DQ3"
+        }
+      ],
+      "removed_px": 1412,
+      "faded_gap_px": 87868
+    },
+    {
+      "file": "weave32-diagonal-L1.png",
+      "events": [
+        {
+          "kind": "diagonal_scratch",
+          "bbox": [
+            19,
+            23,
+            1752,
+            1490
+          ],
+          "removed_px": 96265,
+          "note": "Uniform parallel full-frame scratches"
+        }
+      ],
+      "removed_px": 96265,
+      "faded_gap_px": 0
+    },
+    {
+      "file": "weave32-diagonal-L2.png",
+      "events": [
+        {
+          "kind": "diagonal_scratch",
+          "bbox": [
+            23,
+            23,
+            1748,
+            1490
+          ],
+          "removed_px": 95901,
+          "note": "Uniform parallel full-frame scratches"
+        }
+      ],
+      "removed_px": 95901,
+      "faded_gap_px": 0
+    },
+    {
+      "file": "micro32-clean-L1.png",
+      "events": [],
+      "removed_px": 0,
+      "faded_gap_px": 0
+    },
+    {
+      "file": "micro32-clean-L2.png",
+      "events": [],
+      "removed_px": 0,
+      "faded_gap_px": 0
+    },
+    {
+      "file": "micro32-damaged-L1.png",
+      "events": [
+        {
+          "kind": "missing_ball",
+          "bbox": [
+            368,
+            560,
+            33,
+            33
+          ],
+          "removed_px": 797,
+          "note": "DQ2"
+        },
+        {
+          "kind": "half_ball",
+          "bbox": [
+            192,
+            1328,
+            17,
+            33
+          ],
+          "removed_px": 415,
+          "note": "DQ5"
+        },
+        {
+          "kind": "missing_ball",
+          "bbox": [
+            176,
+            688,
+            33,
+            33
+          ],
+          "removed_px": 797,
+          "note": "VSS"
+        },
+        {
+          "kind": "half_ball",
+          "bbox": [
+            192,
+            752,
+            17,
+            33
+          ],
+          "removed_px": 415,
+          "note": "VDDQ"
+        },
+        {
+          "kind": "plane_scratch",
+          "bbox": [
+            789,
+            285,
+            200,
+            2
+          ],
+          "removed_px": 400,
+          "note": "VSS"
+        },
+        {
+          "kind": "plane_hole",
+          "bbox": [
+            885,
+            293,
+            8,
+            6
+          ],
+          "removed_px": 48,
+          "note": "VSS"
+        },
+        {
+          "kind": "plane_scratch",
+          "bbox": [
+            992,
+            869,
+            196,
+            2
+          ],
+          "removed_px": 392,
+          "note": "VDDQ"
+        },
+        {
+          "kind": "plane_hole",
+          "bbox": [
+            1086,
+            877,
+            8,
+            6
+          ],
+          "removed_px": 48,
+          "note": "VDDQ"
+        },
+        {
+          "kind": "plane_scratch",
+          "bbox": [
+            725,
+            1119,
+            200,
+            2
+          ],
+          "removed_px": 400,
+          "note": "VDD"
+        },
+        {
+          "kind": "plane_hole",
+          "bbox": [
+            821,
+            1127,
+            8,
+            6
+          ],
+          "removed_px": 48,
+          "note": "VDD"
+        },
+        {
+          "kind": "trace_gap",
+          "bbox": [
+            1391,
+            1144,
+            25,
+            2
+          ],
+          "removed_px": 44,
+          "note": "DQ6"
+        },
+        {
+          "kind": "faded_gap",
+          "bbox": [
+            597,
+            99,
+            597,
+            1333
+          ],
+          "removed_px": 0,
+          "note": "Optical gap contrast reduced; intended copper geometry unchanged."
+        }
+      ],
+      "removed_px": 3804,
+      "faded_gap_px": 8272
+    },
+    {
+      "file": "micro32-damaged-L2.png",
+      "events": [
+        {
+          "kind": "plane_scratch",
+          "bbox": [
+            218,
+            346,
+            200,
+            2
+          ],
+          "removed_px": 400,
+          "note": "VSS"
+        },
+        {
+          "kind": "plane_hole",
+          "bbox": [
+            314,
+            354,
+            8,
+            6
+          ],
+          "removed_px": 48,
+          "note": "VSS"
+        },
+        {
+          "kind": "plane_scratch",
+          "bbox": [
+            1366,
+            1049,
+            200,
+            2
+          ],
+          "removed_px": 400,
+          "note": "VDDQ"
+        },
+        {
+          "kind": "plane_hole",
+          "bbox": [
+            1462,
+            1057,
+            8,
+            6
+          ],
+          "removed_px": 48,
+          "note": "VDDQ"
+        },
+        {
+          "kind": "plane_scratch",
+          "bbox": [
+            218,
+            1114,
+            200,
+            2
+          ],
+          "removed_px": 400,
+          "note": "VDD"
+        },
+        {
+          "kind": "plane_hole",
+          "bbox": [
+            314,
+            1122,
+            8,
+            6
+          ],
+          "removed_px": 48,
+          "note": "VDD"
+        },
+        {
+          "kind": "trace_gap",
+          "bbox": [
+            1077,
+            945,
+            25,
+            2
+          ],
+          "removed_px": 17,
+          "note": "DQ6"
+        },
+        {
+          "kind": "faded_gap",
+          "bbox": [
+            613,
+            121,
+            567,
+            1295
+          ],
+          "removed_px": 0,
+          "note": "Optical gap contrast reduced; intended copper geometry unchanged."
+        },
+        {
+          "kind": "fine_power_gap",
+          "bbox": [
+            828,
+            702,
+            3,
+            5
+          ],
+          "removed_px": 3,
+          "note": "VSS"
+        }
+      ],
+      "removed_px": 1364,
+      "faded_gap_px": 81986
+    },
+    {
+      "file": "micro32-severe-L1.png",
+      "events": [
+        {
+          "kind": "missing_ball",
+          "bbox": [
+            368,
+            560,
+            33,
+            33
+          ],
+          "removed_px": 797,
+          "note": "DQ2"
+        },
+        {
+          "kind": "half_ball",
+          "bbox": [
+            192,
+            1328,
+            17,
+            33
+          ],
+          "removed_px": 415,
+          "note": "DQ5"
+        },
+        {
+          "kind": "missing_ball",
+          "bbox": [
+            176,
+            688,
+            33,
+            33
+          ],
+          "removed_px": 797,
+          "note": "VSS"
+        },
+        {
+          "kind": "half_ball",
+          "bbox": [
+            192,
+            752,
+            17,
+            33
+          ],
+          "removed_px": 415,
+          "note": "VDDQ"
+        },
+        {
+          "kind": "plane_scratch",
+          "bbox": [
+            789,
+            285,
+            200,
+            2
+          ],
+          "removed_px": 400,
+          "note": "VSS"
+        },
+        {
+          "kind": "plane_hole",
+          "bbox": [
+            885,
+            293,
+            8,
+            6
+          ],
+          "removed_px": 48,
+          "note": "VSS"
+        },
+        {
+          "kind": "plane_scratch",
+          "bbox": [
+            992,
+            869,
+            196,
+            2
+          ],
+          "removed_px": 392,
+          "note": "VDDQ"
+        },
+        {
+          "kind": "plane_hole",
+          "bbox": [
+            1086,
+            877,
+            8,
+            6
+          ],
+          "removed_px": 48,
+          "note": "VDDQ"
+        },
+        {
+          "kind": "plane_scratch",
+          "bbox": [
+            725,
+            1119,
+            200,
+            2
+          ],
+          "removed_px": 400,
+          "note": "VDD"
+        },
+        {
+          "kind": "plane_hole",
+          "bbox": [
+            821,
+            1127,
+            8,
+            6
+          ],
+          "removed_px": 48,
+          "note": "VDD"
+        },
+        {
+          "kind": "trace_gap",
+          "bbox": [
+            1391,
+            1144,
+            25,
+            2
+          ],
+          "removed_px": 44,
+          "note": "DQ6"
+        },
+        {
+          "kind": "faded_gap",
+          "bbox": [
+            597,
+            99,
+            597,
+            1333
+          ],
+          "removed_px": 0,
+          "note": "Optical gap contrast reduced; intended copper geometry unchanged."
+        }
+      ],
+      "removed_px": 3804,
+      "faded_gap_px": 8272
+    },
+    {
+      "file": "micro32-severe-L2.png",
+      "events": [
+        {
+          "kind": "plane_scratch",
+          "bbox": [
+            218,
+            346,
+            200,
+            2
+          ],
+          "removed_px": 400,
+          "note": "VSS"
+        },
+        {
+          "kind": "plane_hole",
+          "bbox": [
+            314,
+            354,
+            8,
+            6
+          ],
+          "removed_px": 48,
+          "note": "VSS"
+        },
+        {
+          "kind": "plane_scratch",
+          "bbox": [
+            1366,
+            1049,
+            200,
+            2
+          ],
+          "removed_px": 400,
+          "note": "VDDQ"
+        },
+        {
+          "kind": "plane_hole",
+          "bbox": [
+            1462,
+            1057,
+            8,
+            6
+          ],
+          "removed_px": 48,
+          "note": "VDDQ"
+        },
+        {
+          "kind": "plane_scratch",
+          "bbox": [
+            218,
+            1114,
+            200,
+            2
+          ],
+          "removed_px": 400,
+          "note": "VDD"
+        },
+        {
+          "kind": "plane_hole",
+          "bbox": [
+            314,
+            1122,
+            8,
+            6
+          ],
+          "removed_px": 48,
+          "note": "VDD"
+        },
+        {
+          "kind": "trace_gap",
+          "bbox": [
+            1077,
+            945,
+            25,
+            2
+          ],
+          "removed_px": 17,
+          "note": "DQ6"
+        },
+        {
+          "kind": "faded_gap",
+          "bbox": [
+            613,
+            121,
+            567,
+            1295
+          ],
+          "removed_px": 0,
+          "note": "Optical gap contrast reduced; intended copper geometry unchanged."
+        },
+        {
+          "kind": "fine_power_gap",
+          "bbox": [
+            828,
+            702,
+            3,
+            5
+          ],
+          "removed_px": 3,
+          "note": "VSS"
+        },
+        {
+          "kind": "missing_die_pad",
+          "bbox": [
+            925,
+            608,
+            2,
+            4
+          ],
+          "removed_px": 8,
+          "note": "DQ3"
+        }
+      ],
+      "removed_px": 1372,
+      "faded_gap_px": 81994
+    },
+    {
+      "file": "micro32-diagonal-L1.png",
+      "events": [
+        {
+          "kind": "diagonal_scratch",
+          "bbox": [
+            19,
+            24,
+            1752,
+            1488
+          ],
+          "removed_px": 96014,
+          "note": "Uniform parallel full-frame scratches"
+        }
+      ],
+      "removed_px": 96014,
+      "faded_gap_px": 0
+    },
+    {
+      "file": "micro32-diagonal-L2.png",
+      "events": [
+        {
+          "kind": "diagonal_scratch",
+          "bbox": [
+            23,
+            23,
+            1748,
+            1490
+          ],
+          "removed_px": 95800,
+          "note": "Uniform parallel full-frame scratches"
+        }
+      ],
+      "removed_px": 95800,
+      "faded_gap_px": 0
+    }
+  ]
+}

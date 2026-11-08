@@ -1,0 +1,6610 @@
+[
+  {
+    "stage": "supplied_hints",
+    "layer": "L1",
+    "precision": 0.9998060844243778,
+    "recall_pristine": 0.9972510180742943,
+    "iou_pristine": 0.9970581670712929,
+    "observed_px": 2475304,
+    "inferred_px": 0,
+    "conflict_px": 0,
+    "unassigned_px": 3079,
+    "assigned_nets": [
+      "DQ0",
+      "DQ1",
+      "DQ10",
+      "DQ11",
+      "DQ12",
+      "DQ13",
+      "DQ14",
+      "DQ15",
+      "DQ3",
+      "DQ4",
+      "DQ6",
+      "DQ7",
+      "DQ8",
+      "DQ9",
+      "VDD",
+      "VDDQ",
+      "VSS"
+    ],
+    "pending_candidates": 100,
+    "candidate_fill_px": 10818,
+    "candidate_true_missing_px": 194,
+    "terminals": [
+      {
+        "terminal": "ball-1-1",
+        "expected": "DQ8",
+        "assigned": "DQ8",
+        "correct": true
+      },
+      {
+        "terminal": "ball-1-2",
+        "expected": "DQ9",
+        "assigned": "DQ9",
+        "correct": true
+      },
+      {
+        "terminal": "ball-1-3",
+        "expected": "DQ10",
+        "assigned": "DQ10",
+        "correct": true
+      },
+      {
+        "terminal": "ball-1-4",
+        "expected": "DQ11",
+        "assigned": "DQ11",
+        "correct": true
+      },
+      {
+        "terminal": "ball-1-5",
+        "expected": "DQ12",
+        "assigned": "DQ12",
+        "correct": true
+      },
+      {
+        "terminal": "ball-1-6",
+        "expected": "DQ13",
+        "assigned": "DQ13",
+        "correct": true
+      },
+      {
+        "terminal": "ball-1-7",
+        "expected": "DQ14",
+        "assigned": "DQ14",
+        "correct": true
+      },
+      {
+        "terminal": "ball-1-8",
+        "expected": "DQ15",
+        "assigned": "DQ15",
+        "correct": true
+      },
+      {
+        "terminal": "ball-2-1",
+        "expected": "VSS",
+        "assigned": null,
+        "correct": false
+      },
+      {
+        "terminal": "ball-2-2",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "ball-2-3",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "ball-2-4",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "ball-2-5",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "ball-2-6",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "ball-2-7",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "ball-2-8",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "ball-3-1",
+        "expected": "VDDQ",
+        "assigned": null,
+        "correct": false
+      },
+      {
+        "terminal": "ball-3-2",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "ball-3-3",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "ball-3-4",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "ball-3-5",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "ball-3-6",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "ball-3-7",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "ball-3-8",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "ball-4-1",
+        "expected": "DQ0",
+        "assigned": "DQ0",
+        "correct": true
+      },
+      {
+        "terminal": "ball-4-2",
+        "expected": "DQ1",
+        "assigned": "DQ1",
+        "correct": true
+      },
+      {
+        "terminal": "ball-4-3",
+        "expected": "DQ2",
+        "assigned": null,
+        "correct": false
+      },
+      {
+        "terminal": "ball-4-4",
+        "expected": "DQ3",
+        "assigned": "DQ3",
+        "correct": true
+      },
+      {
+        "terminal": "ball-4-5",
+        "expected": "DQ4",
+        "assigned": "DQ4",
+        "correct": true
+      },
+      {
+        "terminal": "ball-4-6",
+        "expected": "DQ5",
+        "assigned": null,
+        "correct": false
+      },
+      {
+        "terminal": "ball-4-7",
+        "expected": "DQ6",
+        "assigned": "DQ6",
+        "correct": true
+      },
+      {
+        "terminal": "ball-4-8",
+        "expected": "DQ7",
+        "assigned": "DQ7",
+        "correct": true
+      }
+    ],
+    "per_net": [
+      {
+        "net": "VSS",
+        "truth_px": 1200191,
+        "assigned_px": 1198101,
+        "correct_px": 1197950,
+        "net_recall": 0.9981327971964462,
+        "false_assigned_px": 151,
+        "missing_assigned_px": 2241,
+        "area_error_px": -2090,
+        "routing_truth_px": 26771,
+        "routing_correct_px": 24978,
+        "routing_missing_px": 1793
+      },
+      {
+        "net": "VDDQ",
+        "truth_px": 619857,
+        "assigned_px": 617570,
+        "correct_px": 617570,
+        "net_recall": 0.9963104393432679,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 2287,
+        "area_error_px": -2287,
+        "routing_truth_px": 26091,
+        "routing_correct_px": 24298,
+        "routing_missing_px": 1793
+      },
+      {
+        "net": "VDD",
+        "truth_px": 622958,
+        "assigned_px": 622608,
+        "correct_px": 622510,
+        "net_recall": 0.9992808503944086,
+        "false_assigned_px": 98,
+        "missing_assigned_px": 448,
+        "area_error_px": -350,
+        "routing_truth_px": 29621,
+        "routing_correct_px": 29621,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ0",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ1",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ2",
+        "truth_px": 2415,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 2415,
+        "area_error_px": -2415,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 0,
+        "routing_missing_px": 2415
+      },
+      {
+        "net": "DQ3",
+        "truth_px": 2415,
+        "assigned_px": 2423,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 8,
+        "missing_assigned_px": 0,
+        "area_error_px": 8,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ4",
+        "truth_px": 2415,
+        "assigned_px": 2456,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 41,
+        "missing_assigned_px": 0,
+        "area_error_px": 41,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ5",
+        "truth_px": 2415,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 2415,
+        "area_error_px": -2415,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 0,
+        "routing_missing_px": 2415
+      },
+      {
+        "net": "DQ6",
+        "truth_px": 2415,
+        "assigned_px": 2365,
+        "correct_px": 2365,
+        "net_recall": 0.979296066252588,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 50,
+        "area_error_px": -50,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2365,
+        "routing_missing_px": 50
+      },
+      {
+        "net": "DQ7",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ8",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ9",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ10",
+        "truth_px": 2415,
+        "assigned_px": 2425,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 10,
+        "missing_assigned_px": 0,
+        "area_error_px": 10,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ11",
+        "truth_px": 2415,
+        "assigned_px": 2435,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 20,
+        "missing_assigned_px": 0,
+        "area_error_px": 20,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ12",
+        "truth_px": 2415,
+        "assigned_px": 2465,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 50,
+        "missing_assigned_px": 0,
+        "area_error_px": 50,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ13",
+        "truth_px": 2415,
+        "assigned_px": 2472,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 57,
+        "missing_assigned_px": 0,
+        "area_error_px": 57,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ14",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ15",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      }
+    ],
+    "false_copper_px": 480,
+    "false_added_copper_px": 0,
+    "missing_copper_recovered_px": 0,
+    "missing_copper_px": 6822,
+    "correct_terminals": 28,
+    "physical_pairs": {
+      "false_open": 27,
+      "false_short": 0,
+      "expected_connected_pairs": 226,
+      "failures": [
+        {
+          "a": "ball-2-1",
+          "b": "ball-2-2",
+          "error": "open"
+        },
+        {
+          "a": "ball-2-1",
+          "b": "ball-2-3",
+          "error": "open"
+        },
+        {
+          "a": "ball-2-1",
+          "b": "ball-2-4",
+          "error": "open"
+        },
+        {
+          "a": "ball-2-1",
+          "b": "ball-2-5",
+          "error": "open"
+        },
+        {
+          "a": "ball-2-1",
+          "b": "ball-2-6",
+          "error": "open"
+        },
+        {
+          "a": "ball-2-1",
+          "b": "ball-2-7",
+          "error": "open"
+        },
+        {
+          "a": "ball-2-1",
+          "b": "ball-2-8",
+          "error": "open"
+        },
+        {
+          "a": "ball-2-1",
+          "b": "pad-1-03",
+          "error": "open"
+        },
+        {
+          "a": "ball-2-1",
+          "b": "pad-1-07",
+          "error": "open"
+        },
+        {
+          "a": "ball-2-1",
+          "b": "pad-1-12",
+          "error": "open"
+        },
+        {
+          "a": "ball-2-1",
+          "b": "pad-1-16",
+          "error": "open"
+        },
+        {
+          "a": "ball-2-1",
+          "b": "pad-2-03",
+          "error": "open"
+        },
+        {
+          "a": "ball-2-1",
+          "b": "pad-2-07",
+          "error": "open"
+        },
+        {
+          "a": "ball-2-1",
+          "b": "pad-2-12",
+          "error": "open"
+        },
+        {
+          "a": "ball-2-1",
+          "b": "pad-2-16",
+          "error": "open"
+        },
+        {
+          "a": "ball-3-1",
+          "b": "ball-3-2",
+          "error": "open"
+        },
+        {
+          "a": "ball-3-1",
+          "b": "ball-3-3",
+          "error": "open"
+        },
+        {
+          "a": "ball-3-1",
+          "b": "ball-3-4",
+          "error": "open"
+        },
+        {
+          "a": "ball-3-1",
+          "b": "pad-1-05",
+          "error": "open"
+        },
+        {
+          "a": "ball-3-1",
+          "b": "pad-1-10",
+          "error": "open"
+        },
+        {
+          "a": "ball-3-1",
+          "b": "pad-1-14",
+          "error": "open"
+        },
+        {
+          "a": "ball-3-1",
+          "b": "pad-2-05",
+          "error": "open"
+        },
+        {
+          "a": "ball-3-1",
+          "b": "pad-2-09",
+          "error": "open"
+        },
+        {
+          "a": "ball-3-1",
+          "b": "pad-2-14",
+          "error": "open"
+        },
+        {
+          "a": "ball-4-3",
+          "b": "pad-2-06",
+          "error": "open"
+        },
+        {
+          "a": "ball-4-6",
+          "b": "pad-2-13",
+          "error": "open"
+        },
+        {
+          "a": "ball-4-7",
+          "b": "pad-2-15",
+          "error": "open"
+        }
+      ]
+    },
+    "automatic_accepted": 0,
+    "algorithm": "baseline"
+  },
+  {
+    "stage": "supplied_hints",
+    "layer": "L2",
+    "precision": 0.9998793795700119,
+    "recall_pristine": 0.999407121627356,
+    "iou_pristine": 0.9992866441728421,
+    "observed_px": 2313041,
+    "inferred_px": 0,
+    "conflict_px": 0,
+    "unassigned_px": 11798,
+    "assigned_nets": [
+      "DQ0",
+      "DQ1",
+      "DQ10",
+      "DQ11",
+      "DQ12",
+      "DQ13",
+      "DQ14",
+      "DQ15",
+      "DQ3",
+      "DQ4",
+      "DQ6",
+      "DQ7",
+      "DQ8",
+      "DQ9",
+      "VDD",
+      "VDDQ",
+      "VSS"
+    ],
+    "pending_candidates": 100,
+    "candidate_fill_px": 6716,
+    "candidate_true_missing_px": 144,
+    "terminals": [
+      {
+        "terminal": "pad-1-01",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-02",
+        "expected": "DQ8",
+        "assigned": "DQ8",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-03",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-04",
+        "expected": "DQ9",
+        "assigned": "DQ9",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-05",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-06",
+        "expected": "DQ10",
+        "assigned": "DQ10",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-07",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-08",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-09",
+        "expected": "DQ11",
+        "assigned": "DQ11",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-10",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-11",
+        "expected": "DQ12",
+        "assigned": "DQ12",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-12",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-13",
+        "expected": "DQ13",
+        "assigned": "DQ13",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-14",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-15",
+        "expected": "DQ14",
+        "assigned": "DQ14",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-16",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-17",
+        "expected": "DQ15",
+        "assigned": "DQ15",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-18",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-01",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-02",
+        "expected": "DQ0",
+        "assigned": "DQ0",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-03",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-04",
+        "expected": "DQ1",
+        "assigned": "DQ1",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-05",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-06",
+        "expected": "DQ2",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-07",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-08",
+        "expected": "DQ3",
+        "assigned": "DQ3",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-09",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-10",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-11",
+        "expected": "DQ4",
+        "assigned": "DQ4",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-12",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-13",
+        "expected": "DQ5",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-14",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-15",
+        "expected": "DQ6",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-16",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-17",
+        "expected": "DQ7",
+        "assigned": "DQ7",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-18",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      }
+    ],
+    "per_net": [
+      {
+        "net": "VSS",
+        "truth_px": 1110415,
+        "assigned_px": 1110039,
+        "correct_px": 1109953,
+        "net_recall": 0.9995839393379953,
+        "false_assigned_px": 86,
+        "missing_assigned_px": 462,
+        "area_error_px": -376,
+        "routing_truth_px": 49384,
+        "routing_correct_px": 49384,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "VDDQ",
+        "truth_px": 553050,
+        "assigned_px": 552653,
+        "correct_px": 552602,
+        "net_recall": 0.9991899466594341,
+        "false_assigned_px": 51,
+        "missing_assigned_px": 448,
+        "area_error_px": -397,
+        "routing_truth_px": 30724,
+        "routing_correct_px": 30724,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "VDD",
+        "truth_px": 575325,
+        "assigned_px": 574884,
+        "correct_px": 574877,
+        "net_recall": 0.9992213096945205,
+        "false_assigned_px": 7,
+        "missing_assigned_px": 448,
+        "area_error_px": -441,
+        "routing_truth_px": 42330,
+        "routing_correct_px": 42330,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ0",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 4709,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ1",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 4709,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ2",
+        "truth_px": 4709,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 4709,
+        "area_error_px": -4709,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 0,
+        "routing_missing_px": 4709
+      },
+      {
+        "net": "DQ3",
+        "truth_px": 4709,
+        "assigned_px": 4720,
+        "correct_px": 4709,
+        "net_recall": 1.0,
+        "false_assigned_px": 11,
+        "missing_assigned_px": 0,
+        "area_error_px": 11,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 4709,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ4",
+        "truth_px": 4709,
+        "assigned_px": 4736,
+        "correct_px": 4709,
+        "net_recall": 1.0,
+        "false_assigned_px": 27,
+        "missing_assigned_px": 0,
+        "area_error_px": 27,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 4709,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ5",
+        "truth_px": 4709,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 4709,
+        "area_error_px": -4709,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 0,
+        "routing_missing_px": 4709
+      },
+      {
+        "net": "DQ6",
+        "truth_px": 4709,
+        "assigned_px": 2347,
+        "correct_px": 2347,
+        "net_recall": 0.49840730516033127,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 2362,
+        "area_error_px": -2362,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 2347,
+        "routing_missing_px": 2362
+      },
+      {
+        "net": "DQ7",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 4709,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ8",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 4709,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ9",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 4709,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ10",
+        "truth_px": 4709,
+        "assigned_px": 4710,
+        "correct_px": 4709,
+        "net_recall": 1.0,
+        "false_assigned_px": 1,
+        "missing_assigned_px": 0,
+        "area_error_px": 1,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 4709,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ11",
+        "truth_px": 4709,
+        "assigned_px": 4717,
+        "correct_px": 4709,
+        "net_recall": 1.0,
+        "false_assigned_px": 8,
+        "missing_assigned_px": 0,
+        "area_error_px": 8,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 4709,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ12",
+        "truth_px": 4709,
+        "assigned_px": 4735,
+        "correct_px": 4709,
+        "net_recall": 1.0,
+        "false_assigned_px": 26,
+        "missing_assigned_px": 0,
+        "area_error_px": 26,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 4709,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ13",
+        "truth_px": 4709,
+        "assigned_px": 4739,
+        "correct_px": 4709,
+        "net_recall": 1.0,
+        "false_assigned_px": 30,
+        "missing_assigned_px": 0,
+        "area_error_px": 30,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 4709,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ14",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 4709,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ15",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 4709,
+        "routing_missing_px": 0
+      }
+    ],
+    "false_copper_px": 279,
+    "false_added_copper_px": 0,
+    "missing_copper_recovered_px": 0,
+    "missing_copper_px": 1372,
+    "correct_terminals": 33,
+    "physical_pairs": {
+      "false_open": 27,
+      "false_short": 0,
+      "expected_connected_pairs": 226,
+      "failures": [
+        {
+          "a": "ball-2-1",
+          "b": "ball-2-2",
+          "error": "open"
+        },
+        {
+          "a": "ball-2-1",
+          "b": "ball-2-3",
+          "error": "open"
+        },
+        {
+          "a": "ball-2-1",
+          "b": "ball-2-4",
+          "error": "open"
+        },
+        {
+          "a": "ball-2-1",
+          "b": "ball-2-5",
+          "error": "open"
+        },
+        {
+          "a": "ball-2-1",
+          "b": "ball-2-6",
+          "error": "open"
+        },
+        {
+          "a": "ball-2-1",
+          "b": "ball-2-7",
+          "error": "open"
+        },
+        {
+          "a": "ball-2-1",
+          "b": "ball-2-8",
+          "error": "open"
+        },
+        {
+          "a": "ball-2-1",
+          "b": "pad-1-03",
+          "error": "open"
+        },
+        {
+          "a": "ball-2-1",
+          "b": "pad-1-07",
+          "error": "open"
+        },
+        {
+          "a": "ball-2-1",
+          "b": "pad-1-12",
+          "error": "open"
+        },
+        {
+          "a": "ball-2-1",
+          "b": "pad-1-16",
+          "error": "open"
+        },
+        {
+          "a": "ball-2-1",
+          "b": "pad-2-03",
+          "error": "open"
+        },
+        {
+          "a": "ball-2-1",
+          "b": "pad-2-07",
+          "error": "open"
+        },
+        {
+          "a": "ball-2-1",
+          "b": "pad-2-12",
+          "error": "open"
+        },
+        {
+          "a": "ball-2-1",
+          "b": "pad-2-16",
+          "error": "open"
+        },
+        {
+          "a": "ball-3-1",
+          "b": "ball-3-2",
+          "error": "open"
+        },
+        {
+          "a": "ball-3-1",
+          "b": "ball-3-3",
+          "error": "open"
+        },
+        {
+          "a": "ball-3-1",
+          "b": "ball-3-4",
+          "error": "open"
+        },
+        {
+          "a": "ball-3-1",
+          "b": "pad-1-05",
+          "error": "open"
+        },
+        {
+          "a": "ball-3-1",
+          "b": "pad-1-10",
+          "error": "open"
+        },
+        {
+          "a": "ball-3-1",
+          "b": "pad-1-14",
+          "error": "open"
+        },
+        {
+          "a": "ball-3-1",
+          "b": "pad-2-05",
+          "error": "open"
+        },
+        {
+          "a": "ball-3-1",
+          "b": "pad-2-09",
+          "error": "open"
+        },
+        {
+          "a": "ball-3-1",
+          "b": "pad-2-14",
+          "error": "open"
+        },
+        {
+          "a": "ball-4-3",
+          "b": "pad-2-06",
+          "error": "open"
+        },
+        {
+          "a": "ball-4-6",
+          "b": "pad-2-13",
+          "error": "open"
+        },
+        {
+          "a": "ball-4-7",
+          "b": "pad-2-15",
+          "error": "open"
+        }
+      ]
+    },
+    "automatic_accepted": 0,
+    "algorithm": "baseline"
+  },
+  {
+    "stage": "explicit_land_restore",
+    "layer": "L1",
+    "precision": 0.999806512623842,
+    "recall_pristine": 0.9994584239653843,
+    "iou_pristine": 0.9992651460884742,
+    "observed_px": 2475304,
+    "inferred_px": 5478,
+    "conflict_px": 0,
+    "unassigned_px": 0,
+    "assigned_nets": [
+      "DQ0",
+      "DQ1",
+      "DQ10",
+      "DQ11",
+      "DQ12",
+      "DQ13",
+      "DQ14",
+      "DQ15",
+      "DQ2",
+      "DQ3",
+      "DQ4",
+      "DQ5",
+      "DQ6",
+      "DQ7",
+      "DQ8",
+      "DQ9",
+      "VDD",
+      "VDDQ",
+      "VSS"
+    ],
+    "pending_candidates": 100,
+    "candidate_fill_px": 10768,
+    "candidate_true_missing_px": 144,
+    "terminals": [
+      {
+        "terminal": "ball-1-1",
+        "expected": "DQ8",
+        "assigned": "DQ8",
+        "correct": true
+      },
+      {
+        "terminal": "ball-1-2",
+        "expected": "DQ9",
+        "assigned": "DQ9",
+        "correct": true
+      },
+      {
+        "terminal": "ball-1-3",
+        "expected": "DQ10",
+        "assigned": "DQ10",
+        "correct": true
+      },
+      {
+        "terminal": "ball-1-4",
+        "expected": "DQ11",
+        "assigned": "DQ11",
+        "correct": true
+      },
+      {
+        "terminal": "ball-1-5",
+        "expected": "DQ12",
+        "assigned": "DQ12",
+        "correct": true
+      },
+      {
+        "terminal": "ball-1-6",
+        "expected": "DQ13",
+        "assigned": "DQ13",
+        "correct": true
+      },
+      {
+        "terminal": "ball-1-7",
+        "expected": "DQ14",
+        "assigned": "DQ14",
+        "correct": true
+      },
+      {
+        "terminal": "ball-1-8",
+        "expected": "DQ15",
+        "assigned": "DQ15",
+        "correct": true
+      },
+      {
+        "terminal": "ball-2-1",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "ball-2-2",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "ball-2-3",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "ball-2-4",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "ball-2-5",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "ball-2-6",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "ball-2-7",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "ball-2-8",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "ball-3-1",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "ball-3-2",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "ball-3-3",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "ball-3-4",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "ball-3-5",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "ball-3-6",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "ball-3-7",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "ball-3-8",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "ball-4-1",
+        "expected": "DQ0",
+        "assigned": "DQ0",
+        "correct": true
+      },
+      {
+        "terminal": "ball-4-2",
+        "expected": "DQ1",
+        "assigned": "DQ1",
+        "correct": true
+      },
+      {
+        "terminal": "ball-4-3",
+        "expected": "DQ2",
+        "assigned": "DQ2",
+        "correct": true
+      },
+      {
+        "terminal": "ball-4-4",
+        "expected": "DQ3",
+        "assigned": "DQ3",
+        "correct": true
+      },
+      {
+        "terminal": "ball-4-5",
+        "expected": "DQ4",
+        "assigned": "DQ4",
+        "correct": true
+      },
+      {
+        "terminal": "ball-4-6",
+        "expected": "DQ5",
+        "assigned": "DQ5",
+        "correct": true
+      },
+      {
+        "terminal": "ball-4-7",
+        "expected": "DQ6",
+        "assigned": "DQ6",
+        "correct": true
+      },
+      {
+        "terminal": "ball-4-8",
+        "expected": "DQ7",
+        "assigned": "DQ7",
+        "correct": true
+      }
+    ],
+    "per_net": [
+      {
+        "net": "VSS",
+        "truth_px": 1200191,
+        "assigned_px": 1199894,
+        "correct_px": 1199743,
+        "net_recall": 0.9996267260794324,
+        "false_assigned_px": 151,
+        "missing_assigned_px": 448,
+        "area_error_px": -297,
+        "routing_truth_px": 26771,
+        "routing_correct_px": 26771,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "VDDQ",
+        "truth_px": 619857,
+        "assigned_px": 619409,
+        "correct_px": 619409,
+        "net_recall": 0.9992772526566611,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 448,
+        "area_error_px": -448,
+        "routing_truth_px": 26091,
+        "routing_correct_px": 26091,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "VDD",
+        "truth_px": 622958,
+        "assigned_px": 622608,
+        "correct_px": 622510,
+        "net_recall": 0.9992808503944086,
+        "false_assigned_px": 98,
+        "missing_assigned_px": 448,
+        "area_error_px": -350,
+        "routing_truth_px": 29621,
+        "routing_correct_px": 29621,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ0",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ1",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ2",
+        "truth_px": 2415,
+        "assigned_px": 2420,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 5,
+        "missing_assigned_px": 0,
+        "area_error_px": 5,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ3",
+        "truth_px": 2415,
+        "assigned_px": 2423,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 8,
+        "missing_assigned_px": 0,
+        "area_error_px": 8,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ4",
+        "truth_px": 2415,
+        "assigned_px": 2456,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 41,
+        "missing_assigned_px": 0,
+        "area_error_px": 41,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ5",
+        "truth_px": 2415,
+        "assigned_px": 2455,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 40,
+        "missing_assigned_px": 0,
+        "area_error_px": 40,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ6",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ7",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ8",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ9",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ10",
+        "truth_px": 2415,
+        "assigned_px": 2425,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 10,
+        "missing_assigned_px": 0,
+        "area_error_px": 10,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ11",
+        "truth_px": 2415,
+        "assigned_px": 2435,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 20,
+        "missing_assigned_px": 0,
+        "area_error_px": 20,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ12",
+        "truth_px": 2415,
+        "assigned_px": 2465,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 50,
+        "missing_assigned_px": 0,
+        "area_error_px": 50,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ13",
+        "truth_px": 2415,
+        "assigned_px": 2472,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 57,
+        "missing_assigned_px": 0,
+        "area_error_px": 57,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ14",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ15",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      }
+    ],
+    "false_copper_px": 480,
+    "false_added_copper_px": 0,
+    "missing_copper_recovered_px": 5478,
+    "missing_copper_px": 1344,
+    "correct_terminals": 32,
+    "physical_pairs": {
+      "false_open": 1,
+      "false_short": 0,
+      "expected_connected_pairs": 226,
+      "failures": [
+        {
+          "a": "ball-4-7",
+          "b": "pad-2-15",
+          "error": "open"
+        }
+      ]
+    },
+    "automatic_accepted": 0,
+    "algorithm": "baseline"
+  },
+  {
+    "stage": "explicit_land_restore",
+    "layer": "L2",
+    "precision": 0.9998793795700119,
+    "recall_pristine": 0.999407121627356,
+    "iou_pristine": 0.9992866441728421,
+    "observed_px": 2313041,
+    "inferred_px": 0,
+    "conflict_px": 0,
+    "unassigned_px": 2348,
+    "assigned_nets": [
+      "DQ0",
+      "DQ1",
+      "DQ10",
+      "DQ11",
+      "DQ12",
+      "DQ13",
+      "DQ14",
+      "DQ15",
+      "DQ2",
+      "DQ3",
+      "DQ4",
+      "DQ5",
+      "DQ6",
+      "DQ7",
+      "DQ8",
+      "DQ9",
+      "VDD",
+      "VDDQ",
+      "VSS"
+    ],
+    "pending_candidates": 100,
+    "candidate_fill_px": 6716,
+    "candidate_true_missing_px": 144,
+    "terminals": [
+      {
+        "terminal": "pad-1-01",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-02",
+        "expected": "DQ8",
+        "assigned": "DQ8",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-03",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-04",
+        "expected": "DQ9",
+        "assigned": "DQ9",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-05",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-06",
+        "expected": "DQ10",
+        "assigned": "DQ10",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-07",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-08",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-09",
+        "expected": "DQ11",
+        "assigned": "DQ11",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-10",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-11",
+        "expected": "DQ12",
+        "assigned": "DQ12",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-12",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-13",
+        "expected": "DQ13",
+        "assigned": "DQ13",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-14",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-15",
+        "expected": "DQ14",
+        "assigned": "DQ14",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-16",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-17",
+        "expected": "DQ15",
+        "assigned": "DQ15",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-18",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-01",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-02",
+        "expected": "DQ0",
+        "assigned": "DQ0",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-03",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-04",
+        "expected": "DQ1",
+        "assigned": "DQ1",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-05",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-06",
+        "expected": "DQ2",
+        "assigned": "DQ2",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-07",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-08",
+        "expected": "DQ3",
+        "assigned": "DQ3",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-09",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-10",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-11",
+        "expected": "DQ4",
+        "assigned": "DQ4",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-12",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-13",
+        "expected": "DQ5",
+        "assigned": "DQ5",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-14",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-15",
+        "expected": "DQ6",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-16",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-17",
+        "expected": "DQ7",
+        "assigned": "DQ7",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-18",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      }
+    ],
+    "per_net": [
+      {
+        "net": "VSS",
+        "truth_px": 1110415,
+        "assigned_px": 1110039,
+        "correct_px": 1109953,
+        "net_recall": 0.9995839393379953,
+        "false_assigned_px": 86,
+        "missing_assigned_px": 462,
+        "area_error_px": -376,
+        "routing_truth_px": 49384,
+        "routing_correct_px": 49384,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "VDDQ",
+        "truth_px": 553050,
+        "assigned_px": 552653,
+        "correct_px": 552602,
+        "net_recall": 0.9991899466594341,
+        "false_assigned_px": 51,
+        "missing_assigned_px": 448,
+        "area_error_px": -397,
+        "routing_truth_px": 30724,
+        "routing_correct_px": 30724,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "VDD",
+        "truth_px": 575325,
+        "assigned_px": 574884,
+        "correct_px": 574877,
+        "net_recall": 0.9992213096945205,
+        "false_assigned_px": 7,
+        "missing_assigned_px": 448,
+        "area_error_px": -441,
+        "routing_truth_px": 42330,
+        "routing_correct_px": 42330,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ0",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 4709,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ1",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 4709,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ2",
+        "truth_px": 4709,
+        "assigned_px": 4712,
+        "correct_px": 4709,
+        "net_recall": 1.0,
+        "false_assigned_px": 3,
+        "missing_assigned_px": 0,
+        "area_error_px": 3,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 4709,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ3",
+        "truth_px": 4709,
+        "assigned_px": 4720,
+        "correct_px": 4709,
+        "net_recall": 1.0,
+        "false_assigned_px": 11,
+        "missing_assigned_px": 0,
+        "area_error_px": 11,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 4709,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ4",
+        "truth_px": 4709,
+        "assigned_px": 4736,
+        "correct_px": 4709,
+        "net_recall": 1.0,
+        "false_assigned_px": 27,
+        "missing_assigned_px": 0,
+        "area_error_px": 27,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 4709,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ5",
+        "truth_px": 4709,
+        "assigned_px": 4738,
+        "correct_px": 4709,
+        "net_recall": 1.0,
+        "false_assigned_px": 29,
+        "missing_assigned_px": 0,
+        "area_error_px": 29,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 4709,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ6",
+        "truth_px": 4709,
+        "assigned_px": 2347,
+        "correct_px": 2347,
+        "net_recall": 0.49840730516033127,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 2362,
+        "area_error_px": -2362,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 2347,
+        "routing_missing_px": 2362
+      },
+      {
+        "net": "DQ7",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 4709,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ8",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 4709,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ9",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 4709,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ10",
+        "truth_px": 4709,
+        "assigned_px": 4710,
+        "correct_px": 4709,
+        "net_recall": 1.0,
+        "false_assigned_px": 1,
+        "missing_assigned_px": 0,
+        "area_error_px": 1,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 4709,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ11",
+        "truth_px": 4709,
+        "assigned_px": 4717,
+        "correct_px": 4709,
+        "net_recall": 1.0,
+        "false_assigned_px": 8,
+        "missing_assigned_px": 0,
+        "area_error_px": 8,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 4709,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ12",
+        "truth_px": 4709,
+        "assigned_px": 4735,
+        "correct_px": 4709,
+        "net_recall": 1.0,
+        "false_assigned_px": 26,
+        "missing_assigned_px": 0,
+        "area_error_px": 26,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 4709,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ13",
+        "truth_px": 4709,
+        "assigned_px": 4739,
+        "correct_px": 4709,
+        "net_recall": 1.0,
+        "false_assigned_px": 30,
+        "missing_assigned_px": 0,
+        "area_error_px": 30,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 4709,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ14",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 4709,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ15",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 4709,
+        "routing_missing_px": 0
+      }
+    ],
+    "false_copper_px": 279,
+    "false_added_copper_px": 0,
+    "missing_copper_recovered_px": 0,
+    "missing_copper_px": 1372,
+    "correct_terminals": 35,
+    "physical_pairs": {
+      "false_open": 1,
+      "false_short": 0,
+      "expected_connected_pairs": 226,
+      "failures": [
+        {
+          "a": "ball-4-7",
+          "b": "pad-2-15",
+          "error": "open"
+        }
+      ]
+    },
+    "automatic_accepted": 0,
+    "algorithm": "baseline"
+  },
+  {
+    "stage": "automatic_after_land_restore",
+    "layer": "L1",
+    "precision": 0.999806512623842,
+    "recall_pristine": 0.9994584239653843,
+    "iou_pristine": 0.9992651460884742,
+    "observed_px": 2475304,
+    "inferred_px": 5478,
+    "conflict_px": 0,
+    "unassigned_px": 0,
+    "assigned_nets": [
+      "DQ0",
+      "DQ1",
+      "DQ10",
+      "DQ11",
+      "DQ12",
+      "DQ13",
+      "DQ14",
+      "DQ15",
+      "DQ2",
+      "DQ3",
+      "DQ4",
+      "DQ5",
+      "DQ6",
+      "DQ7",
+      "DQ8",
+      "DQ9",
+      "VDD",
+      "VDDQ",
+      "VSS"
+    ],
+    "pending_candidates": 4,
+    "candidate_fill_px": 144,
+    "candidate_true_missing_px": 144,
+    "terminals": [
+      {
+        "terminal": "ball-1-1",
+        "expected": "DQ8",
+        "assigned": "DQ8",
+        "correct": true
+      },
+      {
+        "terminal": "ball-1-2",
+        "expected": "DQ9",
+        "assigned": "DQ9",
+        "correct": true
+      },
+      {
+        "terminal": "ball-1-3",
+        "expected": "DQ10",
+        "assigned": "DQ10",
+        "correct": true
+      },
+      {
+        "terminal": "ball-1-4",
+        "expected": "DQ11",
+        "assigned": "DQ11",
+        "correct": true
+      },
+      {
+        "terminal": "ball-1-5",
+        "expected": "DQ12",
+        "assigned": "DQ12",
+        "correct": true
+      },
+      {
+        "terminal": "ball-1-6",
+        "expected": "DQ13",
+        "assigned": "DQ13",
+        "correct": true
+      },
+      {
+        "terminal": "ball-1-7",
+        "expected": "DQ14",
+        "assigned": "DQ14",
+        "correct": true
+      },
+      {
+        "terminal": "ball-1-8",
+        "expected": "DQ15",
+        "assigned": "DQ15",
+        "correct": true
+      },
+      {
+        "terminal": "ball-2-1",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "ball-2-2",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "ball-2-3",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "ball-2-4",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "ball-2-5",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "ball-2-6",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "ball-2-7",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "ball-2-8",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "ball-3-1",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "ball-3-2",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "ball-3-3",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "ball-3-4",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "ball-3-5",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "ball-3-6",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "ball-3-7",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "ball-3-8",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "ball-4-1",
+        "expected": "DQ0",
+        "assigned": "DQ0",
+        "correct": true
+      },
+      {
+        "terminal": "ball-4-2",
+        "expected": "DQ1",
+        "assigned": "DQ1",
+        "correct": true
+      },
+      {
+        "terminal": "ball-4-3",
+        "expected": "DQ2",
+        "assigned": "DQ2",
+        "correct": true
+      },
+      {
+        "terminal": "ball-4-4",
+        "expected": "DQ3",
+        "assigned": "DQ3",
+        "correct": true
+      },
+      {
+        "terminal": "ball-4-5",
+        "expected": "DQ4",
+        "assigned": "DQ4",
+        "correct": true
+      },
+      {
+        "terminal": "ball-4-6",
+        "expected": "DQ5",
+        "assigned": "DQ5",
+        "correct": true
+      },
+      {
+        "terminal": "ball-4-7",
+        "expected": "DQ6",
+        "assigned": "DQ6",
+        "correct": true
+      },
+      {
+        "terminal": "ball-4-8",
+        "expected": "DQ7",
+        "assigned": "DQ7",
+        "correct": true
+      }
+    ],
+    "per_net": [
+      {
+        "net": "VSS",
+        "truth_px": 1200191,
+        "assigned_px": 1199894,
+        "correct_px": 1199743,
+        "net_recall": 0.9996267260794324,
+        "false_assigned_px": 151,
+        "missing_assigned_px": 448,
+        "area_error_px": -297,
+        "routing_truth_px": 26771,
+        "routing_correct_px": 26771,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "VDDQ",
+        "truth_px": 619857,
+        "assigned_px": 619409,
+        "correct_px": 619409,
+        "net_recall": 0.9992772526566611,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 448,
+        "area_error_px": -448,
+        "routing_truth_px": 26091,
+        "routing_correct_px": 26091,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "VDD",
+        "truth_px": 622958,
+        "assigned_px": 622608,
+        "correct_px": 622510,
+        "net_recall": 0.9992808503944086,
+        "false_assigned_px": 98,
+        "missing_assigned_px": 448,
+        "area_error_px": -350,
+        "routing_truth_px": 29621,
+        "routing_correct_px": 29621,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ0",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ1",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ2",
+        "truth_px": 2415,
+        "assigned_px": 2420,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 5,
+        "missing_assigned_px": 0,
+        "area_error_px": 5,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ3",
+        "truth_px": 2415,
+        "assigned_px": 2423,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 8,
+        "missing_assigned_px": 0,
+        "area_error_px": 8,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ4",
+        "truth_px": 2415,
+        "assigned_px": 2456,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 41,
+        "missing_assigned_px": 0,
+        "area_error_px": 41,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ5",
+        "truth_px": 2415,
+        "assigned_px": 2455,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 40,
+        "missing_assigned_px": 0,
+        "area_error_px": 40,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ6",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ7",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ8",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ9",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ10",
+        "truth_px": 2415,
+        "assigned_px": 2425,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 10,
+        "missing_assigned_px": 0,
+        "area_error_px": 10,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ11",
+        "truth_px": 2415,
+        "assigned_px": 2435,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 20,
+        "missing_assigned_px": 0,
+        "area_error_px": 20,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ12",
+        "truth_px": 2415,
+        "assigned_px": 2465,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 50,
+        "missing_assigned_px": 0,
+        "area_error_px": 50,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ13",
+        "truth_px": 2415,
+        "assigned_px": 2472,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 57,
+        "missing_assigned_px": 0,
+        "area_error_px": 57,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ14",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ15",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      }
+    ],
+    "false_copper_px": 480,
+    "false_added_copper_px": 0,
+    "missing_copper_recovered_px": 5478,
+    "missing_copper_px": 1344,
+    "correct_terminals": 32,
+    "physical_pairs": {
+      "false_open": 1,
+      "false_short": 0,
+      "expected_connected_pairs": 226,
+      "failures": [
+        {
+          "a": "ball-4-7",
+          "b": "pad-2-15",
+          "error": "open"
+        }
+      ]
+    },
+    "automatic_accepted": 0,
+    "algorithm": "baseline"
+  },
+  {
+    "stage": "automatic_after_land_restore",
+    "layer": "L2",
+    "precision": 0.9998793795700119,
+    "recall_pristine": 0.999407121627356,
+    "iou_pristine": 0.9992866441728421,
+    "observed_px": 2313041,
+    "inferred_px": 0,
+    "conflict_px": 0,
+    "unassigned_px": 2348,
+    "assigned_nets": [
+      "DQ0",
+      "DQ1",
+      "DQ10",
+      "DQ11",
+      "DQ12",
+      "DQ13",
+      "DQ14",
+      "DQ15",
+      "DQ2",
+      "DQ3",
+      "DQ4",
+      "DQ5",
+      "DQ6",
+      "DQ7",
+      "DQ8",
+      "DQ9",
+      "VDD",
+      "VDDQ",
+      "VSS"
+    ],
+    "pending_candidates": 3,
+    "candidate_fill_px": 144,
+    "candidate_true_missing_px": 144,
+    "terminals": [
+      {
+        "terminal": "pad-1-01",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-02",
+        "expected": "DQ8",
+        "assigned": "DQ8",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-03",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-04",
+        "expected": "DQ9",
+        "assigned": "DQ9",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-05",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-06",
+        "expected": "DQ10",
+        "assigned": "DQ10",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-07",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-08",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-09",
+        "expected": "DQ11",
+        "assigned": "DQ11",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-10",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-11",
+        "expected": "DQ12",
+        "assigned": "DQ12",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-12",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-13",
+        "expected": "DQ13",
+        "assigned": "DQ13",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-14",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-15",
+        "expected": "DQ14",
+        "assigned": "DQ14",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-16",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-17",
+        "expected": "DQ15",
+        "assigned": "DQ15",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-18",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-01",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-02",
+        "expected": "DQ0",
+        "assigned": "DQ0",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-03",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-04",
+        "expected": "DQ1",
+        "assigned": "DQ1",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-05",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-06",
+        "expected": "DQ2",
+        "assigned": "DQ2",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-07",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-08",
+        "expected": "DQ3",
+        "assigned": "DQ3",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-09",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-10",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-11",
+        "expected": "DQ4",
+        "assigned": "DQ4",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-12",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-13",
+        "expected": "DQ5",
+        "assigned": "DQ5",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-14",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-15",
+        "expected": "DQ6",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-16",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-17",
+        "expected": "DQ7",
+        "assigned": "DQ7",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-18",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      }
+    ],
+    "per_net": [
+      {
+        "net": "VSS",
+        "truth_px": 1110415,
+        "assigned_px": 1110039,
+        "correct_px": 1109953,
+        "net_recall": 0.9995839393379953,
+        "false_assigned_px": 86,
+        "missing_assigned_px": 462,
+        "area_error_px": -376,
+        "routing_truth_px": 49384,
+        "routing_correct_px": 49384,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "VDDQ",
+        "truth_px": 553050,
+        "assigned_px": 552653,
+        "correct_px": 552602,
+        "net_recall": 0.9991899466594341,
+        "false_assigned_px": 51,
+        "missing_assigned_px": 448,
+        "area_error_px": -397,
+        "routing_truth_px": 30724,
+        "routing_correct_px": 30724,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "VDD",
+        "truth_px": 575325,
+        "assigned_px": 574884,
+        "correct_px": 574877,
+        "net_recall": 0.9992213096945205,
+        "false_assigned_px": 7,
+        "missing_assigned_px": 448,
+        "area_error_px": -441,
+        "routing_truth_px": 42330,
+        "routing_correct_px": 42330,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ0",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 4709,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ1",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 4709,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ2",
+        "truth_px": 4709,
+        "assigned_px": 4712,
+        "correct_px": 4709,
+        "net_recall": 1.0,
+        "false_assigned_px": 3,
+        "missing_assigned_px": 0,
+        "area_error_px": 3,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 4709,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ3",
+        "truth_px": 4709,
+        "assigned_px": 4720,
+        "correct_px": 4709,
+        "net_recall": 1.0,
+        "false_assigned_px": 11,
+        "missing_assigned_px": 0,
+        "area_error_px": 11,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 4709,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ4",
+        "truth_px": 4709,
+        "assigned_px": 4736,
+        "correct_px": 4709,
+        "net_recall": 1.0,
+        "false_assigned_px": 27,
+        "missing_assigned_px": 0,
+        "area_error_px": 27,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 4709,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ5",
+        "truth_px": 4709,
+        "assigned_px": 4738,
+        "correct_px": 4709,
+        "net_recall": 1.0,
+        "false_assigned_px": 29,
+        "missing_assigned_px": 0,
+        "area_error_px": 29,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 4709,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ6",
+        "truth_px": 4709,
+        "assigned_px": 2347,
+        "correct_px": 2347,
+        "net_recall": 0.49840730516033127,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 2362,
+        "area_error_px": -2362,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 2347,
+        "routing_missing_px": 2362
+      },
+      {
+        "net": "DQ7",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 4709,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ8",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 4709,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ9",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 4709,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ10",
+        "truth_px": 4709,
+        "assigned_px": 4710,
+        "correct_px": 4709,
+        "net_recall": 1.0,
+        "false_assigned_px": 1,
+        "missing_assigned_px": 0,
+        "area_error_px": 1,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 4709,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ11",
+        "truth_px": 4709,
+        "assigned_px": 4717,
+        "correct_px": 4709,
+        "net_recall": 1.0,
+        "false_assigned_px": 8,
+        "missing_assigned_px": 0,
+        "area_error_px": 8,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 4709,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ12",
+        "truth_px": 4709,
+        "assigned_px": 4735,
+        "correct_px": 4709,
+        "net_recall": 1.0,
+        "false_assigned_px": 26,
+        "missing_assigned_px": 0,
+        "area_error_px": 26,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 4709,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ13",
+        "truth_px": 4709,
+        "assigned_px": 4739,
+        "correct_px": 4709,
+        "net_recall": 1.0,
+        "false_assigned_px": 30,
+        "missing_assigned_px": 0,
+        "area_error_px": 30,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 4709,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ14",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 4709,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ15",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 4709,
+        "routing_missing_px": 0
+      }
+    ],
+    "false_copper_px": 279,
+    "false_added_copper_px": 0,
+    "missing_copper_recovered_px": 0,
+    "missing_copper_px": 1372,
+    "correct_terminals": 35,
+    "physical_pairs": {
+      "false_open": 1,
+      "false_short": 0,
+      "expected_connected_pairs": 226,
+      "failures": [
+        {
+          "a": "ball-4-7",
+          "b": "pad-2-15",
+          "error": "open"
+        }
+      ]
+    },
+    "automatic_accepted": 0,
+    "algorithm": "baseline"
+  },
+  {
+    "stage": "supplied_hints",
+    "layer": "L1",
+    "precision": 0.9998060844243778,
+    "recall_pristine": 0.9972510180742943,
+    "iou_pristine": 0.9970581670712929,
+    "observed_px": 2475304,
+    "inferred_px": 0,
+    "conflict_px": 0,
+    "unassigned_px": 3079,
+    "assigned_nets": [
+      "DQ0",
+      "DQ1",
+      "DQ10",
+      "DQ11",
+      "DQ12",
+      "DQ13",
+      "DQ14",
+      "DQ15",
+      "DQ3",
+      "DQ4",
+      "DQ6",
+      "DQ7",
+      "DQ8",
+      "DQ9",
+      "VDD",
+      "VDDQ",
+      "VSS"
+    ],
+    "pending_candidates": 100,
+    "candidate_fill_px": 11958,
+    "candidate_true_missing_px": 1394,
+    "terminals": [
+      {
+        "terminal": "ball-1-1",
+        "expected": "DQ8",
+        "assigned": "DQ8",
+        "correct": true
+      },
+      {
+        "terminal": "ball-1-2",
+        "expected": "DQ9",
+        "assigned": "DQ9",
+        "correct": true
+      },
+      {
+        "terminal": "ball-1-3",
+        "expected": "DQ10",
+        "assigned": "DQ10",
+        "correct": true
+      },
+      {
+        "terminal": "ball-1-4",
+        "expected": "DQ11",
+        "assigned": "DQ11",
+        "correct": true
+      },
+      {
+        "terminal": "ball-1-5",
+        "expected": "DQ12",
+        "assigned": "DQ12",
+        "correct": true
+      },
+      {
+        "terminal": "ball-1-6",
+        "expected": "DQ13",
+        "assigned": "DQ13",
+        "correct": true
+      },
+      {
+        "terminal": "ball-1-7",
+        "expected": "DQ14",
+        "assigned": "DQ14",
+        "correct": true
+      },
+      {
+        "terminal": "ball-1-8",
+        "expected": "DQ15",
+        "assigned": "DQ15",
+        "correct": true
+      },
+      {
+        "terminal": "ball-2-1",
+        "expected": "VSS",
+        "assigned": null,
+        "correct": false
+      },
+      {
+        "terminal": "ball-2-2",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "ball-2-3",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "ball-2-4",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "ball-2-5",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "ball-2-6",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "ball-2-7",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "ball-2-8",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "ball-3-1",
+        "expected": "VDDQ",
+        "assigned": null,
+        "correct": false
+      },
+      {
+        "terminal": "ball-3-2",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "ball-3-3",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "ball-3-4",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "ball-3-5",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "ball-3-6",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "ball-3-7",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "ball-3-8",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "ball-4-1",
+        "expected": "DQ0",
+        "assigned": "DQ0",
+        "correct": true
+      },
+      {
+        "terminal": "ball-4-2",
+        "expected": "DQ1",
+        "assigned": "DQ1",
+        "correct": true
+      },
+      {
+        "terminal": "ball-4-3",
+        "expected": "DQ2",
+        "assigned": null,
+        "correct": false
+      },
+      {
+        "terminal": "ball-4-4",
+        "expected": "DQ3",
+        "assigned": "DQ3",
+        "correct": true
+      },
+      {
+        "terminal": "ball-4-5",
+        "expected": "DQ4",
+        "assigned": "DQ4",
+        "correct": true
+      },
+      {
+        "terminal": "ball-4-6",
+        "expected": "DQ5",
+        "assigned": null,
+        "correct": false
+      },
+      {
+        "terminal": "ball-4-7",
+        "expected": "DQ6",
+        "assigned": "DQ6",
+        "correct": true
+      },
+      {
+        "terminal": "ball-4-8",
+        "expected": "DQ7",
+        "assigned": "DQ7",
+        "correct": true
+      }
+    ],
+    "per_net": [
+      {
+        "net": "VSS",
+        "truth_px": 1200191,
+        "assigned_px": 1198101,
+        "correct_px": 1197950,
+        "net_recall": 0.9981327971964462,
+        "false_assigned_px": 151,
+        "missing_assigned_px": 2241,
+        "area_error_px": -2090,
+        "routing_truth_px": 26771,
+        "routing_correct_px": 24978,
+        "routing_missing_px": 1793
+      },
+      {
+        "net": "VDDQ",
+        "truth_px": 619857,
+        "assigned_px": 617570,
+        "correct_px": 617570,
+        "net_recall": 0.9963104393432679,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 2287,
+        "area_error_px": -2287,
+        "routing_truth_px": 26091,
+        "routing_correct_px": 24298,
+        "routing_missing_px": 1793
+      },
+      {
+        "net": "VDD",
+        "truth_px": 622958,
+        "assigned_px": 622608,
+        "correct_px": 622510,
+        "net_recall": 0.9992808503944086,
+        "false_assigned_px": 98,
+        "missing_assigned_px": 448,
+        "area_error_px": -350,
+        "routing_truth_px": 29621,
+        "routing_correct_px": 29621,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ0",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ1",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ2",
+        "truth_px": 2415,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 2415,
+        "area_error_px": -2415,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 0,
+        "routing_missing_px": 2415
+      },
+      {
+        "net": "DQ3",
+        "truth_px": 2415,
+        "assigned_px": 2423,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 8,
+        "missing_assigned_px": 0,
+        "area_error_px": 8,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ4",
+        "truth_px": 2415,
+        "assigned_px": 2456,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 41,
+        "missing_assigned_px": 0,
+        "area_error_px": 41,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ5",
+        "truth_px": 2415,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 2415,
+        "area_error_px": -2415,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 0,
+        "routing_missing_px": 2415
+      },
+      {
+        "net": "DQ6",
+        "truth_px": 2415,
+        "assigned_px": 2365,
+        "correct_px": 2365,
+        "net_recall": 0.979296066252588,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 50,
+        "area_error_px": -50,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2365,
+        "routing_missing_px": 50
+      },
+      {
+        "net": "DQ7",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ8",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ9",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ10",
+        "truth_px": 2415,
+        "assigned_px": 2425,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 10,
+        "missing_assigned_px": 0,
+        "area_error_px": 10,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ11",
+        "truth_px": 2415,
+        "assigned_px": 2435,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 20,
+        "missing_assigned_px": 0,
+        "area_error_px": 20,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ12",
+        "truth_px": 2415,
+        "assigned_px": 2465,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 50,
+        "missing_assigned_px": 0,
+        "area_error_px": 50,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ13",
+        "truth_px": 2415,
+        "assigned_px": 2472,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 57,
+        "missing_assigned_px": 0,
+        "area_error_px": 57,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ14",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ15",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      }
+    ],
+    "false_copper_px": 480,
+    "false_added_copper_px": 0,
+    "missing_copper_recovered_px": 0,
+    "missing_copper_px": 6822,
+    "correct_terminals": 28,
+    "physical_pairs": {
+      "false_open": 27,
+      "false_short": 0,
+      "expected_connected_pairs": 226,
+      "failures": [
+        {
+          "a": "ball-2-1",
+          "b": "ball-2-2",
+          "error": "open"
+        },
+        {
+          "a": "ball-2-1",
+          "b": "ball-2-3",
+          "error": "open"
+        },
+        {
+          "a": "ball-2-1",
+          "b": "ball-2-4",
+          "error": "open"
+        },
+        {
+          "a": "ball-2-1",
+          "b": "ball-2-5",
+          "error": "open"
+        },
+        {
+          "a": "ball-2-1",
+          "b": "ball-2-6",
+          "error": "open"
+        },
+        {
+          "a": "ball-2-1",
+          "b": "ball-2-7",
+          "error": "open"
+        },
+        {
+          "a": "ball-2-1",
+          "b": "ball-2-8",
+          "error": "open"
+        },
+        {
+          "a": "ball-2-1",
+          "b": "pad-1-03",
+          "error": "open"
+        },
+        {
+          "a": "ball-2-1",
+          "b": "pad-1-07",
+          "error": "open"
+        },
+        {
+          "a": "ball-2-1",
+          "b": "pad-1-12",
+          "error": "open"
+        },
+        {
+          "a": "ball-2-1",
+          "b": "pad-1-16",
+          "error": "open"
+        },
+        {
+          "a": "ball-2-1",
+          "b": "pad-2-03",
+          "error": "open"
+        },
+        {
+          "a": "ball-2-1",
+          "b": "pad-2-07",
+          "error": "open"
+        },
+        {
+          "a": "ball-2-1",
+          "b": "pad-2-12",
+          "error": "open"
+        },
+        {
+          "a": "ball-2-1",
+          "b": "pad-2-16",
+          "error": "open"
+        },
+        {
+          "a": "ball-3-1",
+          "b": "ball-3-2",
+          "error": "open"
+        },
+        {
+          "a": "ball-3-1",
+          "b": "ball-3-3",
+          "error": "open"
+        },
+        {
+          "a": "ball-3-1",
+          "b": "ball-3-4",
+          "error": "open"
+        },
+        {
+          "a": "ball-3-1",
+          "b": "pad-1-05",
+          "error": "open"
+        },
+        {
+          "a": "ball-3-1",
+          "b": "pad-1-10",
+          "error": "open"
+        },
+        {
+          "a": "ball-3-1",
+          "b": "pad-1-14",
+          "error": "open"
+        },
+        {
+          "a": "ball-3-1",
+          "b": "pad-2-05",
+          "error": "open"
+        },
+        {
+          "a": "ball-3-1",
+          "b": "pad-2-09",
+          "error": "open"
+        },
+        {
+          "a": "ball-3-1",
+          "b": "pad-2-14",
+          "error": "open"
+        },
+        {
+          "a": "ball-4-3",
+          "b": "pad-2-06",
+          "error": "open"
+        },
+        {
+          "a": "ball-4-6",
+          "b": "pad-2-13",
+          "error": "open"
+        },
+        {
+          "a": "ball-4-7",
+          "b": "pad-2-15",
+          "error": "open"
+        }
+      ]
+    },
+    "automatic_accepted": 0,
+    "algorithm": "current"
+  },
+  {
+    "stage": "supplied_hints",
+    "layer": "L2",
+    "precision": 0.9998793795700119,
+    "recall_pristine": 0.999407121627356,
+    "iou_pristine": 0.9992866441728421,
+    "observed_px": 2313041,
+    "inferred_px": 0,
+    "conflict_px": 0,
+    "unassigned_px": 11798,
+    "assigned_nets": [
+      "DQ0",
+      "DQ1",
+      "DQ10",
+      "DQ11",
+      "DQ12",
+      "DQ13",
+      "DQ14",
+      "DQ15",
+      "DQ3",
+      "DQ4",
+      "DQ6",
+      "DQ7",
+      "DQ8",
+      "DQ9",
+      "VDD",
+      "VDDQ",
+      "VSS"
+    ],
+    "pending_candidates": 100,
+    "candidate_fill_px": 7834,
+    "candidate_true_missing_px": 1358,
+    "terminals": [
+      {
+        "terminal": "pad-1-01",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-02",
+        "expected": "DQ8",
+        "assigned": "DQ8",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-03",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-04",
+        "expected": "DQ9",
+        "assigned": "DQ9",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-05",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-06",
+        "expected": "DQ10",
+        "assigned": "DQ10",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-07",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-08",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-09",
+        "expected": "DQ11",
+        "assigned": "DQ11",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-10",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-11",
+        "expected": "DQ12",
+        "assigned": "DQ12",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-12",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-13",
+        "expected": "DQ13",
+        "assigned": "DQ13",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-14",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-15",
+        "expected": "DQ14",
+        "assigned": "DQ14",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-16",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-17",
+        "expected": "DQ15",
+        "assigned": "DQ15",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-18",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-01",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-02",
+        "expected": "DQ0",
+        "assigned": "DQ0",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-03",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-04",
+        "expected": "DQ1",
+        "assigned": "DQ1",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-05",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-06",
+        "expected": "DQ2",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-07",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-08",
+        "expected": "DQ3",
+        "assigned": "DQ3",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-09",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-10",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-11",
+        "expected": "DQ4",
+        "assigned": "DQ4",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-12",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-13",
+        "expected": "DQ5",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-14",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-15",
+        "expected": "DQ6",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-16",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-17",
+        "expected": "DQ7",
+        "assigned": "DQ7",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-18",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      }
+    ],
+    "per_net": [
+      {
+        "net": "VSS",
+        "truth_px": 1110415,
+        "assigned_px": 1110039,
+        "correct_px": 1109953,
+        "net_recall": 0.9995839393379953,
+        "false_assigned_px": 86,
+        "missing_assigned_px": 462,
+        "area_error_px": -376,
+        "routing_truth_px": 49384,
+        "routing_correct_px": 49384,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "VDDQ",
+        "truth_px": 553050,
+        "assigned_px": 552653,
+        "correct_px": 552602,
+        "net_recall": 0.9991899466594341,
+        "false_assigned_px": 51,
+        "missing_assigned_px": 448,
+        "area_error_px": -397,
+        "routing_truth_px": 30724,
+        "routing_correct_px": 30724,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "VDD",
+        "truth_px": 575325,
+        "assigned_px": 574884,
+        "correct_px": 574877,
+        "net_recall": 0.9992213096945205,
+        "false_assigned_px": 7,
+        "missing_assigned_px": 448,
+        "area_error_px": -441,
+        "routing_truth_px": 42330,
+        "routing_correct_px": 42330,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ0",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 4709,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ1",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 4709,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ2",
+        "truth_px": 4709,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 4709,
+        "area_error_px": -4709,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 0,
+        "routing_missing_px": 4709
+      },
+      {
+        "net": "DQ3",
+        "truth_px": 4709,
+        "assigned_px": 4720,
+        "correct_px": 4709,
+        "net_recall": 1.0,
+        "false_assigned_px": 11,
+        "missing_assigned_px": 0,
+        "area_error_px": 11,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 4709,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ4",
+        "truth_px": 4709,
+        "assigned_px": 4736,
+        "correct_px": 4709,
+        "net_recall": 1.0,
+        "false_assigned_px": 27,
+        "missing_assigned_px": 0,
+        "area_error_px": 27,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 4709,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ5",
+        "truth_px": 4709,
+        "assigned_px": 0,
+        "correct_px": 0,
+        "net_recall": 0.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 4709,
+        "area_error_px": -4709,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 0,
+        "routing_missing_px": 4709
+      },
+      {
+        "net": "DQ6",
+        "truth_px": 4709,
+        "assigned_px": 2347,
+        "correct_px": 2347,
+        "net_recall": 0.49840730516033127,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 2362,
+        "area_error_px": -2362,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 2347,
+        "routing_missing_px": 2362
+      },
+      {
+        "net": "DQ7",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 4709,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ8",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 4709,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ9",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 4709,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ10",
+        "truth_px": 4709,
+        "assigned_px": 4710,
+        "correct_px": 4709,
+        "net_recall": 1.0,
+        "false_assigned_px": 1,
+        "missing_assigned_px": 0,
+        "area_error_px": 1,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 4709,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ11",
+        "truth_px": 4709,
+        "assigned_px": 4717,
+        "correct_px": 4709,
+        "net_recall": 1.0,
+        "false_assigned_px": 8,
+        "missing_assigned_px": 0,
+        "area_error_px": 8,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 4709,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ12",
+        "truth_px": 4709,
+        "assigned_px": 4735,
+        "correct_px": 4709,
+        "net_recall": 1.0,
+        "false_assigned_px": 26,
+        "missing_assigned_px": 0,
+        "area_error_px": 26,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 4709,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ13",
+        "truth_px": 4709,
+        "assigned_px": 4739,
+        "correct_px": 4709,
+        "net_recall": 1.0,
+        "false_assigned_px": 30,
+        "missing_assigned_px": 0,
+        "area_error_px": 30,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 4709,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ14",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 4709,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ15",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 4709,
+        "routing_missing_px": 0
+      }
+    ],
+    "false_copper_px": 279,
+    "false_added_copper_px": 0,
+    "missing_copper_recovered_px": 0,
+    "missing_copper_px": 1372,
+    "correct_terminals": 33,
+    "physical_pairs": {
+      "false_open": 27,
+      "false_short": 0,
+      "expected_connected_pairs": 226,
+      "failures": [
+        {
+          "a": "ball-2-1",
+          "b": "ball-2-2",
+          "error": "open"
+        },
+        {
+          "a": "ball-2-1",
+          "b": "ball-2-3",
+          "error": "open"
+        },
+        {
+          "a": "ball-2-1",
+          "b": "ball-2-4",
+          "error": "open"
+        },
+        {
+          "a": "ball-2-1",
+          "b": "ball-2-5",
+          "error": "open"
+        },
+        {
+          "a": "ball-2-1",
+          "b": "ball-2-6",
+          "error": "open"
+        },
+        {
+          "a": "ball-2-1",
+          "b": "ball-2-7",
+          "error": "open"
+        },
+        {
+          "a": "ball-2-1",
+          "b": "ball-2-8",
+          "error": "open"
+        },
+        {
+          "a": "ball-2-1",
+          "b": "pad-1-03",
+          "error": "open"
+        },
+        {
+          "a": "ball-2-1",
+          "b": "pad-1-07",
+          "error": "open"
+        },
+        {
+          "a": "ball-2-1",
+          "b": "pad-1-12",
+          "error": "open"
+        },
+        {
+          "a": "ball-2-1",
+          "b": "pad-1-16",
+          "error": "open"
+        },
+        {
+          "a": "ball-2-1",
+          "b": "pad-2-03",
+          "error": "open"
+        },
+        {
+          "a": "ball-2-1",
+          "b": "pad-2-07",
+          "error": "open"
+        },
+        {
+          "a": "ball-2-1",
+          "b": "pad-2-12",
+          "error": "open"
+        },
+        {
+          "a": "ball-2-1",
+          "b": "pad-2-16",
+          "error": "open"
+        },
+        {
+          "a": "ball-3-1",
+          "b": "ball-3-2",
+          "error": "open"
+        },
+        {
+          "a": "ball-3-1",
+          "b": "ball-3-3",
+          "error": "open"
+        },
+        {
+          "a": "ball-3-1",
+          "b": "ball-3-4",
+          "error": "open"
+        },
+        {
+          "a": "ball-3-1",
+          "b": "pad-1-05",
+          "error": "open"
+        },
+        {
+          "a": "ball-3-1",
+          "b": "pad-1-10",
+          "error": "open"
+        },
+        {
+          "a": "ball-3-1",
+          "b": "pad-1-14",
+          "error": "open"
+        },
+        {
+          "a": "ball-3-1",
+          "b": "pad-2-05",
+          "error": "open"
+        },
+        {
+          "a": "ball-3-1",
+          "b": "pad-2-09",
+          "error": "open"
+        },
+        {
+          "a": "ball-3-1",
+          "b": "pad-2-14",
+          "error": "open"
+        },
+        {
+          "a": "ball-4-3",
+          "b": "pad-2-06",
+          "error": "open"
+        },
+        {
+          "a": "ball-4-6",
+          "b": "pad-2-13",
+          "error": "open"
+        },
+        {
+          "a": "ball-4-7",
+          "b": "pad-2-15",
+          "error": "open"
+        }
+      ]
+    },
+    "automatic_accepted": 0,
+    "algorithm": "current"
+  },
+  {
+    "stage": "explicit_land_restore",
+    "layer": "L1",
+    "precision": 0.999806512623842,
+    "recall_pristine": 0.9994584239653843,
+    "iou_pristine": 0.9992651460884742,
+    "observed_px": 2475304,
+    "inferred_px": 5478,
+    "conflict_px": 0,
+    "unassigned_px": 0,
+    "assigned_nets": [
+      "DQ0",
+      "DQ1",
+      "DQ10",
+      "DQ11",
+      "DQ12",
+      "DQ13",
+      "DQ14",
+      "DQ15",
+      "DQ2",
+      "DQ3",
+      "DQ4",
+      "DQ5",
+      "DQ6",
+      "DQ7",
+      "DQ8",
+      "DQ9",
+      "VDD",
+      "VDDQ",
+      "VSS"
+    ],
+    "pending_candidates": 100,
+    "candidate_fill_px": 11908,
+    "candidate_true_missing_px": 1344,
+    "terminals": [
+      {
+        "terminal": "ball-1-1",
+        "expected": "DQ8",
+        "assigned": "DQ8",
+        "correct": true
+      },
+      {
+        "terminal": "ball-1-2",
+        "expected": "DQ9",
+        "assigned": "DQ9",
+        "correct": true
+      },
+      {
+        "terminal": "ball-1-3",
+        "expected": "DQ10",
+        "assigned": "DQ10",
+        "correct": true
+      },
+      {
+        "terminal": "ball-1-4",
+        "expected": "DQ11",
+        "assigned": "DQ11",
+        "correct": true
+      },
+      {
+        "terminal": "ball-1-5",
+        "expected": "DQ12",
+        "assigned": "DQ12",
+        "correct": true
+      },
+      {
+        "terminal": "ball-1-6",
+        "expected": "DQ13",
+        "assigned": "DQ13",
+        "correct": true
+      },
+      {
+        "terminal": "ball-1-7",
+        "expected": "DQ14",
+        "assigned": "DQ14",
+        "correct": true
+      },
+      {
+        "terminal": "ball-1-8",
+        "expected": "DQ15",
+        "assigned": "DQ15",
+        "correct": true
+      },
+      {
+        "terminal": "ball-2-1",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "ball-2-2",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "ball-2-3",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "ball-2-4",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "ball-2-5",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "ball-2-6",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "ball-2-7",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "ball-2-8",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "ball-3-1",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "ball-3-2",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "ball-3-3",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "ball-3-4",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "ball-3-5",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "ball-3-6",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "ball-3-7",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "ball-3-8",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "ball-4-1",
+        "expected": "DQ0",
+        "assigned": "DQ0",
+        "correct": true
+      },
+      {
+        "terminal": "ball-4-2",
+        "expected": "DQ1",
+        "assigned": "DQ1",
+        "correct": true
+      },
+      {
+        "terminal": "ball-4-3",
+        "expected": "DQ2",
+        "assigned": "DQ2",
+        "correct": true
+      },
+      {
+        "terminal": "ball-4-4",
+        "expected": "DQ3",
+        "assigned": "DQ3",
+        "correct": true
+      },
+      {
+        "terminal": "ball-4-5",
+        "expected": "DQ4",
+        "assigned": "DQ4",
+        "correct": true
+      },
+      {
+        "terminal": "ball-4-6",
+        "expected": "DQ5",
+        "assigned": "DQ5",
+        "correct": true
+      },
+      {
+        "terminal": "ball-4-7",
+        "expected": "DQ6",
+        "assigned": "DQ6",
+        "correct": true
+      },
+      {
+        "terminal": "ball-4-8",
+        "expected": "DQ7",
+        "assigned": "DQ7",
+        "correct": true
+      }
+    ],
+    "per_net": [
+      {
+        "net": "VSS",
+        "truth_px": 1200191,
+        "assigned_px": 1199894,
+        "correct_px": 1199743,
+        "net_recall": 0.9996267260794324,
+        "false_assigned_px": 151,
+        "missing_assigned_px": 448,
+        "area_error_px": -297,
+        "routing_truth_px": 26771,
+        "routing_correct_px": 26771,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "VDDQ",
+        "truth_px": 619857,
+        "assigned_px": 619409,
+        "correct_px": 619409,
+        "net_recall": 0.9992772526566611,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 448,
+        "area_error_px": -448,
+        "routing_truth_px": 26091,
+        "routing_correct_px": 26091,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "VDD",
+        "truth_px": 622958,
+        "assigned_px": 622608,
+        "correct_px": 622510,
+        "net_recall": 0.9992808503944086,
+        "false_assigned_px": 98,
+        "missing_assigned_px": 448,
+        "area_error_px": -350,
+        "routing_truth_px": 29621,
+        "routing_correct_px": 29621,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ0",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ1",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ2",
+        "truth_px": 2415,
+        "assigned_px": 2420,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 5,
+        "missing_assigned_px": 0,
+        "area_error_px": 5,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ3",
+        "truth_px": 2415,
+        "assigned_px": 2423,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 8,
+        "missing_assigned_px": 0,
+        "area_error_px": 8,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ4",
+        "truth_px": 2415,
+        "assigned_px": 2456,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 41,
+        "missing_assigned_px": 0,
+        "area_error_px": 41,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ5",
+        "truth_px": 2415,
+        "assigned_px": 2455,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 40,
+        "missing_assigned_px": 0,
+        "area_error_px": 40,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ6",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ7",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ8",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ9",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ10",
+        "truth_px": 2415,
+        "assigned_px": 2425,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 10,
+        "missing_assigned_px": 0,
+        "area_error_px": 10,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ11",
+        "truth_px": 2415,
+        "assigned_px": 2435,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 20,
+        "missing_assigned_px": 0,
+        "area_error_px": 20,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ12",
+        "truth_px": 2415,
+        "assigned_px": 2465,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 50,
+        "missing_assigned_px": 0,
+        "area_error_px": 50,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ13",
+        "truth_px": 2415,
+        "assigned_px": 2472,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 57,
+        "missing_assigned_px": 0,
+        "area_error_px": 57,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ14",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ15",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      }
+    ],
+    "false_copper_px": 480,
+    "false_added_copper_px": 0,
+    "missing_copper_recovered_px": 5478,
+    "missing_copper_px": 1344,
+    "correct_terminals": 32,
+    "physical_pairs": {
+      "false_open": 1,
+      "false_short": 0,
+      "expected_connected_pairs": 226,
+      "failures": [
+        {
+          "a": "ball-4-7",
+          "b": "pad-2-15",
+          "error": "open"
+        }
+      ]
+    },
+    "automatic_accepted": 0,
+    "algorithm": "current"
+  },
+  {
+    "stage": "explicit_land_restore",
+    "layer": "L2",
+    "precision": 0.9998793795700119,
+    "recall_pristine": 0.999407121627356,
+    "iou_pristine": 0.9992866441728421,
+    "observed_px": 2313041,
+    "inferred_px": 0,
+    "conflict_px": 0,
+    "unassigned_px": 2348,
+    "assigned_nets": [
+      "DQ0",
+      "DQ1",
+      "DQ10",
+      "DQ11",
+      "DQ12",
+      "DQ13",
+      "DQ14",
+      "DQ15",
+      "DQ2",
+      "DQ3",
+      "DQ4",
+      "DQ5",
+      "DQ6",
+      "DQ7",
+      "DQ8",
+      "DQ9",
+      "VDD",
+      "VDDQ",
+      "VSS"
+    ],
+    "pending_candidates": 100,
+    "candidate_fill_px": 7834,
+    "candidate_true_missing_px": 1358,
+    "terminals": [
+      {
+        "terminal": "pad-1-01",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-02",
+        "expected": "DQ8",
+        "assigned": "DQ8",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-03",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-04",
+        "expected": "DQ9",
+        "assigned": "DQ9",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-05",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-06",
+        "expected": "DQ10",
+        "assigned": "DQ10",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-07",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-08",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-09",
+        "expected": "DQ11",
+        "assigned": "DQ11",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-10",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-11",
+        "expected": "DQ12",
+        "assigned": "DQ12",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-12",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-13",
+        "expected": "DQ13",
+        "assigned": "DQ13",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-14",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-15",
+        "expected": "DQ14",
+        "assigned": "DQ14",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-16",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-17",
+        "expected": "DQ15",
+        "assigned": "DQ15",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-18",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-01",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-02",
+        "expected": "DQ0",
+        "assigned": "DQ0",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-03",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-04",
+        "expected": "DQ1",
+        "assigned": "DQ1",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-05",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-06",
+        "expected": "DQ2",
+        "assigned": "DQ2",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-07",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-08",
+        "expected": "DQ3",
+        "assigned": "DQ3",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-09",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-10",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-11",
+        "expected": "DQ4",
+        "assigned": "DQ4",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-12",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-13",
+        "expected": "DQ5",
+        "assigned": "DQ5",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-14",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-15",
+        "expected": "DQ6",
+        "assigned": "UNASSIGNED",
+        "correct": false
+      },
+      {
+        "terminal": "pad-2-16",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-17",
+        "expected": "DQ7",
+        "assigned": "DQ7",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-18",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      }
+    ],
+    "per_net": [
+      {
+        "net": "VSS",
+        "truth_px": 1110415,
+        "assigned_px": 1110039,
+        "correct_px": 1109953,
+        "net_recall": 0.9995839393379953,
+        "false_assigned_px": 86,
+        "missing_assigned_px": 462,
+        "area_error_px": -376,
+        "routing_truth_px": 49384,
+        "routing_correct_px": 49384,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "VDDQ",
+        "truth_px": 553050,
+        "assigned_px": 552653,
+        "correct_px": 552602,
+        "net_recall": 0.9991899466594341,
+        "false_assigned_px": 51,
+        "missing_assigned_px": 448,
+        "area_error_px": -397,
+        "routing_truth_px": 30724,
+        "routing_correct_px": 30724,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "VDD",
+        "truth_px": 575325,
+        "assigned_px": 574884,
+        "correct_px": 574877,
+        "net_recall": 0.9992213096945205,
+        "false_assigned_px": 7,
+        "missing_assigned_px": 448,
+        "area_error_px": -441,
+        "routing_truth_px": 42330,
+        "routing_correct_px": 42330,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ0",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 4709,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ1",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 4709,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ2",
+        "truth_px": 4709,
+        "assigned_px": 4712,
+        "correct_px": 4709,
+        "net_recall": 1.0,
+        "false_assigned_px": 3,
+        "missing_assigned_px": 0,
+        "area_error_px": 3,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 4709,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ3",
+        "truth_px": 4709,
+        "assigned_px": 4720,
+        "correct_px": 4709,
+        "net_recall": 1.0,
+        "false_assigned_px": 11,
+        "missing_assigned_px": 0,
+        "area_error_px": 11,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 4709,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ4",
+        "truth_px": 4709,
+        "assigned_px": 4736,
+        "correct_px": 4709,
+        "net_recall": 1.0,
+        "false_assigned_px": 27,
+        "missing_assigned_px": 0,
+        "area_error_px": 27,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 4709,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ5",
+        "truth_px": 4709,
+        "assigned_px": 4738,
+        "correct_px": 4709,
+        "net_recall": 1.0,
+        "false_assigned_px": 29,
+        "missing_assigned_px": 0,
+        "area_error_px": 29,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 4709,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ6",
+        "truth_px": 4709,
+        "assigned_px": 2347,
+        "correct_px": 2347,
+        "net_recall": 0.49840730516033127,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 2362,
+        "area_error_px": -2362,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 2347,
+        "routing_missing_px": 2362
+      },
+      {
+        "net": "DQ7",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 4709,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ8",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 4709,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ9",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 4709,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ10",
+        "truth_px": 4709,
+        "assigned_px": 4710,
+        "correct_px": 4709,
+        "net_recall": 1.0,
+        "false_assigned_px": 1,
+        "missing_assigned_px": 0,
+        "area_error_px": 1,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 4709,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ11",
+        "truth_px": 4709,
+        "assigned_px": 4717,
+        "correct_px": 4709,
+        "net_recall": 1.0,
+        "false_assigned_px": 8,
+        "missing_assigned_px": 0,
+        "area_error_px": 8,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 4709,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ12",
+        "truth_px": 4709,
+        "assigned_px": 4735,
+        "correct_px": 4709,
+        "net_recall": 1.0,
+        "false_assigned_px": 26,
+        "missing_assigned_px": 0,
+        "area_error_px": 26,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 4709,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ13",
+        "truth_px": 4709,
+        "assigned_px": 4739,
+        "correct_px": 4709,
+        "net_recall": 1.0,
+        "false_assigned_px": 30,
+        "missing_assigned_px": 0,
+        "area_error_px": 30,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 4709,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ14",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 4709,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ15",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 4709,
+        "routing_missing_px": 0
+      }
+    ],
+    "false_copper_px": 279,
+    "false_added_copper_px": 0,
+    "missing_copper_recovered_px": 0,
+    "missing_copper_px": 1372,
+    "correct_terminals": 35,
+    "physical_pairs": {
+      "false_open": 1,
+      "false_short": 0,
+      "expected_connected_pairs": 226,
+      "failures": [
+        {
+          "a": "ball-4-7",
+          "b": "pad-2-15",
+          "error": "open"
+        }
+      ]
+    },
+    "automatic_accepted": 0,
+    "algorithm": "current"
+  },
+  {
+    "stage": "automatic_after_land_restore",
+    "layer": "L1",
+    "precision": 0.9998066061720029,
+    "recall_pristine": 0.9999419739962911,
+    "iou_pristine": 0.9997486026092148,
+    "observed_px": 2475304,
+    "inferred_px": 6678,
+    "conflict_px": 0,
+    "unassigned_px": 0,
+    "assigned_nets": [
+      "DQ0",
+      "DQ1",
+      "DQ10",
+      "DQ11",
+      "DQ12",
+      "DQ13",
+      "DQ14",
+      "DQ15",
+      "DQ2",
+      "DQ3",
+      "DQ4",
+      "DQ5",
+      "DQ6",
+      "DQ7",
+      "DQ8",
+      "DQ9",
+      "VDD",
+      "VDDQ",
+      "VSS"
+    ],
+    "pending_candidates": 4,
+    "candidate_fill_px": 144,
+    "candidate_true_missing_px": 144,
+    "terminals": [
+      {
+        "terminal": "ball-1-1",
+        "expected": "DQ8",
+        "assigned": "DQ8",
+        "correct": true
+      },
+      {
+        "terminal": "ball-1-2",
+        "expected": "DQ9",
+        "assigned": "DQ9",
+        "correct": true
+      },
+      {
+        "terminal": "ball-1-3",
+        "expected": "DQ10",
+        "assigned": "DQ10",
+        "correct": true
+      },
+      {
+        "terminal": "ball-1-4",
+        "expected": "DQ11",
+        "assigned": "DQ11",
+        "correct": true
+      },
+      {
+        "terminal": "ball-1-5",
+        "expected": "DQ12",
+        "assigned": "DQ12",
+        "correct": true
+      },
+      {
+        "terminal": "ball-1-6",
+        "expected": "DQ13",
+        "assigned": "DQ13",
+        "correct": true
+      },
+      {
+        "terminal": "ball-1-7",
+        "expected": "DQ14",
+        "assigned": "DQ14",
+        "correct": true
+      },
+      {
+        "terminal": "ball-1-8",
+        "expected": "DQ15",
+        "assigned": "DQ15",
+        "correct": true
+      },
+      {
+        "terminal": "ball-2-1",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "ball-2-2",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "ball-2-3",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "ball-2-4",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "ball-2-5",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "ball-2-6",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "ball-2-7",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "ball-2-8",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "ball-3-1",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "ball-3-2",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "ball-3-3",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "ball-3-4",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "ball-3-5",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "ball-3-6",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "ball-3-7",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "ball-3-8",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "ball-4-1",
+        "expected": "DQ0",
+        "assigned": "DQ0",
+        "correct": true
+      },
+      {
+        "terminal": "ball-4-2",
+        "expected": "DQ1",
+        "assigned": "DQ1",
+        "correct": true
+      },
+      {
+        "terminal": "ball-4-3",
+        "expected": "DQ2",
+        "assigned": "DQ2",
+        "correct": true
+      },
+      {
+        "terminal": "ball-4-4",
+        "expected": "DQ3",
+        "assigned": "DQ3",
+        "correct": true
+      },
+      {
+        "terminal": "ball-4-5",
+        "expected": "DQ4",
+        "assigned": "DQ4",
+        "correct": true
+      },
+      {
+        "terminal": "ball-4-6",
+        "expected": "DQ5",
+        "assigned": "DQ5",
+        "correct": true
+      },
+      {
+        "terminal": "ball-4-7",
+        "expected": "DQ6",
+        "assigned": "DQ6",
+        "correct": true
+      },
+      {
+        "terminal": "ball-4-8",
+        "expected": "DQ7",
+        "assigned": "DQ7",
+        "correct": true
+      }
+    ],
+    "per_net": [
+      {
+        "net": "VSS",
+        "truth_px": 1200191,
+        "assigned_px": 1200294,
+        "correct_px": 1200143,
+        "net_recall": 0.9999600063656535,
+        "false_assigned_px": 151,
+        "missing_assigned_px": 48,
+        "area_error_px": 103,
+        "routing_truth_px": 26771,
+        "routing_correct_px": 26771,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "VDDQ",
+        "truth_px": 619857,
+        "assigned_px": 619809,
+        "correct_px": 619809,
+        "net_recall": 0.9999225627846423,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 48,
+        "area_error_px": -48,
+        "routing_truth_px": 26091,
+        "routing_correct_px": 26091,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "VDD",
+        "truth_px": 622958,
+        "assigned_px": 623008,
+        "correct_px": 622910,
+        "net_recall": 0.9999229482565438,
+        "false_assigned_px": 98,
+        "missing_assigned_px": 48,
+        "area_error_px": 50,
+        "routing_truth_px": 29621,
+        "routing_correct_px": 29621,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ0",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ1",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ2",
+        "truth_px": 2415,
+        "assigned_px": 2420,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 5,
+        "missing_assigned_px": 0,
+        "area_error_px": 5,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ3",
+        "truth_px": 2415,
+        "assigned_px": 2423,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 8,
+        "missing_assigned_px": 0,
+        "area_error_px": 8,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ4",
+        "truth_px": 2415,
+        "assigned_px": 2456,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 41,
+        "missing_assigned_px": 0,
+        "area_error_px": 41,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ5",
+        "truth_px": 2415,
+        "assigned_px": 2455,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 40,
+        "missing_assigned_px": 0,
+        "area_error_px": 40,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ6",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ7",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ8",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ9",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ10",
+        "truth_px": 2415,
+        "assigned_px": 2425,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 10,
+        "missing_assigned_px": 0,
+        "area_error_px": 10,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ11",
+        "truth_px": 2415,
+        "assigned_px": 2435,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 20,
+        "missing_assigned_px": 0,
+        "area_error_px": 20,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ12",
+        "truth_px": 2415,
+        "assigned_px": 2465,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 50,
+        "missing_assigned_px": 0,
+        "area_error_px": 50,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ13",
+        "truth_px": 2415,
+        "assigned_px": 2472,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 57,
+        "missing_assigned_px": 0,
+        "area_error_px": 57,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ14",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ15",
+        "truth_px": 2415,
+        "assigned_px": 2415,
+        "correct_px": 2415,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 2415,
+        "routing_correct_px": 2415,
+        "routing_missing_px": 0
+      }
+    ],
+    "false_copper_px": 480,
+    "false_added_copper_px": 0,
+    "missing_copper_recovered_px": 6678,
+    "missing_copper_px": 144,
+    "correct_terminals": 32,
+    "physical_pairs": {
+      "false_open": 0,
+      "false_short": 0,
+      "expected_connected_pairs": 226,
+      "failures": []
+    },
+    "automatic_accepted": 3,
+    "algorithm": "current"
+  },
+  {
+    "stage": "automatic_after_land_restore",
+    "layer": "L2",
+    "precision": 0.9998794428444575,
+    "recall_pristine": 0.9999317239191853,
+    "iou_pristine": 0.9998111832244289,
+    "observed_px": 2313041,
+    "inferred_px": 1214,
+    "conflict_px": 0,
+    "unassigned_px": 0,
+    "assigned_nets": [
+      "DQ0",
+      "DQ1",
+      "DQ10",
+      "DQ11",
+      "DQ12",
+      "DQ13",
+      "DQ14",
+      "DQ15",
+      "DQ2",
+      "DQ3",
+      "DQ4",
+      "DQ5",
+      "DQ6",
+      "DQ7",
+      "DQ8",
+      "DQ9",
+      "VDD",
+      "VDDQ",
+      "VSS"
+    ],
+    "pending_candidates": 3,
+    "candidate_fill_px": 144,
+    "candidate_true_missing_px": 144,
+    "terminals": [
+      {
+        "terminal": "pad-1-01",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-02",
+        "expected": "DQ8",
+        "assigned": "DQ8",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-03",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-04",
+        "expected": "DQ9",
+        "assigned": "DQ9",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-05",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-06",
+        "expected": "DQ10",
+        "assigned": "DQ10",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-07",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-08",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-09",
+        "expected": "DQ11",
+        "assigned": "DQ11",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-10",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-11",
+        "expected": "DQ12",
+        "assigned": "DQ12",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-12",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-13",
+        "expected": "DQ13",
+        "assigned": "DQ13",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-14",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-15",
+        "expected": "DQ14",
+        "assigned": "DQ14",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-16",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-17",
+        "expected": "DQ15",
+        "assigned": "DQ15",
+        "correct": true
+      },
+      {
+        "terminal": "pad-1-18",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-01",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-02",
+        "expected": "DQ0",
+        "assigned": "DQ0",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-03",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-04",
+        "expected": "DQ1",
+        "assigned": "DQ1",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-05",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-06",
+        "expected": "DQ2",
+        "assigned": "DQ2",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-07",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-08",
+        "expected": "DQ3",
+        "assigned": "DQ3",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-09",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-10",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-11",
+        "expected": "DQ4",
+        "assigned": "DQ4",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-12",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-13",
+        "expected": "DQ5",
+        "assigned": "DQ5",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-14",
+        "expected": "VDDQ",
+        "assigned": "VDDQ",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-15",
+        "expected": "DQ6",
+        "assigned": "DQ6",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-16",
+        "expected": "VSS",
+        "assigned": "VSS",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-17",
+        "expected": "DQ7",
+        "assigned": "DQ7",
+        "correct": true
+      },
+      {
+        "terminal": "pad-2-18",
+        "expected": "VDD",
+        "assigned": "VDD",
+        "correct": true
+      }
+    ],
+    "per_net": [
+      {
+        "net": "VSS",
+        "truth_px": 1110415,
+        "assigned_px": 1110439,
+        "correct_px": 1110353,
+        "net_recall": 0.9999441650193847,
+        "false_assigned_px": 86,
+        "missing_assigned_px": 62,
+        "area_error_px": 24,
+        "routing_truth_px": 49384,
+        "routing_correct_px": 49384,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "VDDQ",
+        "truth_px": 553050,
+        "assigned_px": 553053,
+        "correct_px": 553002,
+        "net_recall": 0.9999132085706537,
+        "false_assigned_px": 51,
+        "missing_assigned_px": 48,
+        "area_error_px": 3,
+        "routing_truth_px": 30724,
+        "routing_correct_px": 30724,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "VDD",
+        "truth_px": 575325,
+        "assigned_px": 575284,
+        "correct_px": 575277,
+        "net_recall": 0.9999165688958415,
+        "false_assigned_px": 7,
+        "missing_assigned_px": 48,
+        "area_error_px": -41,
+        "routing_truth_px": 42330,
+        "routing_correct_px": 42330,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ0",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 4709,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ1",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 4709,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ2",
+        "truth_px": 4709,
+        "assigned_px": 4712,
+        "correct_px": 4709,
+        "net_recall": 1.0,
+        "false_assigned_px": 3,
+        "missing_assigned_px": 0,
+        "area_error_px": 3,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 4709,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ3",
+        "truth_px": 4709,
+        "assigned_px": 4720,
+        "correct_px": 4709,
+        "net_recall": 1.0,
+        "false_assigned_px": 11,
+        "missing_assigned_px": 0,
+        "area_error_px": 11,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 4709,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ4",
+        "truth_px": 4709,
+        "assigned_px": 4736,
+        "correct_px": 4709,
+        "net_recall": 1.0,
+        "false_assigned_px": 27,
+        "missing_assigned_px": 0,
+        "area_error_px": 27,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 4709,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ5",
+        "truth_px": 4709,
+        "assigned_px": 4738,
+        "correct_px": 4709,
+        "net_recall": 1.0,
+        "false_assigned_px": 29,
+        "missing_assigned_px": 0,
+        "area_error_px": 29,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 4709,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ6",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 4709,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ7",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 4709,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ8",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 4709,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ9",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 4709,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ10",
+        "truth_px": 4709,
+        "assigned_px": 4710,
+        "correct_px": 4709,
+        "net_recall": 1.0,
+        "false_assigned_px": 1,
+        "missing_assigned_px": 0,
+        "area_error_px": 1,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 4709,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ11",
+        "truth_px": 4709,
+        "assigned_px": 4717,
+        "correct_px": 4709,
+        "net_recall": 1.0,
+        "false_assigned_px": 8,
+        "missing_assigned_px": 0,
+        "area_error_px": 8,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 4709,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ12",
+        "truth_px": 4709,
+        "assigned_px": 4735,
+        "correct_px": 4709,
+        "net_recall": 1.0,
+        "false_assigned_px": 26,
+        "missing_assigned_px": 0,
+        "area_error_px": 26,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 4709,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ13",
+        "truth_px": 4709,
+        "assigned_px": 4739,
+        "correct_px": 4709,
+        "net_recall": 1.0,
+        "false_assigned_px": 30,
+        "missing_assigned_px": 0,
+        "area_error_px": 30,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 4709,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ14",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 4709,
+        "routing_missing_px": 0
+      },
+      {
+        "net": "DQ15",
+        "truth_px": 4709,
+        "assigned_px": 4709,
+        "correct_px": 4709,
+        "net_recall": 1.0,
+        "false_assigned_px": 0,
+        "missing_assigned_px": 0,
+        "area_error_px": 0,
+        "routing_truth_px": 4709,
+        "routing_correct_px": 4709,
+        "routing_missing_px": 0
+      }
+    ],
+    "false_copper_px": 279,
+    "false_added_copper_px": 0,
+    "missing_copper_recovered_px": 1214,
+    "missing_copper_px": 158,
+    "correct_terminals": 36,
+    "physical_pairs": {
+      "false_open": 0,
+      "false_short": 0,
+      "expected_connected_pairs": 226,
+      "failures": []
+    },
+    "automatic_accepted": 4,
+    "algorithm": "current"
+  }
+]
