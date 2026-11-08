@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "description": "Synthetic8columns x4rows; format example. NPY importer is not yet implemented.",
+  "pitch_mm": [
+    5.0,
+    5.0
+  ],
+  "array_order": "row_down_col_right",
+  "empty_cell": "",
+  "unknown_populated_cell": "?",
+  "no_connect_cell": "NC",
+  "registration": "Choose grid-to-image origin/axes or3known grid centers in GUI; not stored in this example."
+}

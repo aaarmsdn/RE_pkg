@@ -101,3 +101,5 @@ pnpm run build
 [초기 승인 설계](docs/superpowers/specs/2026-11-06-package-reconstruction-design.md), [실물 사진 중심 변경 설계](docs/superpowers/specs/2026-11-08-real-image-plane-design.md).
 
 [2026-11-08 시험·실브라우저 검증 기록](docs/validation-2026-11-08.md).
+
+[사선·Severe 복원 및 2차원 문자열 NPY ballmap 설계](docs/superpowers/specs/2026-11-08-diagonal-severe-npy-design.md) · [NPY 예제](docs/examples/ballmap/README.md). NPY importer와 후속 복원 엔진은 구현 전입니다.

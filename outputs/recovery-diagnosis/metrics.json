@@ -1,0 +1,84 @@
+{
+  "scope": "Read-only diagnostics, not an implemented reconstruction algorithm.",
+  "diagonal": {
+    "input": "outputs/plane-benchmark/weave32-diagonal-L2.png",
+    "sha256": "2bc3374c24e2b99b97200a25884a73c1487c1a51e39c97f601bda468121e74c0",
+    "method": "Canny35/90, HoughLinesP rho1 theta pi/720 votes100 minimum length350 maximum gap15; length-weighted0.5degree bins, peak+/-1degree, rho groups8px. No renderer angle or mask read.",
+    "segments": 116,
+    "angle_deg": 26.51016836539568,
+    "stripe_groups": 22,
+    "median_spacing_px": 80.84832759781546,
+    "decode": "OpenCV IMREAD_GRAYSCALE"
+  },
+  "severe_threshold_sweep": [
+    {
+      "layout": "weave32",
+      "input_sha256": "f1b6ffafd020d4bdcca7f6234bb9313cba64c0f9134c8419f5ffb75e24684d84",
+      "threshold": 110,
+      "false_copper_px": 91276,
+      "missing_copper_px": 1885,
+      "signal_pixel_recall": 0.9999538809205368
+    },
+    {
+      "layout": "weave32",
+      "input_sha256": "f1b6ffafd020d4bdcca7f6234bb9313cba64c0f9134c8419f5ffb75e24684d84",
+      "threshold": 150,
+      "false_copper_px": 82929,
+      "missing_copper_px": 8028,
+      "signal_pixel_recall": 0.9994004519669787
+    },
+    {
+      "layout": "weave32",
+      "input_sha256": "f1b6ffafd020d4bdcca7f6234bb9313cba64c0f9134c8419f5ffb75e24684d84",
+      "threshold": 180,
+      "false_copper_px": 38783,
+      "missing_copper_px": 47111,
+      "signal_pixel_recall": 0.9177235622376977
+    },
+    {
+      "layout": "weave32",
+      "input_sha256": "f1b6ffafd020d4bdcca7f6234bb9313cba64c0f9134c8419f5ffb75e24684d84",
+      "threshold": 210,
+      "false_copper_px": 2371,
+      "missing_copper_px": 653719,
+      "signal_pixel_recall": 0.4119817368445326
+    },
+    {
+      "layout": "micro32",
+      "input_sha256": "e76024a687b9e849637bd0f332dab6e3a4c2dd1e29d09a3874eff77f704e5ebb",
+      "threshold": 110,
+      "false_copper_px": 85201,
+      "missing_copper_px": 1917,
+      "signal_pixel_recall": 0.9997119815668203
+    },
+    {
+      "layout": "micro32",
+      "input_sha256": "e76024a687b9e849637bd0f332dab6e3a4c2dd1e29d09a3874eff77f704e5ebb",
+      "threshold": 150,
+      "false_copper_px": 78291,
+      "missing_copper_px": 8117,
+      "signal_pixel_recall": 0.9969758064516129
+    },
+    {
+      "layout": "micro32",
+      "input_sha256": "e76024a687b9e849637bd0f332dab6e3a4c2dd1e29d09a3874eff77f704e5ebb",
+      "threshold": 180,
+      "false_copper_px": 35529,
+      "missing_copper_px": 49403,
+      "signal_pixel_recall": 0.7417914746543779
+    },
+    {
+      "layout": "micro32",
+      "input_sha256": "e76024a687b9e849637bd0f332dab6e3a4c2dd1e29d09a3874eff77f704e5ebb",
+      "threshold": 210,
+      "false_copper_px": 1629,
+      "missing_copper_px": 653975,
+      "signal_pixel_recall": 0.13258448540706605
+    }
+  ],
+  "evaluation_boundary": "Clean fixture masks used only to count errors after segmentation; not for material thresholds or detection. Sweep is diagnostic, not automatic parameter selection. Counts exclude annotation masking and ball restoration; not directly interchangeable with full pipeline metrics.",
+  "runtime": {
+    "numpy": "2.4.6",
+    "opencv": "4.14.0"
+  }
+}
